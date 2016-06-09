@@ -1,0 +1,650 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Peach xmlns="http://phed.org/2008/Peach" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://phed.org/2008/Peach ../peach.xsd" version="1.0"
+	author="Jimmy Hartnett">
+	<!-- Incomplete Spec -->
+	<!-- Import defaults for Peach instance -->
+	<Include ns="default" src="file:defaults.xml" />
+	
+<!--
+Begin misc. data models used in main model
+-->
+
+	<DataModel name="edataDUMMY"> <!-- Dummy used to reduce Validation Testing times for other sections -->
+		<Blob name="edataDummy" />
+	</DataModel>
+	<DataModel name="idataDUMMY"> <!-- Dummy used to reduce Validation Testing times for other sections -->
+		<Blob name="idataDummy" />
+	</DataModel>
+	<DataModel name="rsrcDUMMY"> <!-- Dummy used to reduce Validation Testing times for other sections -->
+		<Blob name="rsrcDummy" />
+	</DataModel>
+	<DataModel name="relocDUMMY"> <!-- Dummy used to reduce Validation Testing times for other sections -->
+		<Blob name="relocDummy" />
+	</DataModel>
+	<DataModel name="debugDUMMY" >	<!-- Dummy used to reduce Validation Testing times for other sections -->
+		<Blob name="debugDummy" />
+	</DataModel>
+	
+	<DataModel name="debug">
+		
+		<Block name="Debug_Directory" >
+			<Number name="Characteristics" size="32" value="0" token="true" />
+			<Number name="DateTimeStamp" size="32" />
+			<Number name="MajorVersion" size="16" />
+			<Number name="MinorVersion" size="16" />
+			<Number name="Type" size="32" />
+			<Number name="SizeOfData" size="32" />	<!-- mutable? -->
+			<Number name="AddressOfRawData" size="32" />	<!-- mutable? -->
+			<Number name="PointerToRawData" size="32" />	<!-- mutable? -->
+		</Block>
+
+		<Blob name="misc_debug_data" />
+
+		
+	</DataModel>
+	
+	<DataModel name="edata">
+
+			<Block name="Export_Directory_Table">
+			
+				<Flags name="ExportFlags" endian="little" size="32" token="true" >
+					<Flag name="Reserved" value="00000000000000000000000000000000" position="0" size="32" />
+				</Flags>
+				
+				<Number name="TimeDate" size="32" />
+				<Number name="MajorVersion" size="16" />
+				<Number name="MinorVersion" size="16" />
+				<Number name="NameRVA" size="32" />
+				<Number name="OrdinalBase" size="32" />
+				
+				<Number name="AddressTableEntries" size="32" >
+					<Relation type="count" of="ExportForwardRVA" />	<!-- mutable? -->
+				</Number>
+				
+				<Number name="NumberNamePointers" size="32" >
+					<Relation type="count" of="ExportNamePointer" />
+					<Relation type="count" of="ExportOrdinal" />
+					<Relation type="count" of="ExportName" />
+				</Number>
+				
+				<Number name="ExportAddressTableRVA" size="32" />	<!-- mutable? -->
+				<Number name="NamePointerRVA" size="32" />	<!-- mutable? -->
+				<Number name="OrdinalTableRVA" size="32" />	<!-- mutable? -->
+			</Block>
+		
+			<Block name="ExportAddressTable" >
+				<Number name="ExportForwardRVA" size="32" maxOccurs="1000" />	<!-- mutable? -->
+			</Block>
+			
+			<Block name="Export_Name_Pointer_Table" >
+				<Number name="ExportNamePointer" size="32" maxOccurs="1000" />
+			</Block>
+			
+			<Block name="Export_Ordinal_table" >
+				<Number name="ExportOrdinal" size="16" maxOccurs="1000" />
+			</Block>
+			
+			<Block name="Export_Name_Table" >
+				<String name="ExportGroupName" nullTerminated="true" maxOccurs="1" />	<!-- there appears to be an extra name, one that specifies the file exporting? -->
+				<String name="ExportName" nullTerminated="true" maxOccurs="1000" />
+			</Block>
+		
+			<Blob name="misc_edata" />
+		
+	</DataModel> <!-- End edata DataModel -->
+		
+	<DataModel name="idata">
+
+		<Block name="Import_Directory_Table" >
+			<Block name="Import_Directory_Table_Entry" maxOccurs="100" >
+				<Number name="ImportLookupTableRVA" size="32" />
+				<Number name="TimeDate" size="32" />
+				<Number name="ForwarderChain" size="32" />
+				<Number name="NameRVA" size="32" />
+				<Number name="ImportAddressTableRVA" size="32" />
+			</Block>
+			
+			<Block name="NullDirectoryEntry" token="true" >
+				<Number name="NullA" value="0" size="32" mutable="false" token="true" />
+				<Number name="NullB" value="0" size="32" mutable="false" token="true" />
+				<Number name="NullC" value="0" size="32" mutable="false" token="true" />
+				<Number name="NullD" value="0" size="32" mutable="false" token="true" />
+				<Number name="NullE" value="0" size="32" mutable="false" token="true" />			
+			</Block>
+		</Block>
+			<!-- TODO: fix issues with unusual flag sizes -->
+		<Block name="Import_Lookup_TableS"	>
+			<Block name="Import_Lookup_Table" minOccurs="1" maxOccurs="300" >
+				
+				<!-- <Number name="TEMP_geditIdataFix" size="32" /> -->
+				
+				<Block name="Import_Lookup_Table_Entry" minOccurs="1" maxOccurs="1000" >
+			
+					<!-- Peach has some issues with unusual glag sizes and constraints for said flags. So this section is not complete -->
+			
+					<Number name="TEMP_Flags" size="32" constraint="int(value) != 0" /> <!--  constraint="int(value) != 0" -->
+			
+			<!--		<Flags name="OrdinalOrNameFlag" size="32" >
+
+						<Flag name="OrdinalOrName" size="1" position="31" />
+						
+						<Flag name="NullOrdinalPad" size="15" value="0" mutable="false" position="15" constraint="(int(self.find('OrdinalOrName').getInternalValue()) == 1)" >
+							<Relation type="when" when="int(self.find('OrdinalOrName').getInternalValue()) == 1" />
+						</Flag>
+						<Flag name="OrdinalNumber" size="16" position="0" constraint="(int(self.find('OrdinalOrName').getInternalValue()) == 1) and (int(value) > 0)" >
+							<Relation type="when" when="int(self.find('OrdinalOrName').getInternalValue()) == 1" />
+						</Flag>
+						
+						<Flag name="HintNameEntryRVA" size="31" position="0" constraint="(int(self.find('OrdinalOrName').getInternalValue()) == 0) and (int(value) > 0)" >
+							<Relation type="when" when="int(self.find('OrdinalOrName').getInternalValue()) == 0" />
+						</Flag>
+					</Flags>
+			-->	
+				</Block>
+				
+				<Number name="NullLookupEntry" value="0" size="32" mutable="false" token="true" />
+			</Block>
+		</Block>
+			
+			<Block name="HintNameTable" >
+				<Block name="HintNameTableEntry" minOccurs="1" maxOccurs="10000" >
+					<Number name="Hint" size="16" />
+					<String name="HintName"  />
+					<Number name="delimiter" value="0" size="8" mutable="false" token="true" />
+	
+					  <!-- make sure the block ends on even boundry -->
+					<Number name="evenPadding" value="0" size="8" mutable="false" constraint="int(value) == 0" >
+						<Relation type="when" when="((3 + len(self.find('HintName').getInternalValue())) % 4) == 3" />
+					</Number>
+					<Number name="evenPadding3" value="0" size="8" mutable="false" constraint="int(value) == 0" >
+						<Relation type="when" when="((3 + len(self.find('HintName').getInternalValue())) % 4) == 1" />
+					</Number>
+				</Block>
+			</Block>
+		
+			<!-- TODO: Import Address Table. I didn't quite understand the specification on this one. -->
+			
+			<Blob name="misc_idata" />
+		
+	</DataModel> <!-- End idata DataModel -->
+		
+		<!-- Microsoft exluded the .pdata format for x68 PE in their documentation. Left empty for now -->
+		
+	<DataModel name="pdata">
+		<Blob name="TEMP_pdata" />		
+			
+	</DataModel>
+				
+	<DataModel name="reloc">
+	
+		<Block name="Base_Relocations" >
+			<Block name="Base_Relocation_Block" maxOccurs="9001" >
+				<Number name="PageRVA" size="32" />	<!-- mutable? -->
+				<Number name="BlockSize" size="32" >	<!-- mutable? -->
+					<Relation type="count" of="TypeOffsetBlock" expressionSet="count*2 + 8" expressionGet="(count - 8)/2"/>
+				</Number>
+				<Block name="TypeOffsetBlock" maxOccurs="9001" >
+					<Flags name="TypeAndOffset" size="16" >
+						<Flag name="Type" size="4" position="0" />
+						<Flag name="Offset" size="12" position="4" />	<!-- mutable? -->
+					</Flags>
+				</Block>
+			</Block>
+		</Block>
+	
+		<Blob name="misc_reloc" />
+
+	</DataModel>
+				
+	<DataModel name="tls">
+	
+		<Block name="tls_directory" >
+			<Number name="RawDataStartVA" size="32" />	<!-- mutable? -->
+			<Number name="RawDataEndVA" size="32" />	<!-- mutable? -->
+			<Number name="AddressOfIndex" size="32" />	<!-- mutable? -->
+			<Number name="AddressOfCallbacks" size="32" />	<!-- mutable? -->
+			<Number name="SizeOfZeroFill" size="32" />	<!-- mutable? -->
+			<Number name="Characteristics" size="32" value="0" />
+		</Block>
+		
+		<Blob name="misc_tls" />
+			
+	</DataModel>
+		
+	<DataModel name="rsrc">
+	
+		<Block name="Resource_Directory-Tables" >
+			<Block name="Resource_Directory_Table" maxOccurs="500" >
+				
+				<Number name="Characteristics" value="0" size="32" token="true" />
+				<Number name="TimeDateStamp" size="32" />
+				<Number name="MajorVersion" size="16" />
+				<Number name="MinorVersion" size="16" />
+				
+				<Number name="NumberOfNameEntries" size="16" >
+					<Relation type="count" of="NameEntry" />
+				</Number>
+				
+				<Number name="NumberOfIDEntries" size="16" >
+					<Relation type="count" of="IDEntry" />
+				</Number>
+				
+				<Block name="NameEntries" >
+					<Block name="NameEntry" maxOccurs="1000" >
+						<Number name="NameRVA" size="32" />	<!-- mutable? -->
+						<Number name="DataEntryRVA" size="32" />	<!-- mutable? -->
+					</Block>
+				</Block>
+				
+				<Block name="IDEntries" >
+					<Block name="IDEntry" maxOccurs="1000" >
+						<Number name="IntegerID" size="32" />
+						<Number name="DataEntryRVA" size="32" />	<!-- mutable? -->
+					</Block>
+				</Block>
+			</Block>
+		</Block>
+
+		<!-- README Note 1 these "initial" string length and unicode string lines are for when using sampleProgram.exe
+		-->
+		
+		<Number name="StringLengthInitial" size="16" constraint="int(value) > 0" >
+			<Relation type="size" of="UnicodeStringInitial" expressionSet="size/2" expressionGet="size*2" /> 
+		</Number>
+		<String name="UnicodeStringInitial" />
+		
+		<Block name="Resource_Data_Entries" >
+			<Block name="Resource_Data_Entry" maxOccurs="1000" >
+				<Number name="DataRVA" size="32" />	<!-- mutable? -->
+				<Number name="DataSize" size="32" />	<!-- mutable? -->
+				<Number name="Codepage" size="32" />
+				<Number name="reserved" value="0" size="32" token="true" />
+			</Block>
+		</Block>
+	<!-- README Note 2 commented out for sampleProgram.exe -->
+	<!--
+		<Block name="Resource_Strings" >
+			<Block name="DirectoryString" minOccurs="0" maxOccurs="1000" >
+				<Number name="StringLength" size="16" constraint="int(value) > 0" >
+					<Relation type="size" of="UnicodeString" expressionGet="size*2" /> 
+				</Number>
+				<String name="UnicodeString" />
+			</Block>
+		</Block>		
+	-->
+		
+		<Blob name="misc_rsrc" />
+		
+	</DataModel>
+	
+	
+<!--
+
+Begin main PE DataModel
+
+-->
+	
+	<!-- Define our file format DDL -->
+<DataModel name="Exe">
+	<Block name="File_Header" minOccurs="1" maxOccurs="1">
+	
+		<!-- Begin MS-DOS Stub -->
+		<String name="Machine" value="MZ" length="2" mutable="false" />	
+		<Blob name="MSDOS_Stub_1" length="58" mutable="false" />
+		<Number name="PE_Sig_Pointer" valueType="hex" size="32" mutable="false" >
+			<!--<Relation type="offset" of="PE_Signature" />-->
+		</Number>
+		<Blob name="MSDOS_Stub_2" lengthType="calc" length="int( int(self.find('PE_Sig_Pointer').getInternalValue()) - 64)" mutable="false" />
+		<!-- End MS-DOS Stub -->
+		
+		<String name="PE_Signature" value="PE\0\0" length="4" mutable="false" />
+		<Number name="Machine2" value="4c01" size="16" valueType="hex" />
+		
+		<Number name="NumberOfSections" size="16" >
+			<Relation type="count" of="Section_Table" />
+		</Number>
+		<Number name="TimeDateStamp" size="32"/>
+		<Number name="PointerToSymbolTable" size="32"/>
+		<Number name="NumberOfSymbols" size="32"/>
+		
+		<!-- NOTE: for now we are assuming all data directories will be addressed, and set to 0 if they are not used as most PE's I've encountered do -->
+			 
+		<Number name="SizeOfOptionalHeader" value="00E0" valueType="hex" size="16"  />
+		
+		<Flags name="Charactersitics" size="16" endian="little" signed="false">
+			<Flag name="Reloc_info" size="1" position="0"/>
+			<Flag name="Executable" size="1" position="1"/>
+			<Flag name="LineNumberStripped" size="1" position="2"/>
+			<Flag name="LclSymbolsStripped" size="1" position="3"/>
+			<Flag name="TrimWorkingSet" size="1" position="4"/>
+			<Flag name="Addr2Gb" size="1" position="5"/>
+			<Flag name="Future_use" value="0" size="1" position="6"/>
+			<Flag name="Reverserd_LO" size="1" position="7"/>
+			<Flag name="32BitSupport" size="1" position="8"/>
+			<Flag name="DbgFile" size="1" position="9"/>
+			<Flag name="SwapFile" size="1" position="10"/>
+			<Flag name="NetworkSwpFile" size="1" position="11"/>
+			<Flag name="Driver" size="1" position="12"/>
+			<Flag name="DLL" size="1" position="13"/>
+			<Flag name="UniProcessor" size="1" position="14"/>
+			<Flag name="Reversed_HI" size="1" position="15"/>
+		</Flags>
+				
+	</Block>
+				
+	<Block name="Optional_Header" minOccurs="1" maxOccurs="1">
+		<Number name="Magic" size="16" />
+		<Number name="MajorVer" size="8" />
+		<Number name="MinorVer" size="8"  />
+		<Number name="SizeOfCode" size="32" />
+		<Number name="SizeOfInitData" size="32" />
+		<Number name="SizeOfUnInitData" size="32" />
+		<Number name="AEP" size="32" />
+		<Number name="BaseOfCode" size="32" />
+		<Number name="BaseOfData" size="32" />
+		<Number name="ImageBase" size="32" />
+		<Number name="SectionAlignment" size="32" />
+		<Number name="FileAlignment" size="32" />
+		<Number name="MajorOSVer" size="16" />
+		<Number name="MinorOSVer" size="16" />
+		<Number name="MajorImageVer" size="16" />
+		<Number name="MinorImageVer" size="16" />
+		<Number name="MajorSubSysVer" size="16" />
+		<Number name="MinorSubSysVer" size="16" />
+		<Number name="Win32VersionValue" size="32" />
+		<Number name="SizeOfImage" size="32" />
+		<Number name="SizeOfHeaders" size="32" />
+		<Number name="CheckSum" size="32" />
+		<Number name="SubSystem" size="16" />
+		<Number name="DLLChars" size="16" />
+		<Number name="SizeOfStackReserve" size="32" />
+		<Number name="SizeOfStackCommit" size="32" />
+		<Number name="SizeOfHeapReserve" size="32" />
+		<Number name="SizeOfHeapCommit" size="32" />
+		<Number name="SizeOfStackReserve" size="32" />
+		<Number name="LoaderFlags" size="32" />
+		<Number name="NumberOfRVAandSizes" value="10" valueType="hex" size="32" />	<!-- We are assuming that all data directories are used. Non-used given value of 0 -->
+	</Block>	<!-- End Optional Header Block -->
+		
+	<!-- TODO: create relations here for blobs -->
+		
+	<Block name="DataDir" minOccurs="1" maxOccurs="1">
+		<Block name="ExportTable">
+			<Number name="RVA" size="32" />	<!-- mutable? --> <!-- whole DataDirectory -->
+			<Number name="Size" size="32"/>	<!-- mutable? -->
+		</Block>
+		
+		<Block name="ImportTable">
+			<Number name="RVA" size="32"/>
+			<Number name="Size" size="32"/>
+		</Block>
+		
+		<Block name="Resource">
+			<Number name="RVA" size="32"/>
+			<Number name="Size" size="32"/>
+		</Block>
+		
+		<Block name="Exception">
+			<Number name="RVA" size="32"/>
+			<Number name="Size" size="32"/>
+		</Block>
+		
+		<Block name="Security">
+			<Number name="RVA" size="32"/>
+			<Number name="Size" size="32"/>
+		</Block>
+		
+		<Block name="Relocation">
+			<Number name="RVA" size="32"/>
+			<Number name="Size" size="32"/>
+		</Block>
+		
+		<Block name="Debug">
+			<Number name="RVA" size="32"/>
+			<Number name="Size" size="32"/>
+		</Block>
+		
+		<Block name="Copyright">
+			<Number name="RVA" size="32"/>
+			<Number name="Size" size="32"/>
+		</Block>
+		
+		<Block name="GlobalPtr">
+			<Number name="RVA" size="32"/>
+			<Number name="Size" size="32"/>
+		</Block>
+		
+		<Block name="TLSTable">
+			<Number name="RVA" size="32"/>
+			<Number name="Size" size="32"/>
+		</Block>
+		
+		<Block name="LoadConfig">
+			<Number name="RVA" size="32"/>
+			<Number name="Size" size="32"/>
+		</Block>
+		
+		<Block name="BoundImport">
+			<Number name="RVA" size="32"/>
+			<Number name="Size" size="32"/>
+		</Block>
+		
+		<Block name="IAT">
+			<Number name="RVA" size="32"/>
+			<Number name="Size" size="32"/>
+		</Block>
+		
+		<Block name="DelayImport">
+			<Number name="RVA" size="32"/>
+			<Number name="Size" size="32"/>
+		</Block>
+		
+		<Block name="COM">
+			<Number name="RVA" size="32"/>
+			<Number name="Size" size="32"/>
+		</Block>
+		
+		<Block name="Reserved">
+			<Number name="RVA" size="32"/>
+			<Number name="Size" size="32"/>
+		</Block>
+	</Block>	<!-- End Data Directory Block -->
+
+	<Block name="sections">
+		<Block name="Section_Table" minOccurs="1" maxOccurs="96" >
+
+			<String name="SectionName" length="8" padCharacter="\x00" nullTerminated="false" />
+			
+			<Number name="VirtualSize" size="32" mutable="false" />	<!-- mutable? -->
+			
+			<Number name="VirtualAddress" size="32" mutable="false" /> <!-- Specification recommends setting this to always zero, otherwise arbitrary offset? -->	<!-- mutable? -->
+			
+			<Number name="SizeOfRawData" size="32" mutable="false" >	<!-- mutable? -->
+				<Relation type="size" of="edata_Data" >
+					<Relation type="when" when="self.find('SectionName').getInternalValue() == '.edata\0\0'" />
+				</Relation>
+				<Relation type="size" of="idata_Data" >
+					<Relation type="when" when="self.find('SectionName').getInternalValue() == '.idata\0\0'" />
+				</Relation>
+				<Relation type="size" of="pdata_Data" >
+					<Relation type="when" when="self.find('SectionName').getInternalValue() == '.pdata\0\0'" />
+				</Relation>
+				<Relation type="size" of="reloc_Data" >
+					<Relation type="when" when="self.find('SectionName').getInternalValue() == '.reloc\0\0'" />
+				</Relation>
+				<Relation type="size" of="tls_Data" >
+					<Relation type="when" when="self.find('SectionName').getInternalValue() == '.tls\0\0\0\0'" />
+				</Relation>
+				<Relation type="size" of="rsrc_Data" >
+					<Relation type="when" when="self.find('SectionName').getInternalValue() == '.rsrc\0\0\0'" />
+				</Relation>
+				<Relation type="size" of="debug_Data" >
+					<Relation type="when" when="self.find('SectionName').getInternalValue() == '.debug\0\0'" />
+				</Relation>
+			</Number>
+		
+			<Number name="PointerRawData" valueType="hex" size="32" mutable="false" >	<!-- mutable? -->
+				<Relation type="offset" of="Section_Data" >
+					<Relation type="when" when="((self.find('SectionName').getInternalValue() != '.edata\0\0') and (self.find('SectionName').getInternalValue() != '.idata\0\0') and (self.find('SectionName').getInternalValue() != '.pdata\0\0') and (self.find('SectionName').getInternalValue() != '.reloc\0\0') and (self.find('SectionName').getInternalValue() != '.tls\0\0\0\0') and (self.find('SectionName').getInternalValue() != '.rsrc\0\0\0') and (self.find('SectionName').getInternalValue() != '.debug\0\0'))" />
+				</Relation>
+				<Relation type="offset" of="edata_Data" >
+					<Relation type="when" when="self.find('SectionName').getInternalValue() == '.edata\0\0'" />
+				</Relation>
+				<Relation type="offset" of="idata_Data" >
+					<Relation type="when" when="self.find('SectionName').getInternalValue() == '.idata\0\0'" />
+				</Relation>
+				<Relation type="offset" of="pdata_Data" >
+					<Relation type="when" when="self.find('SectionName').getInternalValue() == '.pdata\0\0'" />
+				</Relation>
+				<Relation type="offset" of="reloc_Data" >
+					<Relation type="when" when="self.find('SectionName').getInternalValue() == '.reloc\0\0'" />
+				</Relation>
+				<Relation type="offset" of="tls_Data" >
+					<Relation type="when" when="self.find('SectionName').getInternalValue() == '.tls\0\0\0\0'" />
+				</Relation>
+				<Relation type="offset" of="rsrc_Data" >
+					<Relation type="when" when="self.find('SectionName').getInternalValue() == '.rsrc\0\0\0'" />
+				</Relation>
+				<Relation type="offset" of="debug_Data" >
+					<Relation type="when" when="self.find('SectionName').getInternalValue() == '.debug\0\0'" />
+				</Relation>
+			</Number>
+			
+			<Number name="PointerRelocations" size="32" /> <!-- Set to zero for executable images? -->
+			
+			<Number name="PointerLineNumbers" size="32" />
+			
+			<Number name="NumberRelocations" size="16" /> <!-- Set to zero for executable images? -->
+			
+			<Number name="NumberOfLineNumbers" size="16" /> <!-- Set to zero for executable images? -->
+			
+			<Flags name="Characteristics" size="32" endian="little" signed="false">
+			
+				<Flag name="ReservedFuture1" value="0" size="1" position="0"/>
+				<Flag name="ReservedFuture2" value="0" size="1" position="1"/>
+				<Flag name="ReservedFuture3" value="0" size="1" position="2"/>
+				<!-- Specification listed an extra one? <Flag name="ReservedFuture4" value="0" size="1" position="3"/> -->
+				<Flag name="IMAGE_SCN_TYPE_NO_PAD" size="1" position="3"/>
+				<Flag name="ReservedFuture5" value="0" size="1" position="4"/>
+				<Flag name="IMAGE_SCN_CNT_CODE" size="1" position="5"/>
+				<Flag name="IMAGE_SCN_CNT_INITIALIZED_DATA" size="1" position="6"/>
+				<Flag name="IMAGE_SCN_CNT_UNINITIALIZED_ DATA" size="1" position="7"/>
+				<Flag name="IMAGE_SCN_LNK_OTHER" size="1" position="8"/> 	<!-- NOTE: specification lists this as being reserved, though it has a value? -->
+				<Flag name="IMAGE_SCN_LNK_INFO" size="1" position="9"/>
+				<Flag name="ReservedFuture6" value="0" size="1" position="10"/>
+				<Flag name="IMAGE_SCN_LNK_REMOVE" size="1" position="11"/>
+				<Flag name="IMAGE_SCN_LNK_COMDAT" size="1" position="12"/>
+				
+				<!--TODO: FLAGS MISSING FROM SPECIFICATION! -->
+				<Flag name="TEMP" size="1" position="13"/>
+				<Flag name="TEMP2" size="1" position="14"/>
+				<!-- -->
+				
+				<Flag name="IMAGE_SCN_GPREL" size="1" position="15"/>
+				<Flag name="IMAGE_SCN_MEM_PURGEABLE" size="1" position="16"/> 	<!-- NOTE: specification lists this as being reserved, though it has a value? -->
+						<!-- NOTE: the above flag has the wrong address in the specification table -->
+				<Flag name="IMAGE_SCN_MEM_16BIT" size="1" position="17"/> 		<!-- NOTE: specification lists this as being reserved, though it has a value? -->
+				<Flag name="IMAGE_SCN_MEM_LOCKED" size="1" position="18"/> 		<!-- NOTE: specification lists this as being reserved, though it has a value? -->
+				<Flag name="IMAGE_SCN_MEM_PRELOAD" size="1" position="19"/> 	<!-- NOTE: specification lists this as being reserved, though it has a value? -->
+				<Flag name="IMAGE_SCN_ALIGN_2BYTES" size="1" position="20"/>
+				<Flag name="IMAGE_SCN_ALIGN_4BYTES" size="1" position="21"/>
+				<Flag name="IMAGE_SCN_ALIGN_8BYTES" size="1" position="22"/>
+				<Flag name="IMAGE_SCN_ALIGN_16BYTES" size="1" position="23"/>
+				<Flag name="IMAGE_SCN_LNK_NRELOC_OVFL" size="1" position="24"/>
+				<Flag name="IMAGE_SCN_MEM_DISCARDABLE" size="1" position="25"/>
+				<Flag name="IMAGE_SCN_MEM_NOT_CACHED" size="1" position="26"/>
+				<Flag name="IMAGE_SCN_MEM_NOT_PAGED" size="1" position="27"/>
+				<Flag name="IMAGE_SCN_MEM_SHARED" size="1" position="28"/>
+				<Flag name="IMAGE_SCN_MEM_EXECUTE" size="1" position="29"/>
+				<Flag name="IMAGE_SCN_MEM_READ" size="1" position="30"/>
+				<Flag name="IMAGE_SCN_MEM_WRITE" size="1" position="31"/>
+			</Flags>
+			
+				<Block name="edata_Data" ref="edata" constraint="self.find('SectionName').getInternalValue() == '.edata\0\0'" >
+					<Relation type="when" when="self.find('SectionName').getInternalValue() == '.edata\0\0'" />
+					<Placement before="dummyB" />
+				</Block>
+				<Block name="idata_Data" ref="idata" constraint="self.find('SectionName').getInternalValue() == '.idata\0\0'"  >
+					<Relation type="when" when="self.find('SectionName').getInternalValue() == '.idata\0\0'" />
+					<Placement before="dummyB" />
+				</Block>
+				<Block name="pdata_Data" ref="pdata" constraint="self.find('SectionName').getInternalValue() == '.pdata\0\0'"  >
+					<Relation type="when" when="self.find('SectionName').getInternalValue() == '.pdata\0\0'" />
+					<Placement before="dummyB" />
+				</Block>
+				<Block name="reloc_Data" ref="reloc" constraint="self.find('SectionName').getInternalValue() == '.reloc\0\0'"  >
+					<Relation type="when" when="self.find('SectionName').getInternalValue() == '.reloc\0\0'" />
+					<Placement before="dummyB" />
+				</Block>
+				<Block name="tls_Data" ref="tls" constraint="self.find('SectionName').getInternalValue() == '.tls\0\0\0\0'"  >
+					<Relation type="when" when="self.find('SectionName').getInternalValue() == '.tls\0\0\0\0'" />
+					<Placement before="dummyB" />
+				</Block>
+				<Block name="rsrc_Data" ref="rsrc" constraint="self.find('SectionName').getInternalValue() == '.rsrc\0\0\0'"  >
+					<Relation type="when" when="self.find('SectionName').getInternalValue() == '.rsrc\0\0\0'" />
+					<Placement before="dummyB" />
+				</Block>
+				<Block name="debug_Data" ref="debug" constraint="self.find('SectionName').getInternalValue() == '.debug\0\0'"  >
+					<Relation type="when" when="self.find('SectionName').getInternalValue() == '.debug\0\0'" />
+					<Placement before="dummyB" />
+				</Block>
+				<Blob name="Section_Data" lengthType="calc" length="int(self.find('SizeOfRawData').getInternalValue())" constraint="((self.find('SectionName').getInternalValue() != '.edata\0\0') and (self.find('SectionName').getInternalValue() != '.idata\0\0') and (self.find('SectionName').getInternalValue() != '.pdata\0\0') and (self.find('SectionName').getInternalValue() != '.reloc\0\0') and (self.find('SectionName').getInternalValue() != '.tls\0\0\0\0') and (self.find('SectionName').getInternalValue() != '.rsrc\0\0\0') and (self.find('SectionName').getInternalValue() != '.debug\0\0'))" >
+					<Relation type="when" when="((self.find('SectionName').getInternalValue() != '.edata\0\0') and (self.find('SectionName').getInternalValue() != '.idata\0\0') and (self.find('SectionName').getInternalValue() != '.pdata\0\0') and (self.find('SectionName').getInternalValue() != '.reloc\0\0') and (self.find('SectionName').getInternalValue() != '.tls\0\0\0\0') and (self.find('SectionName').getInternalValue() != '.rsrc\0\0\0') and (self.find('SectionName').getInternalValue() != '.debug\0\0'))" />
+					<Placement before="dummyB" />
+				</Blob>
+				
+
+		</Block>	<!-- End Section Table and Section Data Block -->
+		
+		<!-- TODO: find way to calculate the below Blob length automagically -->
+		<Blob name="SectionPadding" length="320" /> <!-- sampleProgram.exe -->
+		<!-- <Blob name="SectionPadding" length="272" /> --><!-- modified c4.exe -->
+		<!--<Blob name="SectionPadding" length="328" />--> <!-- gedit -->
+		
+		<Block name="dummyB" />
+		
+
+		
+		</Block> <!-- end of "sections" block -->
+
+	</DataModel> <!-- end of main PE DataModel -->
+	
+
+		
+<!-- </DataModel> -->
+	
+<StateModel name="TheState" initialState="Initial">
+    <State name="Initial">
+                          
+      <Action type="output">
+        <DataModel ref="Exe"/>
+			<Data fileName="C:\SampleFiles\exe\sampleProgram.exe"/>
+			<!-- <Data fileName="C:\SampleFiles\exe\c4.exe"/> -->
+		    <!--<Data fileName="C:\SampleFiles\exe\gedit.exe"/> -->
+			 <!-- <Data fileName="C:\SampleFiles\exe\vlc.exe"/> -->
+			 <!-- <Data fileName="C:\SampleFiles\exe\idag.exe"/> -->
+			 <!-- <Data fileName="C:\SampleFiles\exe\vmplayer.exe"/> -->
+			 <!-- <Data fileName="C:\SampleFiles\exe\firefox.exe"/> -->
+          </Action>       
+      <Action type="close"/>
+        </State>          
+  </StateModel>           
+                          
+  <Test name="TheTest">   
+    <StateModel ref="TheState"/>
+ 
+						<Publisher class="file.FilePerIteration">
+                        <Param name="fileName" value="/GenEXE/testEXE-%d.exe"/>
+ </Publisher>             
+  </Test>                 
+  <Run name="DefaultRun"> 
+    <Test ref="TheTest"/> 
+            <Logger class="logger.Filesystem">
+       <Param name="path" value="C:\peachfuzz\logs"/>
+		</Logger>
+  </Run>
+
+	
+</Peach>
+<!-- end -->

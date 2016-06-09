@@ -1,0 +1,2173 @@
+Dump of file C:/SAMPLEFILES/EXE/GEDIT.EXE
+
+File Header
+  Machine:                      014C (i386)
+  Number of Sections:           0008
+  TimeDateStamp:                4BCB591D -> Sun Apr 18 15:10:21 2010
+  PointerToSymbolTable:         00000000
+  NumberOfSymbols:              00000000
+  SizeOfOptionalHeader:         00E0
+  Characteristics:              030E
+    EXECUTABLE_IMAGE
+    LINE_NUMS_STRIPPED
+    LOCAL_SYMS_STRIPPED
+    32BIT_MACHINE
+    DEBUG_STRIPPED
+
+Optional Header
+  Magic                         010B
+  linker version                2.56
+  size of code                  57000
+  size of initialized data      87C00
+  size of uninitialized data    C00
+  entrypoint RVA                12A0
+  base of code                  1000
+  base of data                  58000
+  image base                    400000
+  section align                 1000
+  file align                    200
+  required OS version           4.00
+  image version                 1.00
+  subsystem version             4.00
+  Win32 Version                 0
+  size of image                 8D000
+  size of headers               400
+  checksum                      886AC
+  Subsystem                     0002 (Windows GUI)
+  DLL flags                     0000
+  stack reserve size            200000
+  stack commit size             1000
+  heap reserve size             100000
+  heap commit size              1000
+  RVAs & sizes                  10
+
+Data Directory
+  EXPORT       rva: 00071000  size: 00007493
+  IMPORT       rva: 00079000  size: 0000BCB0
+  RESOURCE     rva: 00085000  size: 00002660
+  EXCEPTION    rva: 00000000  size: 00000000
+  SECURITY     rva: 00000000  size: 00000000
+  BASERELOC    rva: 00088000  size: 000042A4
+  DEBUG        rva: 00000000  size: 00000000
+  COPYRIGHT    rva: 00000000  size: 00000000
+  GLOBALPTR    rva: 00000000  size: 00000000
+  TLS          rva: 00000000  size: 00000000
+  LOAD_CONFIG  rva: 00000000  size: 00000000
+  BOUND_IMPORT rva: 00000000  size: 00000000
+  IAT          rva: 00000000  size: 00000000
+  DELAY_IMPORT rva: 00000000  size: 00000000
+  unused       rva: 00000000  size: 00000000
+  unused       rva: 00000000  size: 00000000
+
+Section Table
+  01 .text     VirtSize: 00056E84  VirtAddr:  00001000
+    raw data offs:   00000400  raw data size: 00057000
+    relocation offs: 00000000  relocations:   00000000
+    line # offs:     00000000  line #'s:      00000000
+    characteristics: 60500060
+      CODE  INITIALIZED_DATA  EXECUTE  READ  ALIGN_16BYTES
+
+  02 .data     VirtSize: 00000184  VirtAddr:  00058000
+    raw data offs:   00057400  raw data size: 00000200
+    relocation offs: 00000000  relocations:   00000000
+    line # offs:     00000000  line #'s:      00000000
+    characteristics: C0600040
+      INITIALIZED_DATA  READ  WRITE  ALIGN_32BYTES
+
+  03 .rdata    VirtSize: 00016820  VirtAddr:  00059000
+    raw data offs:   00057600  raw data size: 00016A00
+    relocation offs: 00000000  relocations:   00000000
+    line # offs:     00000000  line #'s:      00000000
+    characteristics: 40600040
+      INITIALIZED_DATA  READ  ALIGN_32BYTES
+
+  04 .bss      VirtSize: 00000A10  VirtAddr:  00070000
+    raw data offs:   00000000  raw data size: 00000000
+    relocation offs: 00000000  relocations:   00000000
+    line # offs:     00000000  line #'s:      00000000
+    characteristics: C0400080
+      UNINITIALIZED_DATA  READ  WRITE  ALIGN_8BYTES
+
+  05 .edata    VirtSize: 00007493  VirtAddr:  00071000
+    raw data offs:   0006E000  raw data size: 00007600
+    relocation offs: 00000000  relocations:   00000000
+    line # offs:     00000000  line #'s:      00000000
+    characteristics: 40300040
+      INITIALIZED_DATA  READ  ALIGN_4BYTES
+
+  06 .idata    VirtSize: 0000BCB0  VirtAddr:  00079000
+    raw data offs:   00075600  raw data size: 0000BE00
+    relocation offs: 00000000  relocations:   00000000
+    line # offs:     00000000  line #'s:      00000000
+    characteristics: C0300040
+      INITIALIZED_DATA  READ  WRITE  ALIGN_4BYTES
+
+  07 .rsrc     VirtSize: 00002660  VirtAddr:  00085000
+    raw data offs:   00081400  raw data size: 00002800
+    relocation offs: 00000000  relocations:   00000000
+    line # offs:     00000000  line #'s:      00000000
+    characteristics: C0300040
+      INITIALIZED_DATA  READ  WRITE  ALIGN_4BYTES
+
+  08 .reloc    VirtSize: 000042A4  VirtAddr:  00088000
+    raw data offs:   00083C00  raw data size: 00004400
+    relocation offs: 00000000  relocations:   00000000
+    line # offs:     00000000  line #'s:      00000000
+    characteristics: 42300040
+      INITIALIZED_DATA  DISCARDABLE  READ  ALIGN_4BYTES
+
+
+
+Resources (RVA: 85000)
+ResDir (0) Entries:02 (Named:00, ID:02) TimeDate:4B5C6776
+    --------------------------------------------------------------
+    ResDir (ICON) Entries:01 (Named:00, ID:01) TimeDate:4B5C6776
+        ResDir (1) Entries:01 (Named:00, ID:01) TimeDate:4B5C6776
+            ID: 00000409  DataEntryOffs: 00000084
+            DataRVA: 850A4  DataSize: 025A8  CodePage: 0
+    --------------------------------------------------------------
+    ResDir (GROUP_ICON) Entries:01 (Named:01, ID:00) TimeDate:4B5C6776
+        ResDir (A) Entries:01 (Named:00, ID:01) TimeDate:4B5C6776
+            ID: 00000409  DataEntryOffs: 00000094
+            DataRVA: 8764C  DataSize: 00014  CodePage: 0
+
+
+Imports Table:
+  KERNEL32.dll
+  OrigFirstThunk:  00079180 (Unbound IAT)
+  TimeDateStamp:   00000000 -> Wed Dec 31 19:00:00 1969
+  ForwarderChain:  00000000
+  First thunk RVA: 0007A4B4
+  Ordn  Name
+     1  AddAtomA
+    65  CreateEventW
+   156  ExitProcess
+   176  FindAtomA
+   221  GetAtomNameA
+   337  GetModuleHandleA
+   340  GetModuleHandleW
+   364  GetProcAddress
+   698  SetEvent
+   739  SetUnhandledExceptionFilter
+   810  WaitForSingleObject
+
+  msvcrt.dll
+  OrigFirstThunk:  000791B4 (Unbound IAT)
+  TimeDateStamp:   00000000 -> Wed Dec 31 19:00:00 1969
+  ForwarderChain:  00000000
+  First thunk RVA: 0007A4E8
+  Ordn  Name
+    11  _dup2
+
+  msvcrt.dll
+  OrigFirstThunk:  000791C0 (Unbound IAT)
+  TimeDateStamp:   00000000 -> Wed Dec 31 19:00:00 1969
+  ForwarderChain:  00000000
+  First thunk RVA: 0007A4F4
+  Ordn  Name
+    55  __getmainargs
+    77  __p__environ
+    79  __p__fmode
+    99  __set_app_type
+   137  _assert
+   142  _beginthread
+   147  _cexit
+   182  _errno
+   233  _get_osfhandle
+   266  _iob
+   383  _onexit
+   426  _setmode
+   583  abort
+   590  atexit
+   592  atoi
+   604  exit
+   610  fflush
+   616  floor
+   625  free
+   626  freopen
+   676  malloc
+   680  memchr
+   682  memcpy
+   684  memset
+   704  setlocale
+   706  signal
+   715  strcmp
+   721  strlen
+   723  strncmp
+   732  strtoul
+
+  USER32.dll
+  OrigFirstThunk:  00079240 (Unbound IAT)
+  TimeDateStamp:   00000000 -> Wed Dec 31 19:00:00 1969
+  ForwarderChain:  00000000
+  First thunk RVA: 0007A574
+  Ordn  Name
+    90  CreateWindowExW
+   134  DefWindowProcW
+   149  DispatchMessageW
+   207  ExitWindowsEx
+   249  GetDesktopWindow
+   296  GetMessageW
+   341  GetWindowLongW
+   478  RegisterClassExW
+   566  SetWindowLongW
+
+  libgconf-2-4.dll
+  OrigFirstThunk:  00079268 (Unbound IAT)
+  TimeDateStamp:   00000000 -> Wed Dec 31 19:00:00 1969
+  ForwarderChain:  00000000
+  First thunk RVA: 0007A59C
+  Ordn  Name
+   169  gconf_client_add_dir
+   177  gconf_client_error
+   179  gconf_client_get
+   181  gconf_client_get_default
+   187  gconf_client_get_list
+   190  gconf_client_get_string
+   193  gconf_client_key_is_writable
+   195  gconf_client_notify_add
+   203  gconf_client_set_bool
+   207  gconf_client_set_int
+   208  gconf_client_set_list
+   211  gconf_client_set_string
+   213  gconf_client_unreturned_error
+   294  gconf_error_quark
+   295  gconf_escape_key
+   418  gconf_value_free
+   420  gconf_value_get_bool
+   424  gconf_value_get_int
+   426  gconf_value_get_list_type
+   428  gconf_value_get_string
+
+  intl.dll
+  OrigFirstThunk:  000792C0 (Unbound IAT)
+  TimeDateStamp:   00000000 -> Wed Dec 31 19:00:00 1969
+  ForwarderChain:  00000000
+  First thunk RVA: 0007A5F4
+  Ordn  Name
+     8  libintl_bind_textdomain_codeset
+     9  libintl_bindtextdomain
+    15  libintl_gettext
+    16  libintl_ngettext
+    21  libintl_textdomain
+
+  libgtksourceview-2.0-0.dll
+  OrigFirstThunk:  000792D8 (Unbound IAT)
+  TimeDateStamp:   00000000 -> Wed Dec 31 19:00:00 1969
+  ForwarderChain:  00000000
+  First thunk RVA: 0007A60C
+  Ordn  Name
+     1  gtk_source_buffer_begin_not_undoable_action
+     2  gtk_source_buffer_can_redo
+     3  gtk_source_buffer_can_undo
+     5  gtk_source_buffer_end_not_undoable_action
+     9  gtk_source_buffer_get_highlight_matching_brackets
+    10  gtk_source_buffer_get_highlight_syntax
+    11  gtk_source_buffer_get_language
+    15  gtk_source_buffer_get_style_scheme
+    16  gtk_source_buffer_get_type
+    23  gtk_source_buffer_redo
+    25  gtk_source_buffer_set_highlight_matching_brackets
+    26  gtk_source_buffer_set_highlight_syntax
+    27  gtk_source_buffer_set_language
+    28  gtk_source_buffer_set_max_undo_levels
+    29  gtk_source_buffer_set_style_scheme
+    31  gtk_source_buffer_undo
+   148  gtk_source_iter_backward_search
+   149  gtk_source_iter_forward_search
+   151  gtk_source_language_get_hidden
+   152  gtk_source_language_get_id
+   154  gtk_source_language_get_mime_types
+   155  gtk_source_language_get_name
+   156  gtk_source_language_get_section
+   159  gtk_source_language_get_type
+   161  gtk_source_language_manager_get_language
+   162  gtk_source_language_manager_get_language_ids
+   165  gtk_source_language_manager_guess_language
+   166  gtk_source_language_manager_new
+   173  gtk_source_print_compositor_draw_page
+   182  gtk_source_print_compositor_get_n_pages
+   183  gtk_source_print_compositor_get_pagination_progress
+   190  gtk_source_print_compositor_get_type
+   194  gtk_source_print_compositor_paginate
+   200  gtk_source_print_compositor_set_header_format
+   216  gtk_source_style_scheme_get_description
+   217  gtk_source_style_scheme_get_filename
+   218  gtk_source_style_scheme_get_id
+   219  gtk_source_style_scheme_get_name
+   220  gtk_source_style_scheme_get_style
+   221  gtk_source_style_scheme_get_type
+   222  gtk_source_style_scheme_manager_append_search_path
+   223  gtk_source_style_scheme_manager_force_rescan
+   225  gtk_source_style_scheme_manager_get_scheme
+   226  gtk_source_style_scheme_manager_get_scheme_ids
+   228  gtk_source_style_scheme_manager_get_type
+   229  gtk_source_style_scheme_manager_new
+   250  gtk_source_view_get_insert_spaces_instead_of_tabs
+   256  gtk_source_view_get_show_line_numbers
+   259  gtk_source_view_get_tab_width
+   260  gtk_source_view_get_type
+   264  gtk_source_view_set_auto_indent
+   266  gtk_source_view_set_highlight_current_line
+   269  gtk_source_view_set_insert_spaces_instead_of_tabs
+   278  gtk_source_view_set_right_margin_position
+   280  gtk_source_view_set_show_line_numbers
+   281  gtk_source_view_set_show_right_margin
+   282  gtk_source_view_set_smart_home_end
+   283  gtk_source_view_set_tab_width
+
+  libatk-1.0-0.dll
+  OrigFirstThunk:  000793C8 (Unbound IAT)
+  TimeDateStamp:   00000000 -> Wed Dec 31 19:00:00 1969
+  ForwarderChain:  00000000
+  First thunk RVA: 0007A6FC
+  Ordn  Name
+   105  atk_object_ref_relation_set
+   109  atk_object_set_description
+   110  atk_object_set_name
+   112  atk_object_set_role
+   122  atk_relation_new
+   123  atk_relation_set_add
+
+  libcairo-2.dll
+  OrigFirstThunk:  000793E8 (Unbound IAT)
+  TimeDateStamp:   00000000 -> Wed Dec 31 19:00:00 1969
+  ForwarderChain:  00000000
+  First thunk RVA: 0007A71C
+  Ordn  Name
+     3  cairo_clip
+    11  cairo_create
+    14  cairo_destroy
+    17  cairo_fill
+    19  cairo_fill_preserve
+    90  cairo_matrix_init
+   136  cairo_pdf_surface_create_for_stream
+   153  cairo_rectangle
+   160  cairo_restore
+   162  cairo_save
+   163  cairo_scale
+   191  cairo_set_line_width
+   197  cairo_set_source_rgb
+   208  cairo_stroke
+   213  cairo_surface_destroy
+   247  cairo_transform
+   248  cairo_translate
+
+  libgdk-win32-2.0-0.dll
+  OrigFirstThunk:  00079434 (Unbound IAT)
+  TimeDateStamp:   00000000 -> Wed Dec 31 19:00:00 1969
+  ForwarderChain:  00000000
+  First thunk RVA: 0007A768
+  Ordn  Name
+    11  gdk_atom_intern_static_string
+    17  gdk_cairo_create
+    18  gdk_cairo_rectangle
+    36  gdk_color_parse
+    59  gdk_cursor_new
+    60  gdk_cursor_new_for_display
+    66  gdk_cursor_unref
+    83  gdk_display_get_default
+    90  gdk_display_get_name
+    91  gdk_display_get_pointer
+   118  gdk_display_supports_selection_notification
+   138  gdk_drag_status
+   152  gdk_draw_pixbuf
+   174  gdk_drawable_get_size
+   187  gdk_event_free
+   199  gdk_event_new
+   236  gdk_gc_new
+   356  gdk_pointer_grab
+   358  gdk_pointer_is_grabbed
+   359  gdk_pointer_ungrab
+   369  gdk_rectangle_intersect
+   409  gdk_screen_get_display
+   411  gdk_screen_get_height
+   414  gdk_screen_get_monitor_at_window
+   415  gdk_screen_get_monitor_geometry
+   420  gdk_screen_get_number
+   421  gdk_screen_get_resolution
+   432  gdk_screen_get_width
+   494  gdk_threads_enter
+   496  gdk_threads_leave
+   497  gdk_threads_lock
+   500  gdk_threads_unlock
+   526  gdk_window_at_pointer
+   559  gdk_window_get_origin
+   562  gdk_window_get_position
+   565  gdk_window_get_toplevel
+   569  gdk_window_get_user_data
+   592  gdk_window_object_get_type
+   610  gdk_window_set_cursor
+
+  libgdk_pixbuf-2.0-0.dll
+  OrigFirstThunk:  000794D8 (Unbound IAT)
+  TimeDateStamp:   00000000 -> Wed Dec 31 19:00:00 1969
+  ForwarderChain:  00000000
+  First thunk RVA: 0007A80C
+  Ordn  Name
+    44  gdk_pixbuf_get_height
+    49  gdk_pixbuf_get_type
+    50  gdk_pixbuf_get_width
+    71  gdk_pixbuf_new_from_file_utf8
+    76  gdk_pixbuf_new_subpixbuf
+    93  gdk_pixbuf_scale_simple
+
+  libgio-2.0-0.dll
+  OrigFirstThunk:  000794F4 (Unbound IAT)
+  TimeDateStamp:   00000000 -> Wed Dec 31 19:00:00 1969
+  ForwarderChain:  00000000
+  First thunk RVA: 0007A828
+  Ordn  Name
+    65  g_cancellable_cancel
+    71  g_cancellable_is_cancelled
+    73  g_cancellable_new
+    78  g_cancellable_set_error_if_cancelled
+    79  g_charset_converter_get_num_fallbacks
+    82  g_charset_converter_new
+    86  g_content_type_from_mime_type
+    87  g_content_type_get_description
+    89  g_content_type_get_mime_type
+    90  g_content_type_guess
+    92  g_content_type_is_a
+    93  g_content_type_is_unknown
+    95  g_converter_convert
+    97  g_converter_get_type
+   100  g_converter_input_stream_new
+   103  g_converter_output_stream_new
+   104  g_converter_reset
+   232  g_file_equal
+   233  g_file_find_enclosing_mount
+   236  g_file_get_basename
+   239  g_file_get_parent
+   240  g_file_get_parse_name
+   241  g_file_get_path
+   243  g_file_get_type
+   244  g_file_get_uri
+   245  g_file_get_uri_scheme
+   248  g_file_has_uri_scheme
+   254  g_file_info_copy_into
+   257  g_file_info_get_attribute_boolean
+   264  g_file_info_get_attribute_string
+   268  g_file_info_get_attribute_uint64
+   270  g_file_info_get_display_name
+   273  g_file_info_get_file_type
+   274  g_file_info_get_icon
+   278  g_file_info_get_modification_time
+   284  g_file_info_has_attribute
+   287  g_file_info_new
+   289  g_file_info_set_attribute
+   297  g_file_info_set_attribute_string
+   342  g_file_mount_enclosing_volume
+   343  g_file_mount_enclosing_volume_finish
+   347  g_file_new_for_commandline_arg
+   349  g_file_new_for_uri
+   362  g_file_query_exists
+   367  g_file_query_info
+   368  g_file_query_info_async
+   369  g_file_query_info_finish
+   374  g_file_read_async
+   375  g_file_read_finish
+   377  g_file_replace_async
+   381  g_file_replace_finish
+   393  g_file_set_attributes_async
+   394  g_file_set_attributes_finish
+   458  g_input_stream_close
+   459  g_input_stream_close_async
+   460  g_input_stream_close_finish
+   461  g_input_stream_get_type
+   464  g_input_stream_read
+   466  g_input_stream_read_async
+   467  g_input_stream_read_finish
+   474  g_io_error_quark
+   526  g_mount_get_name
+   543  g_mount_operation_new
+   573  g_output_stream_close
+   574  g_output_stream_close_async
+   575  g_output_stream_close_finish
+   579  g_output_stream_get_type
+   588  g_output_stream_write
+   590  g_output_stream_write_async
+   591  g_output_stream_write_finish
+
+  libglib-2.0-0.dll
+  OrigFirstThunk:  00079610 (Unbound IAT)
+  TimeDateStamp:   00000000 -> Wed Dec 31 19:00:00 1969
+  ForwarderChain:  00000000
+  First thunk RVA: 0007A944
+  Ordn  Name
+    23  g_ascii_strcasecmp
+    24  g_ascii_strdown
+    30  g_ascii_table
+    31  g_ascii_tolower
+    35  g_assertion_message
+    39  g_assertion_message_expr
+    63  g_atomic_int_add
+    65  g_atomic_int_exchange_and_add
+   125  g_build_filename
+   127  g_build_path
+   162  g_clear_error
+   174  g_convert_error_quark
+   241  g_dir_close
+   243  g_dir_open_utf8
+   245  g_dir_read_name_utf8
+   247  g_direct_equal
+   248  g_direct_hash
+   255  g_error_free
+   260  g_file_error_from_errno
+   261  g_file_error_quark
+   263  g_file_get_contents_utf8
+   267  g_file_set_contents
+   269  g_file_test_utf8
+   270  g_filename_display_basename
+   271  g_filename_display_name
+   273  g_filename_from_uri_utf8
+   279  g_filename_to_utf8_utf8
+   285  g_free
+   287  g_get_application_name
+   288  g_get_charset
+   292  g_get_current_time
+   295  g_get_home_dir_utf8
+   296  g_get_host_name
+   298  g_get_prgname
+   305  g_get_user_cache_dir
+   306  g_get_user_config_dir
+   312  g_getenv_utf8
+   313  g_hash_table_destroy
+   315  g_hash_table_foreach
+   316  g_hash_table_foreach_remove
+   320  g_hash_table_insert
+   326  g_hash_table_lookup
+   328  g_hash_table_new
+   329  g_hash_table_new_full
+   331  g_hash_table_remove
+   369  g_idle_add
+   370  g_idle_add_full
+   378  g_intern_static_string
+   428  g_key_file_error_quark
+   429  g_key_file_free
+   430  g_key_file_get_boolean
+   435  g_key_file_get_groups
+   436  g_key_file_get_integer
+   439  g_key_file_get_locale_string
+   441  g_key_file_get_start_group
+   442  g_key_file_get_string
+   443  g_key_file_get_string_list
+   446  g_key_file_has_key
+   450  g_key_file_load_from_file
+   451  g_key_file_new
+   455  g_key_file_set_boolean
+   460  g_key_file_set_integer
+   465  g_key_file_set_string
+   466  g_key_file_set_string_list
+   468  g_key_file_to_data
+   470  g_list_append
+   471  g_list_concat
+   472  g_list_copy
+   473  g_list_delete_link
+   474  g_list_find
+   475  g_list_find_custom
+   477  g_list_foreach
+   478  g_list_free
+   480  g_list_index
+   482  g_list_insert_before
+   485  g_list_last
+   486  g_list_length
+   487  g_list_nth
+   488  g_list_nth_data
+   492  g_list_prepend
+   494  g_list_remove
+   497  g_list_reverse
+   498  g_list_sort
+   503  g_log
+   504  g_log_default_handler
+   509  g_log_set_handler
+   546  g_malloc
+   547  g_malloc0
+   548  g_malloc0_n
+   549  g_malloc_n
+   558  g_markup_escape_text
+   569  g_markup_printf_escaped
+   599  g_mkdir_with_parents
+   636  g_once_init_enter_impl
+   637  g_once_init_leave
+   639  g_option_context_add_group
+   640  g_option_context_add_main_entries
+   641  g_option_context_free
+   648  g_option_context_new
+   649  g_option_context_parse
+   658  g_option_group_add_entries
+   660  g_option_group_new
+   662  g_option_group_set_parse_hooks
+   666  g_path_get_basename
+   667  g_path_get_dirname
+   678  g_print
+   682  g_propagate_error
+   684  g_ptr_array_add
+   686  g_ptr_array_free
+   687  g_ptr_array_new
+   702  g_quark_from_static_string
+   796  g_return_if_fail_warning
+   854  g_set_application_name
+   855  g_set_error
+   856  g_set_error_literal
+   861  g_setenv_utf8
+   866  g_slice_alloc
+   869  g_slice_free1
+   877  g_slist_copy
+   878  g_slist_delete_link
+   879  g_slist_find
+   880  g_slist_find_custom
+   881  g_slist_foreach
+   882  g_slist_free
+   895  g_slist_prepend
+   897  g_slist_remove
+   900  g_slist_reverse
+   901  g_slist_sort
+   903  g_snprintf
+   904  g_source_add_poll
+   905  g_source_attach
+   913  g_source_new
+   915  g_source_remove
+   919  g_source_set_callback
+   963  g_str_equal
+   964  g_str_has_prefix
+   965  g_str_has_suffix
+   966  g_str_hash
+   973  g_strconcat
+   974  g_strdelimit
+   976  g_strdup
+   977  g_strdup_printf
+   978  g_strdup_vprintf
+   980  g_strerror
+   982  g_strfreev
+   983  g_string_append
+   985  g_string_append_len
+  1002  g_string_free
+  1008  g_string_new
+  1009  g_string_new_len
+  1018  g_string_sized_new
+  1023  g_strjoin
+  1028  g_strndup
+  1031  g_strrstr
+  1034  g_strsplit
+  1039  g_strv_length
+  1107  g_timeout_add
+  1108  g_timeout_add_full
+  1109  g_timeout_add_seconds
+  1115  g_timer_destroy
+  1116  g_timer_elapsed
+  1117  g_timer_new
+  1152  g_unichar_break_type
+  1161  g_unichar_isdigit
+  1183  g_unlink
+  1185  g_unsetenv_utf8
+  1187  g_uri_list_extract_uris
+  1188  g_uri_parse_scheme
+  1189  g_uri_unescape_segment
+  1190  g_uri_unescape_string
+  1194  g_utf8_casefold
+  1195  g_utf8_collate
+  1200  g_utf8_get_char
+  1201  g_utf8_get_char_validated
+  1202  g_utf8_normalize
+  1203  g_utf8_offset_to_pointer
+  1206  g_utf8_skip
+  1207  g_utf8_strchr
+  1209  g_utf8_strlen
+  1217  g_utf8_validate
+  1361  g_warn_message
+  1365  g_win32_get_package_installation_directory_of_module
+
+  libgmodule-2.0-0.dll
+  OrigFirstThunk:  000798EC (Unbound IAT)
+  TimeDateStamp:   00000000 -> Wed Dec 31 19:00:00 1969
+  ForwarderChain:  00000000
+  First thunk RVA: 0007AC20
+  Ordn  Name
+     0  g_module_build_path
+     1  g_module_close
+     2  g_module_error
+     3  g_module_make_resident
+     7  g_module_open_utf8
+     8  g_module_supported
+     9  g_module_symbol
+
+  libgobject-2.0-0.dll
+  OrigFirstThunk:  0007990C (Unbound IAT)
+  TimeDateStamp:   00000000 -> Wed Dec 31 19:00:00 1969
+  ForwarderChain:  00000000
+  First thunk RVA: 0007AC40
+  Ordn  Name
+     3  g_boxed_type_register_static
+     8  g_cclosure_marshal_VOID__BOXED
+    14  g_cclosure_marshal_VOID__INT
+    16  g_cclosure_marshal_VOID__OBJECT
+    18  g_cclosure_marshal_VOID__POINTER
+    21  g_cclosure_marshal_VOID__UINT
+    22  g_cclosure_marshal_VOID__UINT_POINTER
+    24  g_cclosure_marshal_VOID__VOID
+    26  g_cclosure_new_object
+    49  g_enum_register_static
+    54  g_flags_register_static
+    62  g_object_add_weak_pointer
+    64  g_object_class_install_property
+    72  g_object_get
+    73  g_object_get_data
+    82  g_object_new
+    83  g_object_new_valist
+    85  g_object_notify
+    86  g_object_ref
+    87  g_object_ref_sink
+    91  g_object_set
+    92  g_object_set_data
+    93  g_object_set_data_full
+   101  g_object_unref
+   103  g_object_weak_ref
+   105  g_param_spec_boolean
+   106  g_param_spec_boxed
+   109  g_param_spec_enum
+   110  g_param_spec_flags
+   113  g_param_spec_get_name
+   118  g_param_spec_int
+   122  g_param_spec_object
+   125  g_param_spec_pointer
+   138  g_param_spec_string
+   141  g_param_spec_uint
+   161  g_signal_connect_closure_by_id
+   162  g_signal_connect_data
+   163  g_signal_connect_object
+   164  g_signal_emit
+   169  g_signal_handler_block
+   170  g_signal_handler_disconnect
+   173  g_signal_handler_unblock
+   174  g_signal_handlers_block_matched
+   176  g_signal_handlers_disconnect_matched
+   177  g_signal_handlers_unblock_matched
+   178  g_signal_has_handler_pending
+   180  g_signal_lookup
+   182  g_signal_new
+   192  g_signal_stop_emission_by_name
+   197  g_strv_get_type
+   202  g_type_add_interface_static
+   203  g_type_check_class_cast
+   206  g_type_check_instance_cast
+   207  g_type_check_instance_is_a
+   208  g_type_check_is_value_type
+   212  g_type_class_add_private
+   214  g_type_class_peek
+   215  g_type_class_peek_parent
+   217  g_type_class_ref
+   218  g_type_class_unref
+   231  g_type_init
+   233  g_type_instance_get_private
+   236  g_type_interface_peek
+   240  g_type_is_a
+   242  g_type_module_get_type
+   246  g_type_module_set_name
+   247  g_type_module_unuse
+   248  g_type_module_use
+   249  g_type_name
+   263  g_type_register_static
+   264  g_type_register_static_simple
+   269  g_type_value_table_peek
+   282  g_value_copy
+   283  g_value_dup_boxed
+   286  g_value_dup_string
+   288  g_value_get_boolean
+   289  g_value_get_boxed
+   292  g_value_get_enum
+   293  g_value_get_flags
+   296  g_value_get_int
+   299  g_value_get_object
+   301  g_value_get_pointer
+   302  g_value_get_string
+   305  g_value_get_uint
+   308  g_value_init
+   309  g_value_peek_pointer
+   311  g_value_reset
+   312  g_value_set_boolean
+   313  g_value_set_boxed
+   317  g_value_set_enum
+   318  g_value_set_flags
+   322  g_value_set_int
+   325  g_value_set_object
+   329  g_value_set_pointer
+   332  g_value_set_string
+   335  g_value_set_uint
+   341  g_value_take_string
+   342  g_value_transform
+   345  g_value_unset
+
+  libgthread-2.0-0.dll
+  OrigFirstThunk:  00079A9C (Unbound IAT)
+  TimeDateStamp:   00000000 -> Wed Dec 31 19:00:00 1969
+  ForwarderChain:  00000000
+  First thunk RVA: 0007ADD0
+  Ordn  Name
+     0  g_thread_init
+
+  libgtk-win32-2.0-0.dll
+  OrigFirstThunk:  00079AA8 (Unbound IAT)
+  TimeDateStamp:   00000000 -> Wed Dec 31 19:00:00 1969
+  ForwarderChain:  00000000
+  First thunk RVA: 0007ADDC
+  Ordn  Name
+    11  gtk_about_dialog_get_type
+    29  gtk_about_dialog_set_url_hook
+    68  gtk_accel_map_load_utf8
+    73  gtk_accel_map_save_utf8
+    75  gtk_accelerator_get_default_mod_mask
+    82  gtk_accessible_get_type
+   100  gtk_action_get_name
+   106  gtk_action_get_type
+   110  gtk_action_group_add_action
+   111  gtk_action_group_add_action_with_accel
+   112  gtk_action_group_add_actions
+   116  gtk_action_group_add_toggle_actions
+   118  gtk_action_group_get_action
+   120  gtk_action_group_get_sensitive
+   123  gtk_action_group_list_actions
+   124  gtk_action_group_new
+   125  gtk_action_group_remove_action
+   126  gtk_action_group_set_sensitive
+   128  gtk_action_group_set_translation_domain
+   133  gtk_action_new
+   140  gtk_action_set_sensitive
+   150  gtk_activatable_get_related_action
+   151  gtk_activatable_get_type
+   153  gtk_activatable_set_related_action
+   165  gtk_adjustment_get_value
+   172  gtk_adjustment_set_value
+   173  gtk_adjustment_value_changed
+   183  gtk_arrow_new
+   215  gtk_bin_get_child
+   216  gtk_bin_get_type
+   218  gtk_binding_entry_add_signal
+   226  gtk_binding_set_by_class
+   229  gtk_bindings_activate
+   237  gtk_box_get_type
+   238  gtk_box_pack_end
+   240  gtk_box_pack_start
+   243  gtk_box_reorder_child
+   246  gtk_box_set_spacing
+   258  gtk_builder_add_from_file
+   260  gtk_builder_add_objects_from_file
+   266  gtk_builder_get_object
+   271  gtk_builder_new
+   280  gtk_button_box_get_type
+   284  gtk_button_box_set_layout
+   294  gtk_button_get_type
+   299  gtk_button_new_from_stock
+   301  gtk_button_new_with_mnemonic
+   306  gtk_button_set_image
+   308  gtk_button_set_label
+   309  gtk_button_set_relief
+   336  gtk_cell_layout_add_attribute
+   339  gtk_cell_layout_get_cells
+   340  gtk_cell_layout_get_type
+   341  gtk_cell_layout_pack_end
+   342  gtk_cell_layout_pack_start
+   344  gtk_cell_layout_set_attributes
+   345  gtk_cell_layout_set_cell_data_func
+   355  gtk_cell_renderer_get_type
+   358  gtk_cell_renderer_pixbuf_new
+   369  gtk_cell_renderer_text_new
+   374  gtk_cell_renderer_toggle_new
+   394  gtk_check_menu_item_get_active
+   397  gtk_check_menu_item_get_type
+   399  gtk_check_menu_item_new_with_label
+   400  gtk_check_menu_item_new_with_mnemonic
+   401  gtk_check_menu_item_set_active
+   409  gtk_clipboard_get_display
+   413  gtk_clipboard_request_contents
+   549  gtk_combo_box_entry_get_type
+   554  gtk_combo_box_get_active
+   555  gtk_combo_box_get_active_iter
+   561  gtk_combo_box_get_model
+   566  gtk_combo_box_get_type
+   571  gtk_combo_box_new_with_model
+   576  gtk_combo_box_set_active
+   577  gtk_combo_box_set_active_iter
+   582  gtk_combo_box_set_model
+   583  gtk_combo_box_set_row_separator_func
+   596  gtk_container_add
+   610  gtk_container_foreach
+   613  gtk_container_get_children
+   619  gtk_container_get_type
+   621  gtk_container_remove
+   623  gtk_container_set_border_width
+   721  gtk_dialog_add_action_widget
+   722  gtk_dialog_add_button
+   723  gtk_dialog_add_buttons
+   725  gtk_dialog_get_action_area
+   726  gtk_dialog_get_content_area
+   729  gtk_dialog_get_type
+   733  gtk_dialog_run
+   736  gtk_dialog_set_default_response
+   737  gtk_dialog_set_has_separator
+   738  gtk_dialog_set_response_sensitive
+   742  gtk_drag_check_threshold
+   746  gtk_drag_dest_find_target
+   747  gtk_drag_dest_get_target_list
+   749  gtk_drag_dest_set
+   751  gtk_drag_dest_set_target_list
+   754  gtk_drag_finish
+   755  gtk_drag_get_data
+   807  gtk_editable_get_chars
+   812  gtk_editable_insert_text
+   821  gtk_entry_completion_get_entry
+   825  gtk_entry_completion_get_model
+   834  gtk_entry_completion_new
+   835  gtk_entry_completion_set_inline_completion
+   837  gtk_entry_completion_set_match_func
+   838  gtk_entry_completion_set_minimum_key_length
+   839  gtk_entry_completion_set_model
+   840  gtk_entry_completion_set_popup_completion
+   843  gtk_entry_completion_set_text_column
+   868  gtk_entry_get_text
+   870  gtk_entry_get_type
+   875  gtk_entry_new
+   880  gtk_entry_set_activates_default
+   882  gtk_entry_set_completion
+   891  gtk_entry_set_icon_from_stock
+   897  gtk_entry_set_max_length
+   902  gtk_entry_set_text
+   904  gtk_entry_set_width_chars
+   908  gtk_event_box_get_type
+   910  gtk_event_box_new
+   912  gtk_event_box_set_visible_window
+   933  gtk_file_chooser_add_filter
+   948  gtk_file_chooser_dialog_get_type
+   949  gtk_file_chooser_dialog_new
+   953  gtk_file_chooser_get_action
+   960  gtk_file_chooser_get_file
+   962  gtk_file_chooser_get_filename_utf8
+   965  gtk_file_chooser_get_files
+   966  gtk_file_chooser_get_filter
+   976  gtk_file_chooser_get_type
+   977  gtk_file_chooser_get_uri
+   996  gtk_file_chooser_set_current_folder_uri
+   998  gtk_file_chooser_set_current_name
+   999  gtk_file_chooser_set_do_overwrite_confirmation
+  1000  gtk_file_chooser_set_extra_widget
+  1001  gtk_file_chooser_set_file
+  1004  gtk_file_chooser_set_filter
+  1020  gtk_file_filter_add_custom
+  1022  gtk_file_filter_add_pattern
+  1026  gtk_file_filter_get_name
+  1029  gtk_file_filter_new
+  1030  gtk_file_filter_set_name
+  1050  gtk_font_button_get_font_name
+  1054  gtk_font_button_get_type
+  1059  gtk_font_button_set_font_name
+  1094  gtk_frame_get_type
+  1095  gtk_frame_new
+  1099  gtk_frame_set_shadow_type
+  1104  gtk_get_current_event
+  1106  gtk_get_current_event_time
+  1109  gtk_get_option_group
+  1110  gtk_grab_add
+  1112  gtk_grab_remove
+  1122  gtk_hbox_get_type
+  1123  gtk_hbox_new
+  1127  gtk_hbutton_box_new
+  1131  gtk_hpaned_new
+  1157  gtk_icon_info_free
+  1159  gtk_icon_info_get_base_size
+  1164  gtk_icon_info_get_filename_utf8
+  1166  gtk_icon_info_load_icon
+  1182  gtk_icon_size_lookup
+  1183  gtk_icon_size_lookup_for_settings
+  1212  gtk_icon_theme_append_search_path_utf8
+  1216  gtk_icon_theme_get_default
+  1218  gtk_icon_theme_get_for_screen
+  1223  gtk_icon_theme_has_icon
+  1226  gtk_icon_theme_load_icon
+  1227  gtk_icon_theme_lookup_by_gicon
+  1228  gtk_icon_theme_lookup_icon
+  1308  gtk_im_context_reset
+  1323  gtk_image_clear
+  1325  gtk_image_get_animation
+  1327  gtk_image_get_icon_name
+  1328  gtk_image_get_icon_set
+  1329  gtk_image_get_image
+  1330  gtk_image_get_pixbuf
+  1332  gtk_image_get_pixmap
+  1333  gtk_image_get_stock
+  1334  gtk_image_get_storage_type
+  1335  gtk_image_get_type
+  1338  gtk_image_menu_item_get_type
+  1343  gtk_image_menu_item_new_with_mnemonic
+  1346  gtk_image_menu_item_set_image
+  1348  gtk_image_new
+  1353  gtk_image_new_from_icon_name
+  1358  gtk_image_new_from_stock
+  1360  gtk_image_set_from_animation
+  1364  gtk_image_set_from_icon_name
+  1365  gtk_image_set_from_icon_set
+  1366  gtk_image_set_from_image
+  1367  gtk_image_set_from_pixbuf
+  1368  gtk_image_set_from_pixmap
+  1369  gtk_image_set_from_stock
+  1373  gtk_init_abi_check
+  1424  gtk_label_get_label
+  1436  gtk_label_get_type
+  1440  gtk_label_new
+  1441  gtk_label_new_with_mnemonic
+  1446  gtk_label_set_ellipsize
+  1447  gtk_label_set_justify
+  1449  gtk_label_set_line_wrap
+  1451  gtk_label_set_markup
+  1454  gtk_label_set_mnemonic_widget
+  1456  gtk_label_set_selectable
+  1457  gtk_label_set_single_line_mode
+  1458  gtk_label_set_text
+  1460  gtk_label_set_use_markup
+  1464  gtk_layout_get_bin_window
+  1465  gtk_layout_get_hadjustment
+  1466  gtk_layout_get_size
+  1467  gtk_layout_get_type
+  1468  gtk_layout_get_vadjustment
+  1470  gtk_layout_new
+  1473  gtk_layout_set_size
+  1508  gtk_list_store_append
+  1509  gtk_list_store_clear
+  1510  gtk_list_store_get_type
+  1511  gtk_list_store_insert
+  1512  gtk_list_store_insert_after
+  1516  gtk_list_store_iter_is_valid
+  1517  gtk_list_store_move_after
+  1519  gtk_list_store_new
+  1521  gtk_list_store_prepend
+  1522  gtk_list_store_remove
+  1524  gtk_list_store_set
+  1537  gtk_main
+  1542  gtk_main_quit
+  1571  gtk_menu_attach
+  1572  gtk_menu_attach_to_widget
+  1589  gtk_menu_get_type
+  1596  gtk_menu_item_get_type
+  1598  gtk_menu_item_new
+  1599  gtk_menu_item_new_with_label
+  1600  gtk_menu_item_new_with_mnemonic
+  1610  gtk_menu_new
+  1612  gtk_menu_popup
+  1623  gtk_menu_shell_append
+  1628  gtk_menu_shell_get_type
+  1630  gtk_menu_shell_prepend
+  1631  gtk_menu_shell_select_first
+  1632  gtk_menu_shell_select_item
+  1635  gtk_menu_tool_button_get_type
+  1637  gtk_menu_tool_button_new_from_stock
+  1640  gtk_menu_tool_button_set_arrow_tooltip_text
+  1641  gtk_menu_tool_button_set_menu
+  1643  gtk_message_dialog_format_secondary_text
+  1645  gtk_message_dialog_get_type
+  1646  gtk_message_dialog_new
+  1647  gtk_message_dialog_new_with_markup
+  1656  gtk_misc_get_type
+  1657  gtk_misc_set_alignment
+  1658  gtk_misc_set_padding
+  1663  gtk_mount_operation_new
+  1668  gtk_notebook_append_page_menu
+  1669  gtk_notebook_get_current_page
+  1674  gtk_notebook_get_n_pages
+  1675  gtk_notebook_get_nth_page
+  1680  gtk_notebook_get_tab_label
+  1682  gtk_notebook_get_tab_pos
+  1684  gtk_notebook_get_type
+  1685  gtk_notebook_insert_page
+  1687  gtk_notebook_new
+  1688  gtk_notebook_next_page
+  1689  gtk_notebook_page_num
+  1691  gtk_notebook_popup_enable
+  1694  gtk_notebook_prev_page
+  1696  gtk_notebook_remove_page
+  1697  gtk_notebook_reorder_child
+  1698  gtk_notebook_set_current_page
+  1704  gtk_notebook_set_scrollable
+  1705  gtk_notebook_set_show_border
+  1706  gtk_notebook_set_show_tabs
+  1713  gtk_notebook_set_tab_pos
+  1725  gtk_object_get_type
+  1756  gtk_orientation_get_type
+  1761  gtk_page_setup_copy
+  1764  gtk_page_setup_get_orientation
+  1768  gtk_page_setup_get_paper_size
+  1772  gtk_page_setup_get_type
+  1775  gtk_page_setup_new
+  1776  gtk_page_setup_new_from_file
+  1785  gtk_page_setup_to_file
+  1794  gtk_paint_flat_box
+  1814  gtk_paned_get_type
+  1815  gtk_paned_pack1
+  1816  gtk_paned_pack2
+  1817  gtk_paned_set_position
+  1826  gtk_paper_size_get_height
+  1831  gtk_paper_size_get_width
+  1882  gtk_print_context_get_page_setup
+  1886  gtk_print_context_set_cairo_context
+  1891  gtk_print_operation_cancel
+  1893  gtk_print_operation_get_default_page_setup
+  1894  gtk_print_operation_get_error
+  1895  gtk_print_operation_get_print_settings
+  1898  gtk_print_operation_get_type
+  1900  gtk_print_operation_new
+  1901  gtk_print_operation_preview_end_preview
+  1902  gtk_print_operation_preview_get_type
+  1903  gtk_print_operation_preview_is_selected
+  1904  gtk_print_operation_preview_render_page
+  1906  gtk_print_operation_run
+  1907  gtk_print_operation_set_allow_async
+  1909  gtk_print_operation_set_custom_tab_label
+  1910  gtk_print_operation_set_default_page_setup
+  1913  gtk_print_operation_set_job_name
+  1914  gtk_print_operation_set_n_pages
+  1915  gtk_print_operation_set_print_settings
+  1918  gtk_print_operation_set_unit
+  1923  gtk_print_run_page_setup_dialog_async
+  1924  gtk_print_settings_copy
+  1958  gtk_print_settings_get_type
+  1963  gtk_print_settings_new
+  1964  gtk_print_settings_new_from_file
+  1996  gtk_print_settings_to_file
+  1998  gtk_print_settings_unset
+  2010  gtk_progress_bar_get_type
+  2011  gtk_progress_bar_new
+  2014  gtk_progress_bar_pulse
+  2020  gtk_progress_bar_set_fraction
+  2040  gtk_propagate_event
+  2046  gtk_radio_action_get_current_value
+  2047  gtk_radio_action_get_group
+  2048  gtk_radio_action_get_type
+  2049  gtk_radio_action_new
+  2051  gtk_radio_action_set_group
+  2118  gtk_rc_parse_string
+  2133  gtk_rc_style_new
+  2149  gtk_recent_chooser_get_current_uri
+  2161  gtk_recent_chooser_get_type
+  2167  gtk_recent_chooser_menu_new_for_manager
+  2173  gtk_recent_chooser_set_filter
+  2174  gtk_recent_chooser_set_limit
+  2175  gtk_recent_chooser_set_local_only
+  2183  gtk_recent_chooser_set_sort_type
+  2192  gtk_recent_filter_add_group
+  2201  gtk_recent_filter_new
+  2209  gtk_recent_info_get_display_name
+  2213  gtk_recent_info_get_modified
+  2217  gtk_recent_info_get_uri
+  2221  gtk_recent_info_has_group
+  2225  gtk_recent_info_ref
+  2226  gtk_recent_info_unref
+  2227  gtk_recent_manager_add_full
+  2231  gtk_recent_manager_get_default
+  2233  gtk_recent_manager_get_items
+  2241  gtk_recent_manager_remove_item
+  2291  gtk_scrolled_window_get_type
+  2294  gtk_scrolled_window_new
+  2297  gtk_scrolled_window_set_policy
+  2298  gtk_scrolled_window_set_shadow_type
+  2308  gtk_selection_data_get_data
+  2326  gtk_selection_data_targets_include_text
+  2334  gtk_separator_menu_item_get_type
+  2335  gtk_separator_menu_item_new
+  2338  gtk_separator_tool_item_new
+  2342  gtk_settings_get_for_screen
+  2351  gtk_show_about_dialog
+  2352  gtk_show_uri
+  2390  gtk_spin_button_get_type
+  2393  gtk_spin_button_get_value_as_int
+  2404  gtk_spin_button_set_value
+  2446  gtk_statusbar_get_context_id
+  2448  gtk_statusbar_get_type
+  2449  gtk_statusbar_new
+  2450  gtk_statusbar_pop
+  2451  gtk_statusbar_push
+  2452  gtk_statusbar_remove
+  2453  gtk_statusbar_set_has_resize_grip
+  2481  gtk_table_attach_defaults
+  2487  gtk_table_get_type
+  2494  gtk_table_set_row_spacings
+  2501  gtk_target_list_add_uri_targets
+  2504  gtk_target_list_new
+  2507  gtk_target_list_unref
+  2543  gtk_text_buffer_apply_tag
+  2546  gtk_text_buffer_begin_user_action
+  2547  gtk_text_buffer_copy_clipboard
+  2549  gtk_text_buffer_create_mark
+  2550  gtk_text_buffer_create_tag
+  2551  gtk_text_buffer_cut_clipboard
+  2552  gtk_text_buffer_delete
+  2553  gtk_text_buffer_delete_interactive
+  2554  gtk_text_buffer_delete_mark
+  2556  gtk_text_buffer_delete_selection
+  2560  gtk_text_buffer_end_user_action
+  2561  gtk_text_buffer_get_bounds
+  2562  gtk_text_buffer_get_char_count
+  2565  gtk_text_buffer_get_end_iter
+  2566  gtk_text_buffer_get_has_selection
+  2567  gtk_text_buffer_get_insert
+  2569  gtk_text_buffer_get_iter_at_line
+  2572  gtk_text_buffer_get_iter_at_mark
+  2573  gtk_text_buffer_get_iter_at_offset
+  2574  gtk_text_buffer_get_line_count
+  2576  gtk_text_buffer_get_modified
+  2579  gtk_text_buffer_get_selection_bounds
+  2581  gtk_text_buffer_get_slice
+  2582  gtk_text_buffer_get_start_iter
+  2583  gtk_text_buffer_get_tag_table
+  2585  gtk_text_buffer_get_type
+  2586  gtk_text_buffer_insert
+  2587  gtk_text_buffer_insert_at_cursor
+  2596  gtk_text_buffer_move_mark
+  2597  gtk_text_buffer_move_mark_by_name
+  2599  gtk_text_buffer_paste_clipboard
+  2600  gtk_text_buffer_place_cursor
+  2607  gtk_text_buffer_remove_tag
+  2609  gtk_text_buffer_select_range
+  2611  gtk_text_buffer_set_modified
+  2612  gtk_text_buffer_set_text
+  2634  gtk_text_iter_backward_chars
+  2638  gtk_text_iter_backward_line
+  2639  gtk_text_iter_backward_lines
+  2643  gtk_text_iter_backward_to_tag_toggle
+  2652  gtk_text_iter_begins_tag
+  2654  gtk_text_iter_compare
+  2657  gtk_text_iter_ends_line
+  2659  gtk_text_iter_ends_tag
+  2660  gtk_text_iter_ends_word
+  2661  gtk_text_iter_equal
+  2662  gtk_text_iter_forward_char
+  2663  gtk_text_iter_forward_chars
+  2667  gtk_text_iter_forward_line
+  2668  gtk_text_iter_forward_lines
+  2673  gtk_text_iter_forward_to_line_end
+  2674  gtk_text_iter_forward_to_tag_toggle
+  2685  gtk_text_iter_get_buffer
+  2686  gtk_text_iter_get_bytes_in_line
+  2687  gtk_text_iter_get_char
+  2688  gtk_text_iter_get_chars_in_line
+  2691  gtk_text_iter_get_line
+  2695  gtk_text_iter_get_offset
+  2697  gtk_text_iter_get_slice
+  2701  gtk_text_iter_get_type
+  2706  gtk_text_iter_has_tag
+  2707  gtk_text_iter_in_range
+  2710  gtk_text_iter_is_cursor_position
+  2711  gtk_text_iter_is_end
+  2712  gtk_text_iter_is_start
+  2713  gtk_text_iter_order
+  2716  gtk_text_iter_set_line_offset
+  2720  gtk_text_iter_starts_line
+  2722  gtk_text_iter_starts_word
+  2790  gtk_text_tag_get_type
+  2792  gtk_text_tag_set_priority
+  2795  gtk_text_tag_table_get_size
+  2808  gtk_text_view_buffer_to_window_coords
+  2813  gtk_text_view_get_buffer
+  2816  gtk_text_view_get_editable
+  2823  gtk_text_view_get_line_at_y
+  2824  gtk_text_view_get_line_yrange
+  2825  gtk_text_view_get_overwrite
+  2831  gtk_text_view_get_type
+  2832  gtk_text_view_get_visible_rect
+  2833  gtk_text_view_get_window
+  2842  gtk_text_view_scroll_mark_onscreen
+  2844  gtk_text_view_scroll_to_mark
+  2848  gtk_text_view_set_cursor_visible
+  2849  gtk_text_view_set_editable
+  2859  gtk_text_view_set_wrap_mode
+  2875  gtk_toggle_action_get_active
+  2877  gtk_toggle_action_get_type
+  2879  gtk_toggle_action_set_active
+  2882  gtk_toggle_button_get_active
+  2885  gtk_toggle_button_get_type
+  2886  gtk_toggle_button_new
+  2889  gtk_toggle_button_set_active
+  2890  gtk_toggle_button_set_inconsistent
+  2903  gtk_tool_button_get_type
+  2905  gtk_tool_button_new
+  2906  gtk_tool_button_new_from_stock
+  2909  gtk_tool_button_set_label
+  2912  gtk_tool_button_set_use_underline
+  2921  gtk_tool_item_get_type
+  2925  gtk_tool_item_new
+  2929  gtk_tool_item_set_homogeneous
+  2930  gtk_tool_item_set_is_important
+  2934  gtk_tool_item_set_tooltip_text
+  2960  gtk_toolbar_get_type
+  2961  gtk_toolbar_insert
+  2967  gtk_toolbar_new
+  2977  gtk_toolbar_set_style
+  2982  gtk_toolbar_unset_style
+  2988  gtk_tooltip_set_markup
+  2989  gtk_tooltip_set_text
+  3040  gtk_tree_model_get
+  3041  gtk_tree_model_get_column_type
+  3043  gtk_tree_model_get_iter
+  3044  gtk_tree_model_get_iter_first
+  3047  gtk_tree_model_get_path
+  3049  gtk_tree_model_get_type
+  3055  gtk_tree_model_iter_next
+  3072  gtk_tree_model_sort_new_with_model
+  3080  gtk_tree_path_free
+  3082  gtk_tree_path_get_indices
+  3088  gtk_tree_path_new_from_indices
+  3089  gtk_tree_path_new_from_string
+  3090  gtk_tree_path_next
+  3092  gtk_tree_path_prev
+  3114  gtk_tree_selection_get_selected
+  3117  gtk_tree_selection_get_type
+  3122  gtk_tree_selection_select_iter
+  3125  gtk_tree_selection_selected_foreach
+  3126  gtk_tree_selection_set_mode
+  3137  gtk_tree_sortable_get_type
+  3139  gtk_tree_sortable_set_default_sort_func
+  3140  gtk_tree_sortable_set_sort_column_id
+  3169  gtk_tree_view_append_column
+  3172  gtk_tree_view_column_add_attribute
+  3201  gtk_tree_view_column_new
+  3202  gtk_tree_view_column_new_with_attributes
+  3204  gtk_tree_view_column_pack_start
+  3208  gtk_tree_view_column_set_cell_data_func
+  3215  gtk_tree_view_column_set_resizable
+  3217  gtk_tree_view_column_set_sort_column_id
+  3220  gtk_tree_view_column_set_spacing
+  3221  gtk_tree_view_column_set_title
+  3230  gtk_tree_view_convert_widget_to_bin_window_coords
+  3240  gtk_tree_view_get_bin_window
+  3241  gtk_tree_view_get_cell_area
+  3242  gtk_tree_view_get_column
+  3244  gtk_tree_view_get_cursor
+  3258  gtk_tree_view_get_model
+  3259  gtk_tree_view_get_path_at_pos
+  3268  gtk_tree_view_get_selection
+  3272  gtk_tree_view_get_type
+  3284  gtk_tree_view_new
+  3285  gtk_tree_view_new_with_model
+  3292  gtk_tree_view_set_cursor
+  3296  gtk_tree_view_set_enable_search
+  3303  gtk_tree_view_set_headers_visible
+  3307  gtk_tree_view_set_model
+  3308  gtk_tree_view_set_reorderable
+  3311  gtk_tree_view_set_rules_hint
+  3312  gtk_tree_view_set_search_column
+  3314  gtk_tree_view_set_search_equal_func
+  3334  gtk_ui_manager_add_ui
+  3336  gtk_ui_manager_add_ui_from_file_utf8
+  3338  gtk_ui_manager_ensure_update
+  3339  gtk_ui_manager_get_accel_group
+  3340  gtk_ui_manager_get_action
+  3346  gtk_ui_manager_get_widget
+  3347  gtk_ui_manager_insert_action_group
+  3349  gtk_ui_manager_new
+  3350  gtk_ui_manager_new_merge_id
+  3352  gtk_ui_manager_remove_ui
+  3356  gtk_vbox_get_type
+  3357  gtk_vbox_new
+  3376  gtk_vpaned_new
+  3388  gtk_widget_add_events
+  3400  gtk_widget_destroy
+  3401  gtk_widget_destroyed
+  3403  gtk_widget_ensure_style
+  3404  gtk_widget_error_bell
+  3405  gtk_widget_event
+  3408  gtk_widget_get_accessible
+  3413  gtk_widget_get_clipboard
+  3420  gtk_widget_get_direction
+  3421  gtk_widget_get_display
+  3428  gtk_widget_get_pango_context
+  3429  gtk_widget_get_parent
+  3433  gtk_widget_get_screen
+  3434  gtk_widget_get_settings
+  3437  gtk_widget_get_style
+  3441  gtk_widget_get_toplevel
+  3442  gtk_widget_get_type
+  3444  gtk_widget_get_window
+  3445  gtk_widget_grab_default
+  3446  gtk_widget_grab_focus
+  3449  gtk_widget_hide
+  3462  gtk_widget_modify_base
+  3466  gtk_widget_modify_font
+  3467  gtk_widget_modify_style
+  3468  gtk_widget_modify_text
+  3477  gtk_widget_queue_draw
+  3478  gtk_widget_queue_draw_area
+  3479  gtk_widget_queue_resize
+  3481  gtk_widget_realize
+  3493  gtk_widget_set_app_paintable
+  3504  gtk_widget_set_name
+  3510  gtk_widget_set_sensitive
+  3511  gtk_widget_set_size_request
+  3513  gtk_widget_set_style
+  3514  gtk_widget_set_tooltip_markup
+  3515  gtk_widget_set_tooltip_text
+  3520  gtk_widget_show
+  3521  gtk_widget_show_all
+  3524  gtk_widget_size_request
+  3525  gtk_widget_style_get
+  3538  gtk_window_activate_key
+  3539  gtk_window_add_accel_group
+  3545  gtk_window_fullscreen
+  3554  gtk_window_get_focus
+  3558  gtk_window_get_group
+  3566  gtk_window_get_position
+  3568  gtk_window_get_role
+  3569  gtk_window_get_screen
+  3570  gtk_window_get_size
+  3574  gtk_window_get_transient_for
+  3575  gtk_window_get_type
+  3578  gtk_window_group_add_window
+  3581  gtk_window_group_new
+  3582  gtk_window_group_remove_window
+  3585  gtk_window_is_active
+  3587  gtk_window_maximize
+  3589  gtk_window_move
+  3590  gtk_window_new
+  3593  gtk_window_present
+  3594  gtk_window_present_with_time
+  3595  gtk_window_propagate_key_event
+  3600  gtk_window_resize
+  3609  gtk_window_set_default_icon_name
+  3610  gtk_window_set_default_size
+  3612  gtk_window_set_destroy_with_parent
+  3627  gtk_window_set_modal
+  3630  gtk_window_set_position
+  3631  gtk_window_set_resizable
+  3632  gtk_window_set_role
+  3633  gtk_window_set_screen
+  3635  gtk_window_set_skip_taskbar_hint
+  3637  gtk_window_set_title
+  3638  gtk_window_set_transient_for
+  3642  gtk_window_stick
+  3644  gtk_window_unfullscreen
+  3645  gtk_window_unmaximize
+  3646  gtk_window_unstick
+
+  libpango-1.0-0.dll
+  OrigFirstThunk:  0007A48C (Unbound IAT)
+  TimeDateStamp:   00000000 -> Wed Dec 31 19:00:00 1969
+  ForwarderChain:  00000000
+  First thunk RVA: 0007B7C0
+  Ordn  Name
+    64  pango_context_get_language
+    66  pango_context_get_metrics
+    98  pango_find_paragraph_boundary
+   105  pango_font_description_free
+   106  pango_font_description_from_string
+   156  pango_font_metrics_get_approximate_char_width
+   157  pango_font_metrics_get_approximate_digit_width
+   167  pango_font_metrics_unref
+
+
+exports table:
+
+  Name:            gedit.exe
+  Characteristics: 00000000
+  TimeDateStamp:   4BCB56DE -> Sun Apr 18 15:00:46 2010
+  Version:         0.00
+  Ordinal base:    00000001
+  # of functions:  000002BB
+  # of Names:      000002BB
+
+  Entry Pt  Ordn  Name
+  00012680     1  _gedit_app_get_default_page_setup
+  00012890     2  _gedit_app_get_default_print_settings
+  00012230     3  _gedit_app_get_window_in_viewport
+  00011F10     4  _gedit_app_restore_window
+  000127B0     5  _gedit_app_set_default_page_setup
+  000129C0     6  _gedit_app_set_default_print_settings
+  00012550     7  _gedit_app_set_lockdown
+  000125E0     8  _gedit_app_set_lockdown_bit
+  00032650     9  _gedit_cmd_documents_move_to_new_window
+  000325E0    10  _gedit_cmd_documents_next_document
+  00032570    11  _gedit_cmd_documents_previous_document
+  00033CC0    12  _gedit_cmd_edit_copy
+  00033C30    13  _gedit_cmd_edit_cut
+  00033DE0    14  _gedit_cmd_edit_delete
+  00033D50    15  _gedit_cmd_edit_paste
+  00033F00    16  _gedit_cmd_edit_preferences
+  00033B60    17  _gedit_cmd_edit_redo
+  00033E70    18  _gedit_cmd_edit_select_all
+  00033A90    19  _gedit_cmd_edit_undo
+  000110A0    20  _gedit_cmd_file_close
+  000112E0    21  _gedit_cmd_file_close_all
+  00010ED0    22  _gedit_cmd_file_close_tab
+  0000E170    23  _gedit_cmd_file_new
+  0000EB70    24  _gedit_cmd_file_open
+  00033F40    25  _gedit_cmd_file_page_setup
+  00034000    26  _gedit_cmd_file_print
+  00033FA0    27  _gedit_cmd_file_print_preview
+  00011360    28  _gedit_cmd_file_quit
+  000100A0    29  _gedit_cmd_file_revert
+  0000F980    30  _gedit_cmd_file_save
+  0000FE20    31  _gedit_cmd_file_save_all
+  0000F9E0    32  _gedit_cmd_file_save_as
+  0000FAA0    33  _gedit_cmd_file_save_documents_list
+  000340C0    34  _gedit_cmd_help_about
+  00034060    35  _gedit_cmd_help_contents
+  0000E8F0    36  _gedit_cmd_load_files_from_prompt
+  00033900    37  _gedit_cmd_search_clear_highlight
+  00033380    38  _gedit_cmd_search_find
+  00033870    39  _gedit_cmd_search_find_next
+  000338B0    40  _gedit_cmd_search_find_prev
+  00033970    41  _gedit_cmd_search_goto_line
+  00033A00    42  _gedit_cmd_search_incremental_search
+  00033590    43  _gedit_cmd_search_replace
+  000324B0    44  _gedit_cmd_view_leave_fullscreen_mode
+  00032390    45  _gedit_cmd_view_show_bottom_pane
+  000322D0    46  _gedit_cmd_view_show_side_pane
+  00032240    47  _gedit_cmd_view_show_statusbar
+  000321B0    48  _gedit_cmd_view_show_toolbar
+  00032450    49  _gedit_cmd_view_toggle_fullscreen_mode
+  00021D70    50  _gedit_document_check_externally_modified
+  00024700    51  _gedit_document_create_mount_operation
+  00023000    52  _gedit_document_get_seconds_since_last_save_or_load
+  00023650    53  _gedit_document_search_region
+  00024680    54  _gedit_document_set_mount_operation_factory
+  00021C20    55  _gedit_document_set_readonly
+  0002E390    56  _gedit_panel_get_active_item_id
+  0002E490    57  _gedit_panel_set_active_item_by_id
+  00037B90    58  _gedit_plugin_info_new
+  00037A10    59  _gedit_plugin_info_ref
+  00037A50    60  _gedit_plugin_info_unref
+  00006230    61  _gedit_recent_add
+  000062F0    62  _gedit_recent_remove
+  000305A0    63  _gedit_statusbar_set_has_resize_grip
+  00020130    64  _gedit_style_scheme_manager_install_scheme
+  000200D0    65  _gedit_style_scheme_manager_scheme_is_gedit_user_scheme
+  00020460    66  _gedit_style_scheme_manager_uninstall_scheme
+  0001FD80    67  _gedit_tab_can_close
+  0001E9A0    68  _gedit_tab_get_icon
+  0001E460    69  _gedit_tab_get_name
+  0001E6A0    70  _gedit_tab_get_tooltips
+  0001C9A0    71  _gedit_tab_load
+  0001FCE0    72  _gedit_tab_mark_for_closing
+  0001C310    73  _gedit_tab_new
+  0001CAD0    74  _gedit_tab_new_from_uri
+  0001F850    75  _gedit_tab_page_setup
+  0001FBC0    76  _gedit_tab_print
+  0001FC50    77  _gedit_tab_print_preview
+  0001C790    78  _gedit_tab_revert
+  0001ECC0    79  _gedit_tab_save
+  0001F0B0    80  _gedit_tab_save_as
+  0000D8E0    81  _gedit_window_fullscreen
+  0000D4F0    82  _gedit_window_get_default_location
+  00005610    83  _gedit_window_get_notebook
+  0000D860    84  _gedit_window_is_fullscreen
+  0000D290    85  _gedit_window_is_removing_tabs
+  0000CF30    86  _gedit_window_move_tab_to_new_window
+  0000D570    87  _gedit_window_set_default_location
+  00009020    88  _gedit_window_set_lockdown
+  0000D790    89  _gedit_window_set_saving_session_state
+  0000DCD0    90  _gedit_window_unfullscreen
+  00070148    91  default_engine
+  00017810    92  egg_sm_client_end_session
+  00017480    93  egg_sm_client_get
+  00017470    94  egg_sm_client_get_mode
+  000173A0    95  egg_sm_client_get_option_group
+  000175A0    96  egg_sm_client_get_state_file
+  00017180    97  egg_sm_client_get_type
+  00017560    98  egg_sm_client_is_resumed
+  00017AE0    99  egg_sm_client_quit
+  00017A50   100  egg_sm_client_quit_cancelled
+  00017970   101  egg_sm_client_quit_requested
+  000178A0   102  egg_sm_client_save_state
+  00017460   103  egg_sm_client_set_mode
+  000176E0   104  egg_sm_client_set_restart_command
+  00017780   105  egg_sm_client_will_quit
+  00038F10   106  egg_sm_client_win32_get_type
+  00039000   107  egg_sm_client_win32_new
+  00013EC0   108  g_utf8_caselessnmatch
+  0005813C   109  g_win32_handle_source_funcs
+  00011EB0   110  gedit_app_create_window
+  00011FA0   111  gedit_app_get_active_window
+  000116E0   112  gedit_app_get_default
+  00012370   113  gedit_app_get_documents
+  00011790   114  gedit_app_get_lockdown
+  000113E0   115  gedit_app_get_type
+  00012420   116  gedit_app_get_views
+  00011F30   117  gedit_app_get_windows
+  00043F40   118  gedit_close_button_get_type
+  00044120   119  gedit_close_button_new
+  00034870   120  gedit_close_confirmation_dialog_get_selected_documents
+  00034230   121  gedit_close_confirmation_dialog_get_type
+  00035C00   122  gedit_close_confirmation_dialog_get_unsaved_documents
+  00034900   123  gedit_close_confirmation_dialog_new
+  00034A10   124  gedit_close_confirmation_dialog_new_single
+  0000E6B0   125  gedit_commands_load_uri
+  0000E7E0   126  gedit_commands_load_uris
+  0000FD60   127  gedit_commands_save_all_documents
+  0000FE30   128  gedit_commands_save_document
+  0003CB90   129  gedit_conversion_error_message_area_get_encoding
+  0003CA10   130  gedit_conversion_error_while_saving_message_area_new
+  00017E80   131  gedit_debug
+  00017BE0   132  gedit_debug_init
+  00017DB0   133  gedit_debug_message
+  00031FF0   134  gedit_debug_section_get_type
+  00013DC0   135  gedit_dialog_add_button
+  00016F90   136  gedit_dirs_get_gedit_data_dir
+  00017030   137  gedit_dirs_get_gedit_lib_dir
+  00016FE0   138  gedit_dirs_get_gedit_locale_dir
+  000170C0   139  gedit_dirs_get_gedit_plugin_loaders_dir
+  00017080   140  gedit_dirs_get_gedit_plugins_dir
+  00017100   141  gedit_dirs_get_ui_file
+  00016F40   142  gedit_dirs_get_user_accels_file
+  00016ED0   143  gedit_dirs_get_user_cache_dir
+  00016EA0   144  gedit_dirs_get_user_config_dir
+  00016F00   145  gedit_dirs_get_user_plugins_dir
+  000205A0   146  gedit_document_error_quark
+  00021150   147  gedit_document_get_can_search_again
+  000211E0   148  gedit_document_get_content_type
+  000226F0   149  gedit_document_get_deleted
+  00021040   150  gedit_document_get_enable_search_highlighting
+  00022F90   151  gedit_document_get_encoding
+  000210C0   152  gedit_document_get_language
+  00021460   153  gedit_document_get_location
+  00021F00   154  gedit_document_get_metadata
+  000219A0   155  gedit_document_get_mime_type
+  00024610   156  gedit_document_get_newline_type
+  00021CF0   157  gedit_document_get_readonly
+  000229E0   158  gedit_document_get_search_text
+  000218E0   159  gedit_document_get_short_name_for_display
+  00020510   160  gedit_document_get_type
+  00021720   161  gedit_document_get_uri
+  00021840   162  gedit_document_get_uri_for_display
+  00022780   163  gedit_document_goto_line
+  000228C0   164  gedit_document_goto_line_offset
+  00053AD0   165  gedit_document_input_stream_get_total_size
+  00053600   166  gedit_document_input_stream_get_type
+  00053A10   167  gedit_document_input_stream_new
+  00053B60   168  gedit_document_input_stream_tell
+  000224B0   169  gedit_document_insert_file
+  00022670   170  gedit_document_is_local
+  000225F0   171  gedit_document_is_untitled
+  00022550   172  gedit_document_is_untouched
+  00022100   173  gedit_document_load
+  00022210   174  gedit_document_load_cancel
+  00041230   175  gedit_document_loader_cancel
+  000413C0   176  gedit_document_loader_get_bytes_read
+  000412E0   177  gedit_document_loader_get_document
+  00041440   178  gedit_document_loader_get_encoding
+  00041690   179  gedit_document_loader_get_info
+  00041620   180  gedit_document_loader_get_newline_type
+  00040AD0   181  gedit_document_loader_get_type
+  00041350   182  gedit_document_loader_get_uri
+  00041160   183  gedit_document_loader_load
+  00040FB0   184  gedit_document_loader_loading
+  00041070   185  gedit_document_loader_new
+  00020E60   186  gedit_document_new
+  00032030   187  gedit_document_newline_type_get_type
+  00054610   188  gedit_document_output_stream_detect_newline_type
+  00054150   189  gedit_document_output_stream_get_type
+  000545C0   190  gedit_document_output_stream_new
+  00023E20   191  gedit_document_replace_all
+  00022350   192  gedit_document_save
+  000223F0   193  gedit_document_save_as
+  000320B0   194  gedit_document_save_flags_get_type
+  000409E0   195  gedit_document_saver_get_bytes_written
+  00040880   196  gedit_document_saver_get_document
+  00040960   197  gedit_document_saver_get_file_size
+  00040A60   198  gedit_document_saver_get_info
+  0003FF50   199  gedit_document_saver_get_type
+  000408F0   200  gedit_document_saver_get_uri
+  000405A0   201  gedit_document_saver_new
+  00040790   202  gedit_document_saver_save
+  000406D0   203  gedit_document_saver_saving
+  00022D10   204  gedit_document_search_backward
+  00022A80   205  gedit_document_search_forward
+  000215B0   206  gedit_document_set_content_type
+  00023C80   207  gedit_document_set_enable_search_highlighting
+  00024A40   208  gedit_document_set_language
+  000247D0   209  gedit_document_set_metadata
+  00020F90   210  gedit_document_set_newline_type
+  000233C0   211  gedit_document_set_search_text
+  00021270   212  gedit_document_set_short_name_for_display
+  000217B0   213  gedit_document_set_uri
+  0002E5E0   214  gedit_documents_panel_get_type
+  0002FCF0   215  gedit_documents_panel_new
+  000182E0   216  gedit_encoding_copy
+  00018320   217  gedit_encoding_free
+  00018220   218  gedit_encoding_get_charset
+  000180E0   219  gedit_encoding_get_current
+  00017FB0   220  gedit_encoding_get_from_charset
+  00018080   221  gedit_encoding_get_from_index
+  00018280   222  gedit_encoding_get_name
+  00018350   223  gedit_encoding_get_type
+  00017F90   224  gedit_encoding_get_utf8
+  00018170   225  gedit_encoding_to_string
+  00049230   226  gedit_encodings_combo_box_get_selected_encoding
+  00048610   227  gedit_encodings_combo_box_get_type
+  00049200   228  gedit_encodings_combo_box_new
+  00049320   229  gedit_encodings_combo_box_set_selected_encoding
+  000526B0   230  gedit_encodings_dialog_get_type
+  000535C0   231  gedit_encodings_dialog_new
+  0003DC00   232  gedit_externally_modified_message_area_new
+  0003D050   233  gedit_externally_modified_saving_error_message_area_new
+  0003CC50   234  gedit_file_already_open_warning_message_area_new
+  00036A40   235  gedit_file_chooser_dialog_get_encoding
+  00036CD0   236  gedit_file_chooser_dialog_get_newline_type
+  00035C70   237  gedit_file_chooser_dialog_get_type
+  00036210   238  gedit_file_chooser_dialog_new
+  00036950   239  gedit_file_chooser_dialog_set_encoding
+  00036B80   240  gedit_file_chooser_dialog_set_newline_type
+  00013D30   241  gedit_gdk_color_to_string
+  00031E80   242  gedit_get_language_manager
+  0001FF70   243  gedit_get_style_scheme_manager
+  0004D040   244  gedit_gio_document_loader_get_type
+  0004BBC0   245  gedit_gio_document_saver_get_type
+  00013D60   246  gedit_gtk_button_new_with_stock_icon
+  000483C0   247  gedit_help_display
+  0004FC40   248  gedit_history_entry_append_text
+  0004FCE0   249  gedit_history_entry_clear
+  0004FEC0   250  gedit_history_entry_get_enable_completion
+  0004FF40   251  gedit_history_entry_get_entry
+  0004FE30   252  gedit_history_entry_get_history_id
+  0004FDC0   253  gedit_history_entry_get_history_length
+  0004F250   254  gedit_history_entry_get_type
+  00050160   255  gedit_history_entry_new
+  0004FBB0   256  gedit_history_entry_prepend_text
+  0004FFD0   257  gedit_history_entry_set_enable_completion
+  00050440   258  gedit_history_entry_set_escape_func
+  0004F2E0   259  gedit_history_entry_set_history_length
+  0003C660   260  gedit_io_loading_error_message_area_new
+  00031EE0   261  gedit_language_manager_list_languages_sorted
+  00031FB0   262  gedit_lockdown_mask_get_type
+  000417D0   263  gedit_marshal_BOOLEAN__OBJECT
+  00041700   264  gedit_marshal_BOOLEAN__VOID
+  000418B0   265  gedit_marshal_VOID__BOOLEAN_POINTER
+  00041950   266  gedit_marshal_VOID__BOXED_BOXED
+  00041C00   267  gedit_marshal_VOID__INT_INT
+  000419F0   268  gedit_marshal_VOID__STRING_BOXED_FLAGS
+  00041AA0   269  gedit_marshal_VOID__STRING_BOXED_INT_BOOLEAN
+  00041B50   270  gedit_marshal_VOID__UINT64_UINT64
+  0003E2C0   271  gedit_message_area_add_action_widget
+  0003E5D0   272  gedit_message_area_add_button
+  0003E720   273  gedit_message_area_add_buttons
+  0003EAC0   274  gedit_message_area_add_stock_button_with_text
+  0003DD60   275  gedit_message_area_get_type
+  0003E740   276  gedit_message_area_new
+  0003E760   277  gedit_message_area_new_with_buttons
+  0003E960   278  gedit_message_area_response
+  0003E4D0   279  gedit_message_area_set_contents
+  0003E890   280  gedit_message_area_set_default_response
+  0003E7B0   281  gedit_message_area_set_response_sensitive
+  0002C2A0   282  gedit_message_bus_block
+  0002C340   283  gedit_message_bus_block_by_func
+  0002BFF0   284  gedit_message_bus_connect
+  0002C140   285  gedit_message_bus_disconnect
+  0002C1E0   286  gedit_message_bus_disconnect_by_func
+  0002BF40   287  gedit_message_bus_foreach
+  0002B8B0   288  gedit_message_bus_get_default
+  0002B0E0   289  gedit_message_bus_get_type
+  0002BA00   290  gedit_message_bus_is_registered
+  0002B940   291  gedit_message_bus_lookup
+  0002B910   292  gedit_message_bus_new
+  0002BAE0   293  gedit_message_bus_register
+  0002C8D0   294  gedit_message_bus_send
+  0002C660   295  gedit_message_bus_send_message
+  0002C780   296  gedit_message_bus_send_message_sync
+  0002C940   297  gedit_message_bus_send_sync
+  0002C400   298  gedit_message_bus_unblock
+  0002C4A0   299  gedit_message_bus_unblock_by_func
+  0002BD60   300  gedit_message_bus_unregister
+  0002BE70   301  gedit_message_bus_unregister_all
+  00043BB0   302  gedit_message_get
+  00043D10   303  gedit_message_get_key_type
+  00043420   304  gedit_message_get_method
+  000434B0   305  gedit_message_get_object_path
+  00042E90   306  gedit_message_get_type
+  000439B0   307  gedit_message_get_valist
+  00043C30   308  gedit_message_get_value
+  00043DB0   309  gedit_message_has_key
+  000437B0   310  gedit_message_set
+  00043540   311  gedit_message_set_valist
+  00043830   312  gedit_message_set_value
+  00043910   313  gedit_message_set_valuesv
+  00042E50   314  gedit_message_type_foreach
+  00042DE0   315  gedit_message_type_get_method
+  00042DD0   316  gedit_message_type_get_object_path
+  00042930   317  gedit_message_type_get_type
+  00042970   318  gedit_message_type_identifier
+  00042DB0   319  gedit_message_type_instantiate
+  00042D20   320  gedit_message_type_instantiate_valist
+  00042A10   321  gedit_message_type_is_supported
+  000429A0   322  gedit_message_type_is_valid_object_path
+  00042DF0   323  gedit_message_type_lookup
+  00042CF0   324  gedit_message_type_new
+  00042BF0   325  gedit_message_type_new_valist
+  00042860   326  gedit_message_type_ref
+  00042BC0   327  gedit_message_type_set
+  00042A80   328  gedit_message_type_set_valist
+  000428B0   329  gedit_message_type_unref
+  00043E90   330  gedit_message_validate
+  0003D4C0   331  gedit_no_backup_saving_error_message_area_new
+  0002A270   332  gedit_notebook_add_tab
+  0002AF40   333  gedit_notebook_get_close_buttons_sensitive
+  0002B060   334  gedit_notebook_get_tab_drag_and_drop_enabled
+  000292F0   335  gedit_notebook_get_type
+  0002A7D0   336  gedit_notebook_move_tab
+  00029DD0   337  gedit_notebook_new
+  0002AD10   338  gedit_notebook_remove_all_tabs
+  0002A5D0   339  gedit_notebook_remove_tab
+  00029860   340  gedit_notebook_reorder_tab
+  0002A1D0   341  gedit_notebook_set_always_show_tabs
+  0002AE60   342  gedit_notebook_set_close_buttons_sensitive
+  0002AFC0   343  gedit_notebook_set_tab_drag_and_drop_enabled
+  00038DC0   344  gedit_object_module_get_module_name
+  00038EA0   345  gedit_object_module_get_object_type
+  00038D50   346  gedit_object_module_get_path
+  00038480   347  gedit_object_module_get_type
+  00038E30   348  gedit_object_module_get_type_registration
+  00038C50   349  gedit_object_module_new
+  00038CB0   350  gedit_object_module_new_object
+  0002E080   351  gedit_panel_activate_item
+  0002D990   352  gedit_panel_add_item
+  0002DE20   353  gedit_panel_add_item_with_stock_icon
+  0002E2F0   354  gedit_panel_get_n_items
+  0002E280   355  gedit_panel_get_orientation
+  0002C990   356  gedit_panel_get_type
+  0002E180   357  gedit_panel_item_is_active
+  0002D940   358  gedit_panel_new
+  0002DE70   359  gedit_panel_remove_item
+  00037360   360  gedit_plugin_activate
+  00037670   361  gedit_plugin_create_configure_dialog
+  00037440   362  gedit_plugin_deactivate
+  000371A0   363  gedit_plugin_get_data_dir
+  00037100   364  gedit_plugin_get_install_dir
+  00036DD0   365  gedit_plugin_get_type
+  00038380   366  gedit_plugin_info_get_authors
+  00038400   367  gedit_plugin_info_get_copyright
+  000382D0   368  gedit_plugin_info_get_description
+  00038310   369  gedit_plugin_info_get_icon_name
+  00038250   370  gedit_plugin_info_get_module_name
+  00038290   371  gedit_plugin_info_get_name
+  00037B50   372  gedit_plugin_info_get_type
+  00038440   373  gedit_plugin_info_get_version
+  000383C0   374  gedit_plugin_info_get_website
+  00038120   375  gedit_plugin_info_is_active
+  00038180   376  gedit_plugin_info_is_available
+  000381C0   377  gedit_plugin_info_is_configurable
+  000375F0   378  gedit_plugin_is_configurable
+  00037980   379  gedit_plugin_loader_garbage_collect
+  00037710   380  gedit_plugin_loader_get_type
+  00037800   381  gedit_plugin_loader_load
+  00037750   382  gedit_plugin_loader_type_get_id
+  000378D0   383  gedit_plugin_loader_unload
+  000505B0   384  gedit_plugin_manager_get_type
+  00052690   385  gedit_plugin_manager_new
+  00037520   386  gedit_plugin_update_ui
+  000163E0   387  gedit_plugins_engine_activate_plugin
+  000169B0   388  gedit_plugins_engine_activate_plugins
+  00016D40   389  gedit_plugins_engine_active_plugins_changed
+  00016BF0   390  gedit_plugins_engine_configure_plugin
+  00016690   391  gedit_plugins_engine_deactivate_plugin
+  00016760   392  gedit_plugins_engine_deactivate_plugins
+  00015C40   393  gedit_plugins_engine_garbage_collect
+  00015FD0   394  gedit_plugins_engine_get_default
+  000160A0   395  gedit_plugins_engine_get_plugin_info
+  00016040   396  gedit_plugins_engine_get_plugin_list
+  00015730   397  gedit_plugins_engine_get_type
+  00016E60   398  gedit_plugins_engine_rescan_plugins
+  00016890   399  gedit_plugins_engine_update_plugins_ui
+  00045B50   400  gedit_preferences_dialog_get_type
+  00070270   401  gedit_prefs_manager
+  00002340   402  gedit_prefs_manager_active_file_filter_can_set
+  0001A0D0   403  gedit_prefs_manager_active_plugins_can_set
+  00002350   404  gedit_prefs_manager_app_init
+  000027E0   405  gedit_prefs_manager_app_shutdown
+  00018D30   406  gedit_prefs_manager_auto_indent_can_set
+  000189C0   407  gedit_prefs_manager_auto_save_can_set
+  00018A50   408  gedit_prefs_manager_auto_save_interval_can_set
+  00002290   409  gedit_prefs_manager_bottom_panel_active_page_can_set
+  00002210   410  gedit_prefs_manager_bottom_panel_size_can_set
+  000190B0   411  gedit_prefs_manager_bottom_panel_visible_can_set
+  00019B10   412  gedit_prefs_manager_bracket_matching_can_set
+  00018930   413  gedit_prefs_manager_create_backup_copy_can_set
+  00018DC0   414  gedit_prefs_manager_display_line_numbers_can_set
+  00019BA0   415  gedit_prefs_manager_display_right_margin_can_set
+  000188A0   416  gedit_prefs_manager_editor_font_can_set
+  00019E10   417  gedit_prefs_manager_enable_search_highlighting_can_set
+  00019D80   418  gedit_prefs_manager_enable_syntax_highlighting_can_set
+  000022A0   419  gedit_prefs_manager_get_active_file_filter
+  0001A040   420  gedit_prefs_manager_get_active_plugins
+  00019540   421  gedit_prefs_manager_get_auto_detected_encodings
+  0001A800   422  gedit_prefs_manager_get_auto_indent
+  0001A880   423  gedit_prefs_manager_get_auto_save
+  0001B150   424  gedit_prefs_manager_get_auto_save_interval
+  00002220   425  gedit_prefs_manager_get_bottom_panel_active_page
+  00002160   426  gedit_prefs_manager_get_bottom_panel_size
+  0001A6C0   427  gedit_prefs_manager_get_bottom_panel_visible
+  0001A5C0   428  gedit_prefs_manager_get_bracket_matching
+  0001A8C0   429  gedit_prefs_manager_get_create_backup_copy
+  000021A0   430  gedit_prefs_manager_get_default_bottom_panel_size
+  000193D0   431  gedit_prefs_manager_get_default_print_font_body
+  00019470   432  gedit_prefs_manager_get_default_print_font_header
+  00019510   433  gedit_prefs_manager_get_default_print_font_numbers
+  00002060   434  gedit_prefs_manager_get_default_side_panel_size
+  00001F40   435  gedit_prefs_manager_get_default_window_size
+  0001A7C0   436  gedit_prefs_manager_get_display_line_numbers
+  0001A580   437  gedit_prefs_manager_get_display_right_margin
+  0001AE90   438  gedit_prefs_manager_get_editor_font
+  0001A500   439  gedit_prefs_manager_get_enable_search_highlighting
+  0001A540   440  gedit_prefs_manager_get_enable_syntax_highlighting
+  0001A600   441  gedit_prefs_manager_get_highlight_current_line
+  0001A840   442  gedit_prefs_manager_get_insert_spaces
+  0001A460   443  gedit_prefs_manager_get_lockdown
+  0001B050   444  gedit_prefs_manager_get_max_recents
+  0001ABD0   445  gedit_prefs_manager_get_print_font_body
+  0001AB90   446  gedit_prefs_manager_get_print_font_header
+  0001AB50   447  gedit_prefs_manager_get_print_font_numbers
+  0001A640   448  gedit_prefs_manager_get_print_header
+  0001B090   449  gedit_prefs_manager_get_print_line_numbers
+  0001A680   450  gedit_prefs_manager_get_print_syntax_hl
+  0001AC10   451  gedit_prefs_manager_get_print_wrap_mode
+  0001A4C0   452  gedit_prefs_manager_get_restore_cursor_position
+  0001B010   453  gedit_prefs_manager_get_right_margin_position
+  00019780   454  gedit_prefs_manager_get_shown_in_menu_encodings
+  0001A700   455  gedit_prefs_manager_get_side_pane_visible
+  000020E0   456  gedit_prefs_manager_get_side_panel_active_page
+  00002020   457  gedit_prefs_manager_get_side_panel_size
+  0001AA60   458  gedit_prefs_manager_get_smart_home_end
+  0001AA20   459  gedit_prefs_manager_get_source_style_scheme
+  0001A740   460  gedit_prefs_manager_get_statusbar_visible
+  0001AE50   461  gedit_prefs_manager_get_system_font
+  0001B0D0   462  gedit_prefs_manager_get_tabs_size
+  0001ACB0   463  gedit_prefs_manager_get_toolbar_buttons_style
+  0001A780   464  gedit_prefs_manager_get_toolbar_visible
+  0001B110   465  gedit_prefs_manager_get_undo_actions_limit
+  0001A900   466  gedit_prefs_manager_get_use_default_font
+  00001E70   467  gedit_prefs_manager_get_window_size
+  00001DD0   468  gedit_prefs_manager_get_window_state
+  0001AD80   469  gedit_prefs_manager_get_wrap_mode
+  00019EE0   470  gedit_prefs_manager_get_writable_vfs_schemes
+  00019A80   471  gedit_prefs_manager_highlight_current_line_can_set
+  00018390   472  gedit_prefs_manager_init
+  00018CA0   473  gedit_prefs_manager_insert_spaces_can_set
+  00019390   474  gedit_prefs_manager_print_font_body_can_set
+  00019430   475  gedit_prefs_manager_print_font_header_can_set
+  000194D0   476  gedit_prefs_manager_print_font_numbers_can_set
+  000191D0   477  gedit_prefs_manager_print_header_can_set
+  00019300   478  gedit_prefs_manager_print_line_numbers_can_set
+  00019140   479  gedit_prefs_manager_print_syntax_hl_can_set
+  00019270   480  gedit_prefs_manager_print_wrap_mode_can_set
+  00019C30   481  gedit_prefs_manager_right_margin_position_can_set
+  000022E0   482  gedit_prefs_manager_set_active_file_filter
+  0001A110   483  gedit_prefs_manager_set_active_plugins
+  00018CE0   484  gedit_prefs_manager_set_auto_indent
+  00018970   485  gedit_prefs_manager_set_auto_save
+  00018A00   486  gedit_prefs_manager_set_auto_save_interval
+  00002260   487  gedit_prefs_manager_set_bottom_panel_active_page
+  000021B0   488  gedit_prefs_manager_set_bottom_panel_size
+  00019060   489  gedit_prefs_manager_set_bottom_panel_visible
+  00019AC0   490  gedit_prefs_manager_set_bracket_matching
+  000188E0   491  gedit_prefs_manager_set_create_backup_copy
+  00018D70   492  gedit_prefs_manager_set_display_line_numbers
+  00019B50   493  gedit_prefs_manager_set_display_right_margin
+  00018850   494  gedit_prefs_manager_set_editor_font
+  00019DC0   495  gedit_prefs_manager_set_enable_search_highlighting
+  00019D30   496  gedit_prefs_manager_set_enable_syntax_highlighting
+  00019A30   497  gedit_prefs_manager_set_highlight_current_line
+  00018C50   498  gedit_prefs_manager_set_insert_spaces
+  00019340   499  gedit_prefs_manager_set_print_font_body
+  000193E0   500  gedit_prefs_manager_set_print_font_header
+  00019480   501  gedit_prefs_manager_set_print_font_numbers
+  00019180   502  gedit_prefs_manager_set_print_header
+  000192B0   503  gedit_prefs_manager_set_print_line_numbers
+  000190F0   504  gedit_prefs_manager_set_print_syntax_hl
+  00019210   505  gedit_prefs_manager_set_print_wrap_mode
+  00019BE0   506  gedit_prefs_manager_set_right_margin_position
+  00019950   507  gedit_prefs_manager_set_shown_in_menu_encodings
+  00018FD0   508  gedit_prefs_manager_set_side_pane_visible
+  00002120   509  gedit_prefs_manager_set_side_panel_active_page
+  00002070   510  gedit_prefs_manager_set_side_panel_size
+  00019C70   511  gedit_prefs_manager_set_smart_home_end
+  00019E50   512  gedit_prefs_manager_set_source_style_scheme
+  00018F40   513  gedit_prefs_manager_set_statusbar_visible
+  00018BC0   514  gedit_prefs_manager_set_tabs_size
+  00018E90   515  gedit_prefs_manager_set_toolbar_buttons_style
+  00018E00   516  gedit_prefs_manager_set_toolbar_visible
+  00018A90   517  gedit_prefs_manager_set_undo_actions_limit
+  000187C0   518  gedit_prefs_manager_set_use_default_font
+  00001FA0   519  gedit_prefs_manager_set_window_size
+  00001E10   520  gedit_prefs_manager_set_window_state
+  00018B20   521  gedit_prefs_manager_set_wrap_mode
+  00019910   522  gedit_prefs_manager_shown_in_menu_encodings_can_set
+  00018450   523  gedit_prefs_manager_shutdown
+  00019020   524  gedit_prefs_manager_side_pane_visible_can_set
+  00002150   525  gedit_prefs_manager_side_panel_active_page_can_set
+  000020D0   526  gedit_prefs_manager_side_panel_size_can_set
+  00019CF0   527  gedit_prefs_manager_smart_home_end_can_set
+  00019EA0   528  gedit_prefs_manager_source_style_scheme_can_set
+  00018F90   529  gedit_prefs_manager_statusbar_visible_can_set
+  00018C10   530  gedit_prefs_manager_tabs_size_can_set
+  00018F00   531  gedit_prefs_manager_toolbar_buttons_style_can_set
+  00018E50   532  gedit_prefs_manager_toolbar_visible_can_set
+  00018AE0   533  gedit_prefs_manager_undo_actions_limit_can_set
+  00018810   534  gedit_prefs_manager_use_default_font_can_set
+  00002010   535  gedit_prefs_manager_window_size_can_set
+  00001E60   536  gedit_prefs_manager_window_state_can_set
+  00018B80   537  gedit_prefs_manager_wrap_mode_can_set
+  0003ACA0   538  gedit_print_job_cancel
+  0003AEB0   539  gedit_print_job_get_page_setup
+  0003AE20   540  gedit_print_job_get_print_settings
+  0003ADB0   541  gedit_print_job_get_progress
+  0003AD30   542  gedit_print_job_get_status_string
+  00039490   543  gedit_print_job_get_type
+  0003AC00   544  gedit_print_job_new
+  0003A930   545  gedit_print_job_print
+  00049460   546  gedit_print_preview_get_type
+  0004B980   547  gedit_print_preview_new
+  0003AF40   548  gedit_progress_message_area_get_type
+  0003B5E0   549  gedit_progress_message_area_new
+  0003B7E0   550  gedit_progress_message_area_pulse
+  0003B740   551  gedit_progress_message_area_set_fraction
+  0003B550   552  gedit_progress_message_area_set_markup
+  0003B4A0   553  gedit_progress_message_area_set_stock_image
+  0003B6B0   554  gedit_progress_message_area_set_text
+  00045970   555  gedit_search_dialog_get_backwards
+  00045830   556  gedit_search_dialog_get_entire_word
+  000456F0   557  gedit_search_dialog_get_match_case
+  000455B0   558  gedit_search_dialog_get_replace_text
+  00045480   559  gedit_search_dialog_get_search_text
+  00045050   560  gedit_search_dialog_get_show_replace
+  00044180   561  gedit_search_dialog_get_type
+  00045AB0   562  gedit_search_dialog_get_wrap_around
+  00044FB0   563  gedit_search_dialog_new
+  000442E0   564  gedit_search_dialog_present_with_time
+  000458D0   565  gedit_search_dialog_set_backwards
+  00045790   566  gedit_search_dialog_set_entire_word
+  00045650   567  gedit_search_dialog_set_match_case
+  00045520   568  gedit_search_dialog_set_replace_text
+  00045380   569  gedit_search_dialog_set_search_text
+  000450C0   570  gedit_search_dialog_set_show_replace
+  00045A10   571  gedit_search_dialog_set_wrap_around
+  00032070   572  gedit_search_flags_get_type
+  00013340   573  gedit_session_init
+  00013420   574  gedit_session_is_restored
+  000134B0   575  gedit_session_load
+  00048240   576  gedit_show_preferences_dialog
+  000552E0   577  gedit_smart_charset_converter_get_guessed
+  00055360   578  gedit_smart_charset_converter_get_num_fallbacks
+  00054B40   579  gedit_smart_charset_converter_get_type
+  00055260   580  gedit_smart_charset_converter_new
+  0004E280   581  gedit_spinner_get_type
+  0004F210   582  gedit_spinner_new
+  0004ED90   583  gedit_spinner_set_size
+  0004EC30   584  gedit_spinner_start
+  0004ED00   585  gedit_spinner_stop
+  00031BD0   586  gedit_status_combo_box_add_item
+  00031E00   587  gedit_status_combo_box_get_item_label
+  000319E0   588  gedit_status_combo_box_get_item_text
+  00031940   589  gedit_status_combo_box_get_items
+  000316D0   590  gedit_status_combo_box_get_label
+  00030C10   591  gedit_status_combo_box_get_type
+  00031500   592  gedit_status_combo_box_new
+  00031840   593  gedit_status_combo_box_remove_item
+  00031D10   594  gedit_status_combo_box_set_item
+  00031AD0   595  gedit_status_combo_box_set_item_text
+  00031530   596  gedit_status_combo_box_set_label
+  00030730   597  gedit_statusbar_clear_overwrite
+  00030920   598  gedit_statusbar_flash_message
+  0002FD90   599  gedit_statusbar_get_type
+  00030560   600  gedit_statusbar_new
+  000307C0   601  gedit_statusbar_set_cursor_position
+  00030640   602  gedit_statusbar_set_overwrite
+  00030A70   603  gedit_statusbar_set_window_state
+  00020010   604  gedit_style_scheme_manager_list_schemes_sorted
+  0001B6B0   605  gedit_tab_get_auto_save_enabled
+  0001B620   606  gedit_tab_get_auto_save_interval
+  0001C350   607  gedit_tab_get_document
+  0001EC10   608  gedit_tab_get_from_document
+  0001B750   609  gedit_tab_get_state
+  0001B190   610  gedit_tab_get_type
+  0001BCD0   611  gedit_tab_get_view
+  00042790   612  gedit_tab_label_get_tab
+  00041CA0   613  gedit_tab_label_get_type
+  00042800   614  gedit_tab_label_new
+  000426B0   615  gedit_tab_label_set_close_button_sensitive
+  0001C4D0   616  gedit_tab_set_auto_save_enabled
+  0001C3A0   617  gedit_tab_set_auto_save_interval
+  0001FE70   618  gedit_tab_set_info_bar
+  00032130   619  gedit_tab_state_get_type
+  0003EE50   620  gedit_text_region_add
+  0003FE70   621  gedit_text_region_debug_print
+  0003ED60   622  gedit_text_region_destroy
+  0003EE10   623  gedit_text_region_get_buffer
+  0003FC00   624  gedit_text_region_get_iterator
+  0003F770   625  gedit_text_region_intersect
+  0003FD50   626  gedit_text_region_iterator_get_subregion
+  0003FC90   627  gedit_text_region_iterator_is_end
+  0003FCF0   628  gedit_text_region_iterator_next
+  0003ED00   629  gedit_text_region_new
+  0003F6C0   630  gedit_text_region_nth_subregion
+  0003F670   631  gedit_text_region_subregions
+  0003F180   632  gedit_text_region_subtract
+  000320F0   633  gedit_toolbar_setting_get_type
+  0003BFA0   634  gedit_unrecoverable_reverting_error_message_area_new
+  0003D920   635  gedit_unrecoverable_saving_error_message_area_new
+  00014C50   636  gedit_utils_activate_url
+  00015430   637  gedit_utils_basename_for_display
+  00015210   638  gedit_utils_decode_uri
+  00015170   639  gedit_utils_drop_get_uris
+  00014280   640  gedit_utils_escape_search_text
+  00014620   641  gedit_utils_escape_underscores
+  00015100   642  gedit_utils_file_has_parent
+  00014C30   643  gedit_utils_get_current_viewport
+  00014C10   644  gedit_utils_get_current_workspace
+  00014E60   645  gedit_utils_get_ui_objects
+  00014C20   646  gedit_utils_get_window_workspace
+  00014CD0   647  gedit_utils_is_valid_uri
+  00015600   648  gedit_utils_location_get_dirname_for_display
+  00015070   649  gedit_utils_make_canonical_uri_from_shell_arg
+  000148C0   650  gedit_utils_make_valid_utf8
+  00013BB0   651  gedit_utils_menu_position_under_tree_view
+  00013B10   652  gedit_utils_menu_position_under_widget
+  00014A10   653  gedit_utils_replace_home_dir_with_tilde
+  00014000   654  gedit_utils_set_atk_name_description
+  000140A0   655  gedit_utils_set_atk_relation
+  000148A0   656  gedit_utils_str_end_truncate
+  00014880   657  gedit_utils_str_middle_truncate
+  000143A0   658  gedit_utils_unescape_search_text
+  000141A0   659  gedit_utils_uri_exists
+  00015130   660  gedit_utils_uri_for_display
+  00014B40   661  gedit_utils_uri_get_dirname
+  000139E0   662  gedit_utils_uri_has_file_scheme
+  00013A20   663  gedit_utils_uri_has_writable_scheme
+  00025EC0   664  gedit_view_copy_clipboard
+  00025D70   665  gedit_view_cut_clipboard
+  00026110   666  gedit_view_delete_selection
+  00025530   667  gedit_view_get_type
+  00025C50   668  gedit_view_new
+  00025FB0   669  gedit_view_paste_clipboard
+  00026340   670  gedit_view_scroll_to_cursor
+  00026250   671  gedit_view_select_all
+  00026450   672  gedit_view_set_font
+  000144D0   673  gedit_warning
+  0000CD60   674  gedit_window_close_all_tabs
+  0000CC30   675  gedit_window_close_tab
+  0000CE10   676  gedit_window_close_tabs
+  0000C800   677  gedit_window_create_tab
+  0000C910   678  gedit_window_create_tab_from_uri
+  000071F0   679  gedit_window_get_active_document
+  000057A0   680  gedit_window_get_active_tab
+  00007150   681  gedit_window_get_active_view
+  0000D400   682  gedit_window_get_bottom_panel
+  0000CAA0   683  gedit_window_get_documents
+  0000D210   684  gedit_window_get_group
+  0000E070   685  gedit_window_get_message_bus
+  0000D380   686  gedit_window_get_side_panel
+  00005100   687  gedit_window_get_state
+  0000D480   688  gedit_window_get_statusbar
+  0000DEF0   689  gedit_window_get_tab_from_location
+  0000E0E0   690  gedit_window_get_tab_from_uri
+  00004650   691  gedit_window_get_type
+  0000D310   692  gedit_window_get_ui_manager
+  0000D660   693  gedit_window_get_unsaved_documents
+  0000CB80   694  gedit_window_get_views
+  0000D0C0   695  gedit_window_set_active_tab
+  00032170   696  gedit_window_state_get_type
+  00001370   697  main
+  00070308   698  search_completion_model
+  00039290   699  sm_client_win32_window_procedure@16
+

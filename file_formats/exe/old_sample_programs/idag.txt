@@ -1,0 +1,2779 @@
+Dump of file C:/SAMPLEFILES/EXE/IDAG.EXE
+
+File Header
+  Machine:                      014C (i386)
+  Number of Sections:           0008
+  TimeDateStamp:                4CFD172C -> Mon Dec 06 12:02:36 2010
+  PointerToSymbolTable:         00000000
+  NumberOfSymbols:              00000000
+  SizeOfOptionalHeader:         00E0
+  Characteristics:              030E
+    EXECUTABLE_IMAGE
+    LINE_NUMS_STRIPPED
+    LOCAL_SYMS_STRIPPED
+    32BIT_MACHINE
+    DEBUG_STRIPPED
+
+Optional Header
+  Magic                         010B
+  linker version                5.00
+  size of code                  170000
+  size of initialized data      62000
+  size of uninitialized data    0
+  entrypoint RVA                1650
+  base of code                  1000
+  base of data                  171000
+  image base                    400000
+  section align                 1000
+  file align                    200
+  required OS version           4.00
+  image version                 0.00
+  subsystem version             4.00
+  Win32 Version                 0
+  size of image                 28F000
+  size of headers               600
+  checksum                      0
+  Subsystem                     0002 (Windows GUI)
+  DLL flags                     0000
+  stack reserve size            100000
+  stack commit size             2000
+  heap reserve size             100000
+  heap commit size              1000
+  RVAs & sizes                  10
+
+Data Directory
+  EXPORT       rva: 001E5000  size: 00003949
+  IMPORT       rva: 001D5000  size: 0000F28B
+  RESOURCE     rva: 001E9000  size: 00091E00
+  EXCEPTION    rva: 00000000  size: 00000000
+  SECURITY     rva: 00000000  size: 00000000
+  BASERELOC    rva: 0027B000  size: 0001364C
+  DEBUG        rva: 00000000  size: 00000000
+  COPYRIGHT    rva: 00000000  size: 00000000
+  GLOBALPTR    rva: 00000000  size: 00000000
+  TLS          rva: 001D4000  size: 00000018
+  LOAD_CONFIG  rva: 00000000  size: 00000000
+  BOUND_IMPORT rva: 00000000  size: 00000000
+  IAT          rva: 00000000  size: 00000000
+  DELAY_IMPORT rva: 00000000  size: 00000000
+  unused       rva: 00000000  size: 00000000
+  unused       rva: 00000000  size: 00000000
+
+Section Table
+  01 .text     VirtSize: 00170000  VirtAddr:  00001000
+    raw data offs:   00000600  raw data size: 0016FA00
+    relocation offs: 00000000  relocations:   00000000
+    line # offs:     00000000  line #'s:      00000000
+    characteristics: 60000020
+      CODE  EXECUTE  READ  ALIGN_DEFAULT(16)
+
+  02 .data     VirtSize: 00062000  VirtAddr:  00171000
+    raw data offs:   00170000  raw data size: 00051C00
+    relocation offs: 00000000  relocations:   00000000
+    line # offs:     00000000  line #'s:      00000000
+    characteristics: C0000040
+      INITIALIZED_DATA  READ  WRITE  ALIGN_DEFAULT(16)
+
+  03 .tls      VirtSize: 00001000  VirtAddr:  001D3000
+    raw data offs:   001C1C00  raw data size: 00000200
+    relocation offs: 00000000  relocations:   00000000
+    line # offs:     00000000  line #'s:      00000000
+    characteristics: C0000040
+      INITIALIZED_DATA  READ  WRITE  ALIGN_DEFAULT(16)
+
+  04 .rdata    VirtSize: 00001000  VirtAddr:  001D4000
+    raw data offs:   001C1E00  raw data size: 00000200
+    relocation offs: 00000000  relocations:   00000000
+    line # offs:     00000000  line #'s:      00000000
+    characteristics: 50000040
+      INITIALIZED_DATA  SHARED  READ  ALIGN_DEFAULT(16)
+
+  05 .idata    VirtSize: 00010000  VirtAddr:  001D5000
+    raw data offs:   001C2000  raw data size: 0000F400
+    relocation offs: 00000000  relocations:   00000000
+    line # offs:     00000000  line #'s:      00000000
+    characteristics: 40000040
+      INITIALIZED_DATA  READ  ALIGN_DEFAULT(16)
+
+  06 .edata    VirtSize: 00004000  VirtAddr:  001E5000
+    raw data offs:   001D1400  raw data size: 00003A00
+    relocation offs: 00000000  relocations:   00000000
+    line # offs:     00000000  line #'s:      00000000
+    characteristics: 40000040
+      INITIALIZED_DATA  READ  ALIGN_DEFAULT(16)
+
+  07 .rsrc     VirtSize: 00092000  VirtAddr:  001E9000
+    raw data offs:   001D4E00  raw data size: 00091E00
+    relocation offs: 00000000  relocations:   00000000
+    line # offs:     00000000  line #'s:      00000000
+    characteristics: 40000040
+      INITIALIZED_DATA  READ  ALIGN_DEFAULT(16)
+
+  08 .reloc    VirtSize: 00014000  VirtAddr:  0027B000
+    raw data offs:   00266C00  raw data size: 00013800
+    relocation offs: 00000000  relocations:   00000000
+    line # offs:     00000000  line #'s:      00000000
+    characteristics: 50000040
+      INITIALIZED_DATA  SHARED  READ  ALIGN_DEFAULT(16)
+
+
+
+Resources (RVA: 1E9000)
+ResDir (0) Entries:08 (Named:00, ID:08) TimeDate:3D869053
+    --------------------------------------------------------------
+    ResDir (CURSOR) Entries:05 (Named:00, ID:05) TimeDate:3D869053
+        ResDir (1) Entries:01 (Named:00, ID:01) TimeDate:3D869053
+            ID: 0000080C  DataEntryOffs: 00000770
+            DataRVA: 1E9E08  DataSize: 00134  CodePage: 0
+        ResDir (2) Entries:01 (Named:00, ID:01) TimeDate:3D869053
+            ID: 0000080C  DataEntryOffs: 00000780
+            DataRVA: 1E9F3C  DataSize: 00134  CodePage: 0
+        ResDir (3) Entries:01 (Named:00, ID:01) TimeDate:3D869053
+            ID: 0000080C  DataEntryOffs: 00000790
+            DataRVA: 1EA070  DataSize: 00134  CodePage: 0
+        ResDir (4) Entries:01 (Named:00, ID:01) TimeDate:3D869053
+            ID: 0000080C  DataEntryOffs: 000007A0
+            DataRVA: 1EA1A4  DataSize: 00134  CodePage: 0
+        ResDir (5) Entries:01 (Named:00, ID:01) TimeDate:3D869053
+            ID: 0000080C  DataEntryOffs: 000007B0
+            DataRVA: 1EA2D8  DataSize: 00134  CodePage: 0
+    --------------------------------------------------------------
+    ResDir (BITMAP) Entries:02 (Named:00, ID:02) TimeDate:3D869053
+        ResDir (C8) Entries:01 (Named:00, ID:01) TimeDate:3D869053
+            ID: 0000080C  DataEntryOffs: 000007C0
+            DataRVA: 1EA40C  DataSize: 06770  CodePage: 0
+        ResDir (C9) Entries:01 (Named:00, ID:01) TimeDate:3D869053
+            ID: 0000080C  DataEntryOffs: 000007D0
+            DataRVA: 1F0B7C  DataSize: 01C7C  CodePage: 0
+    --------------------------------------------------------------
+    ResDir (ICON) Entries:02 (Named:00, ID:02) TimeDate:3D869053
+        ResDir (1) Entries:01 (Named:00, ID:01) TimeDate:3D869053
+            ID: 00000419  DataEntryOffs: 000007E0
+            DataRVA: 1F27F8  DataSize: 00128  CodePage: 0
+        ResDir (2) Entries:01 (Named:00, ID:01) TimeDate:3D869053
+            ID: 00000419  DataEntryOffs: 000007F0
+            DataRVA: 1F2920  DataSize: 002E8  CodePage: 0
+    --------------------------------------------------------------
+    ResDir (RCDATA) Entries:24 (Named:24, ID:00) TimeDate:3D869053
+        ResDir (DVCLAL) Entries:01 (Named:00, ID:01) TimeDate:3D869053
+            ID: 00000000  DataEntryOffs: 00000800
+            DataRVA: 1F2C08  DataSize: 00010  CodePage: 0
+        ResDir (TABOUTBOX) Entries:01 (Named:00, ID:01) TimeDate:3D869053
+            ID: 00000000  DataEntryOffs: 00000810
+            DataRVA: 1F2C18  DataSize: 01C77  CodePage: 0
+        ResDir (TASKTEXT) Entries:01 (Named:00, ID:01) TimeDate:3D869053
+            ID: 00000000  DataEntryOffs: 00000820
+            DataRVA: 1F4890  DataSize: 004CB  CodePage: 0
+        ResDir (TBREAKPOINTFORM) Entries:01 (Named:00, ID:01) TimeDate:3D869053
+            ID: 00000000  DataEntryOffs: 00000830
+            DataRVA: 1F4D5C  DataSize: 00A94  CodePage: 0
+        ResDir (TCALLBOX) Entries:01 (Named:00, ID:01) TimeDate:3D869053
+            ID: 00000000  DataEntryOffs: 00000840
+            DataRVA: 1F57F0  DataSize: 00539  CodePage: 0
+        ResDir (TCHOOSER) Entries:01 (Named:00, ID:01) TimeDate:3D869053
+            ID: 00000000  DataEntryOffs: 00000850
+            DataRVA: 1F5D2C  DataSize: 00834  CodePage: 0
+        ResDir (TCOPYRIGHTFORM) Entries:01 (Named:00, ID:01) TimeDate:3D869053
+            ID: 00000000  DataEntryOffs: 00000860
+            DataRVA: 1F6560  DataSize: 00706  CodePage: 0
+        ResDir (TDEMOBOX) Entries:01 (Named:00, ID:01) TimeDate:3D869053
+            ID: 00000000  DataEntryOffs: 00000870
+            DataRVA: 1F6C68  DataSize: 019F3  CodePage: 0
+        ResDir (TDESKTOPFORM) Entries:01 (Named:00, ID:01) TimeDate:3D869053
+            ID: 00000000  DataEntryOffs: 00000880
+            DataRVA: 1F865C  DataSize: 004A5  CodePage: 0
+        ResDir (TDYNHELPFORM) Entries:01 (Named:00, ID:01) TimeDate:3D869053
+            ID: 00000000  DataEntryOffs: 00000890
+            DataRVA: 1F8B04  DataSize: 002A8  CodePage: 0
+        ResDir (TENUMFORM) Entries:01 (Named:00, ID:01) TimeDate:3D869053
+            ID: 00000000  DataEntryOffs: 000008A0
+            DataRVA: 1F8DAC  DataSize: 00A8B  CodePage: 0
+        ResDir (TFCOLORS) Entries:01 (Named:00, ID:01) TimeDate:3D869053
+            ID: 00000000  DataEntryOffs: 000008B0
+            DataRVA: 1F9838  DataSize: 02B4A  CodePage: 0
+        ResDir (TFLOAD) Entries:01 (Named:00, ID:01) TimeDate:3D869053
+            ID: 00000000  DataEntryOffs: 000008C0
+            DataRVA: 1FC384  DataSize: 00F98  CodePage: 0
+        ResDir (TFOPTIONS) Entries:01 (Named:00, ID:01) TimeDate:3D869053
+            ID: 00000000  DataEntryOffs: 000008D0
+            DataRVA: 1FD31C  DataSize: 0404A  CodePage: 0
+        ResDir (TGRZOOM) Entries:01 (Named:00, ID:01) TimeDate:3D869053
+            ID: 00000000  DataEntryOffs: 000008E0
+            DataRVA: 201368  DataSize: 0019A  CodePage: 0
+        ResDir (THEXFORM) Entries:01 (Named:00, ID:01) TimeDate:3D869053
+            ID: 00000000  DataEntryOffs: 000008F0
+            DataRVA: 201504  DataSize: 0026E  CodePage: 0
+        ResDir (TIDAWINDOW) Entries:01 (Named:00, ID:01) TimeDate:3D869053
+            ID: 00000000  DataEntryOffs: 00000900
+            DataRVA: 201774  DataSize: 4188D  CodePage: 0
+        ResDir (TLICENSEFORM) Entries:01 (Named:00, ID:01) TimeDate:3D869053
+            ID: 00000000  DataEntryOffs: 00000910
+            DataRVA: 243004  DataSize: 00261  CodePage: 0
+        ResDir (TLOADBINBOX) Entries:01 (Named:00, ID:01) TimeDate:3D869053
+            ID: 00000000  DataEntryOffs: 00000920
+            DataRVA: 243268  DataSize: 009A0  CodePage: 0
+        ResDir (TMDIFORM) Entries:01 (Named:00, ID:01) TimeDate:3D869053
+            ID: 00000000  DataEntryOffs: 00000930
+            DataRVA: 243C08  DataSize: 00187  CodePage: 0
+        ResDir (TMSGFORM) Entries:01 (Named:00, ID:01) TimeDate:3D869053
+            ID: 00000000  DataEntryOffs: 00000940
+            DataRVA: 243D90  DataSize: 0046B  CodePage: 0
+        ResDir (TMYDIALOG) Entries:01 (Named:00, ID:01) TimeDate:3D869053
+            ID: 00000000  DataEntryOffs: 00000950
+            DataRVA: 2441FC  DataSize: 00311  CodePage: 0
+        ResDir (TNAVBOX) Entries:01 (Named:00, ID:01) TimeDate:3D869053
+            ID: 00000000  DataEntryOffs: 00000960
+            DataRVA: 244510  DataSize: 00B1A  CodePage: 0
+        ResDir (TNEWTEMPLATEFORM) Entries:01 (Named:00, ID:01) TimeDate:3D869053
+            ID: 00000000  DataEntryOffs: 00000970
+            DataRVA: 24502C  DataSize: 2989D  CodePage: 0
+        ResDir (TNOSIGBOX) Entries:01 (Named:00, ID:01) TimeDate:3D869053
+            ID: 00000000  DataEntryOffs: 00000980
+            DataRVA: 26E8CC  DataSize: 006F7  CodePage: 0
+        ResDir (TNOTEBOX) Entries:01 (Named:00, ID:01) TimeDate:3D869053
+            ID: 00000000  DataEntryOffs: 00000990
+            DataRVA: 26EFC4  DataSize: 003AE  CodePage: 0
+        ResDir (TREGISTERSFORM) Entries:01 (Named:00, ID:01) TimeDate:3D869053
+            ID: 00000000  DataEntryOffs: 000009A0
+            DataRVA: 26F374  DataSize: 00E41  CodePage: 0
+        ResDir (TSCRIPTBAR) Entries:01 (Named:00, ID:01) TimeDate:3D869053
+            ID: 00000000  DataEntryOffs: 000009B0
+            DataRVA: 2701B8  DataSize: 002C8  CodePage: 0
+        ResDir (TSEGTRANSBOX) Entries:01 (Named:00, ID:01) TimeDate:3D869053
+            ID: 00000000  DataEntryOffs: 000009C0
+            DataRVA: 270480  DataSize: 00745  CodePage: 0
+        ResDir (TSTRINGTOOLBAR) Entries:01 (Named:00, ID:01) TimeDate:3D869053
+            ID: 00000000  DataEntryOffs: 000009D0
+            DataRVA: 270BC8  DataSize: 005C1  CodePage: 0
+        ResDir (TSTRUCFORM) Entries:01 (Named:00, ID:01) TimeDate:3D869053
+            ID: 00000000  DataEntryOffs: 000009E0
+            DataRVA: 27118C  DataSize: 01310  CodePage: 0
+        ResDir (TSTRUCTUREOFFSETSFORM) Entries:01 (Named:00, ID:01) TimeDate:3D869053
+            ID: 00000000  DataEntryOffs: 000009F0
+            DataRVA: 27249C  DataSize: 03EE8  CodePage: 0
+        ResDir (TSTRWINSETUPFORM) Entries:01 (Named:00, ID:01) TimeDate:3D869053
+            ID: 00000000  DataEntryOffs: 00000A00
+            DataRVA: 276384  DataSize: 00B53  CodePage: 0
+        ResDir (TSUPPORTBOX) Entries:01 (Named:00, ID:01) TimeDate:3D869053
+            ID: 00000000  DataEntryOffs: 00000A10
+            DataRVA: 276ED8  DataSize: 01BA0  CodePage: 0
+        ResDir (TWAITFORM) Entries:01 (Named:00, ID:01) TimeDate:3D869053
+            ID: 00000000  DataEntryOffs: 00000A20
+            DataRVA: 278A78  DataSize: 00275  CodePage: 0
+        ResDir (TWELCOMEFORM) Entries:01 (Named:00, ID:01) TimeDate:3D869053
+            ID: 00000000  DataEntryOffs: 00000A30
+            DataRVA: 278CF0  DataSize: 01ABB  CodePage: 0
+    --------------------------------------------------------------
+    ResDir (GROUP_CURSOR) Entries:05 (Named:00, ID:05) TimeDate:3D869053
+        ResDir (309) Entries:01 (Named:00, ID:01) TimeDate:3D869053
+            ID: 0000080C  DataEntryOffs: 00000A40
+            DataRVA: 27A7AC  DataSize: 00014  CodePage: 0
+        ResDir (30A) Entries:01 (Named:00, ID:01) TimeDate:3D869053
+            ID: 0000080C  DataEntryOffs: 00000A50
+            DataRVA: 27A7C0  DataSize: 00014  CodePage: 0
+        ResDir (30B) Entries:01 (Named:00, ID:01) TimeDate:3D869053
+            ID: 0000080C  DataEntryOffs: 00000A60
+            DataRVA: 27A7D4  DataSize: 00014  CodePage: 0
+        ResDir (30C) Entries:01 (Named:00, ID:01) TimeDate:3D869053
+            ID: 0000080C  DataEntryOffs: 00000A70
+            DataRVA: 27A7E8  DataSize: 00014  CodePage: 0
+        ResDir (30D) Entries:01 (Named:00, ID:01) TimeDate:3D869053
+            ID: 0000080C  DataEntryOffs: 00000A80
+            DataRVA: 27A7FC  DataSize: 00014  CodePage: 0
+    --------------------------------------------------------------
+    ResDir (GROUP_ICON) Entries:01 (Named:01, ID:00) TimeDate:3D869053
+        ResDir (MAINICON) Entries:01 (Named:00, ID:01) TimeDate:3D869053
+            ID: 00000419  DataEntryOffs: 00000A90
+            DataRVA: 27A810  DataSize: 00022  CodePage: 0
+    --------------------------------------------------------------
+    ResDir (VERSION) Entries:01 (Named:00, ID:01) TimeDate:3D869053
+        ResDir (1) Entries:01 (Named:00, ID:01) TimeDate:3D869053
+            ID: 00000419  DataEntryOffs: 00000AA0
+            DataRVA: 27A834  DataSize: 00360  CodePage: 0
+    --------------------------------------------------------------
+    ResDir (18) Entries:01 (Named:00, ID:01) TimeDate:3D869053
+        ResDir (1) Entries:01 (Named:00, ID:01) TimeDate:3D869053
+            ID: 0000080C  DataEntryOffs: 00000AB0
+            DataRVA: 27AB94  DataSize: 00231  CodePage: 0
+
+
+Imports Table:
+  rtl60.bpl
+  OrigFirstThunk:  001D53FC (Unbound IAT)
+  TimeDateStamp:   00000000 -> Wed Dec 31 19:00:00 1969
+  ForwarderChain:  00000000
+  First thunk RVA: 001D5544
+  Ordn  Name
+     0  @System@initialization$qqrv
+     0  @System@Finalization$qqrv
+     0  @System@TInterfacedObject@_Release$qqsv
+     0  @System@TInterfacedObject@_AddRef$qqsv
+     0  @System@TInterfacedObject@QueryInterface$qqsrx5_GUIDpv
+     0  @System@TInterfacedObject@NewInstance$qqrp17System@TMetaClass
+     0  @System@TInterfacedObject@BeforeDestruction$qqrv
+     0  @System@TInterfacedObject@AfterConstruction$qqrv
+     0  @System@@IntfAddRef$qqrx45System@%DelphiInterface$t17System@IInterface%
+     0  @System@@IntfCast$qqrr45System@%DelphiInterface$t17System@IInterface%x45System@%DelphiInterface$t17System@IInterface%rx5_GUID
+     0  @System@@IntfCopy$qqrr45System@%DelphiInterface$t17System@IInterface%x45System@%DelphiInterface$t17System@IInterface%
+     0  @System@@IntfClear$qqrr45System@%DelphiInterface$t17System@IInterface%
+     0  @System@UnregisterModule$qqrp17System@TLibModule
+     0  @System@RegisterModule$qqrp17System@TLibModule
+     0  @System@FindHInstance$qqrpv
+     0  @System@StringToWideChar$qqrx17System@AnsiStringpbi
+     0  @System@WideCharToString$qqrpb
+     0  @System@@WStrLen$qqrx17System@WideString
+     0  @System@@WStrFromPWChar$qqrr17System@WideStringpb
+     0  @System@@WStrClr$qqrpv
+     0  @System@@LStrSetLength$qqrv
+     0  @System@@LStrPos$qqrv
+     0  @System@@LStrDelete$qqrv
+     0  @System@UniqueString$qqrr17System@AnsiString
+     0  @System@@LStrToPChar$qqrx17System@AnsiString
+     0  @System@@LStrAddRef$qqrpv
+     0  @System@@LStrCmp$qqrv
+     0  @System@@LStrCatN$qqrv
+     0  @System@@LStrCat3$qqrv
+     0  @System@@LStrCat$qqrv
+     0  @System@@LStrLen$qqrx17System@AnsiString
+     0  @System@@LStrFromPWChar$qqrr17System@AnsiStringpb
+     0  @System@@LStrFromPChar$qqrr17System@AnsiStringpc
+     0  @System@@LStrLAsg$qqrpvpxv
+     0  @System@@LStrAsg$qqrpvpxv
+     0  @System@@LStrArrayClr$qqrpvi
+     0  @System@@LStrClr$qqrpv
+     0  @System@@TryFinallyExit$qqrv
+     0  @System@@DoneExcept$qqrv
+     0  @System@@RaiseExcept$qqrv
+     0  @System@@HandleFinally$qqrv
+     0  @System@@HandleAnyException$qqrv
+     0  @System@@BeforeDestruction$qqrp14System@TObjectzc
+     0  @System@@AfterConstruction$qqrp14System@TObject
+     0  @System@@ClassDestroy$qqrp14System@TObject
+     0  @System@@ClassCreate$qqrp17System@TMetaClasso
+     0  @System@TObject@Dispatch$qqrpv
+     0  @System@TObject@BeforeDestruction$qqrv
+     0  @System@TObject@AfterConstruction$qqrv
+     0  @System@TObject@DefaultHandler$qqrpv
+     0  @System@TObject@SafeCallException$qqrp14System@TObjectpv
+     0  @System@TObject@ClassInfo$qqrp17System@TMetaClass
+     0  @System@TObject@InheritsFrom$qqrp17System@TMetaClasst1
+     0  @System@@FindDynaInst$qqrv
+     0  @System@TObject@GetInterface$qqrrx5_GUIDpv
+     0  @System@TObject@Free$qqrv
+     0  @System@TObject@$bdtr$qqrv
+     0  @System@TObject@$bctr$qqrv
+     0  @System@TObject@FreeInstance$qqrv
+     0  @System@TObject@NewInstance$qqrp17System@TMetaClass
+     0  @System@TObject@ClassNameIs$qqrp17System@TMetaClassx17System@AnsiString
+     0  @System@TObject@ClassName$qqrp17System@TMetaClass
+     0  @System@TObject@ClassType$qqrv
+     0  @System@@FillChar$qqrpvic
+     0  @System@@AbstractError$qqrv
+     0  @System@ParamStr$qqri
+     0  @System@ParamCount$qqrv
+     0  @System@Move$qqrpxvpvi
+     0  @System@GetMemoryManager$qqrr21System@TMemoryManager
+     0  @System@IsMultiThread
+     0  @System@IsConsole
+     0  @System@ExitProc
+     0  @System@CmdLine
+     0  @System@IsLibrary
+     0  @System@MainInstance
+     0  @System@TInterfacedObject@
+     0  @$xp$14System@TObject
+     0  @System@TObject@
+     0  @$xp$13System@String
+     0  @$xp$14System@Integer
+     0  @$xp$14System@Boolean
+
+  rtl60.bpl
+  OrigFirstThunk:  001D568C (Unbound IAT)
+  TimeDateStamp:   00000000 -> Wed Dec 31 19:00:00 1969
+  ForwarderChain:  00000000
+  First thunk RVA: 001D5698
+  Ordn  Name
+     0  @Types@initialization$qqrv
+     0  @Types@Finalization$qqrv
+
+  rtl60.bpl
+  OrigFirstThunk:  001D56A4 (Unbound IAT)
+  TimeDateStamp:   00000000 -> Wed Dec 31 19:00:00 1969
+  ForwarderChain:  00000000
+  First thunk RVA: 001D56B0
+  Ordn  Name
+     0  @Sysconst@initialization$qqrv
+     0  @Sysconst@Finalization$qqrv
+
+  rtl60.bpl
+  OrigFirstThunk:  001D56BC (Unbound IAT)
+  TimeDateStamp:   00000000 -> Wed Dec 31 19:00:00 1969
+  ForwarderChain:  00000000
+  First thunk RVA: 001D5748
+  Ordn  Name
+     0  @Sysutils@initialization$qqrv
+     0  @Sysutils@Finalization$qqrv
+     0  @Sysutils@Beep$qqrv
+     0  @Sysutils@Exception@$bctr$qqrx17System@AnsiString
+     0  @Sysutils@Format$qqrx17System@AnsiStringpx14System@TVarRecxi
+     0  @Sysutils@StrLFmt$qqrpcuit1px14System@TVarRecxi
+     0  @Sysutils@StrPCopy$qqrpcx17System@AnsiString
+     0  @Sysutils@StrCopy$qqrpcpxc
+     0  @Sysutils@GetCurrentDir$qqrv
+     0  @Sysutils@ExtractFileExt$qqrx17System@AnsiString
+     0  @Sysutils@ExtractFileName$qqrx17System@AnsiString
+     0  @Sysutils@ExtractFileDir$qqrx17System@AnsiString
+     0  @Sysutils@ExtractFilePath$qqrx17System@AnsiString
+     0  @Sysutils@AnsiLastChar$qqrx17System@AnsiString
+     0  @Sysutils@StrToIntDef$qqrx17System@AnsiStringi
+     0  @Sysutils@StrToInt$qqrx17System@AnsiString
+     0  @Sysutils@IntToStr$qqrj
+     0  @Sysutils@IntToStr$qqri
+     0  @Sysutils@TrimRight$qqrx17System@AnsiString
+     0  @Sysutils@TrimLeft$qqrx17System@AnsiString
+     0  @Sysutils@Trim$qqrx17System@AnsiString
+     0  @Sysutils@AnsiLowerCase$qqrx17System@AnsiString
+     0  @Sysutils@EControlC@
+     0  @Sysutils@EStackOverflow@
+     0  @Sysutils@EPrivilege@
+     0  @Sysutils@EAccessViolation@
+     0  @Sysutils@EUnderflow@
+     0  @Sysutils@EOverflow@
+     0  @Sysutils@EZeroDivide@
+     0  @Sysutils@EInvalidOp@
+     0  @Sysutils@EIntOverflow@
+     0  @Sysutils@ERangeError@
+     0  @Sysutils@EDivByZero@
+     0  @Sysutils@Exception@
+
+  rtl60.bpl
+  OrigFirstThunk:  001D57D4 (Unbound IAT)
+  TimeDateStamp:   00000000 -> Wed Dec 31 19:00:00 1969
+  ForwarderChain:  00000000
+  First thunk RVA: 001D57E0
+  Ordn  Name
+     0  @Varutils@initialization$qqrv
+     0  @Varutils@Finalization$qqrv
+
+  rtl60.bpl
+  OrigFirstThunk:  001D57EC (Unbound IAT)
+  TimeDateStamp:   00000000 -> Wed Dec 31 19:00:00 1969
+  ForwarderChain:  00000000
+  First thunk RVA: 001D57F8
+  Ordn  Name
+     0  @Variants@initialization$qqrv
+     0  @Variants@Finalization$qqrv
+
+  rtl60.bpl
+  OrigFirstThunk:  001D5804 (Unbound IAT)
+  TimeDateStamp:   00000000 -> Wed Dec 31 19:00:00 1969
+  ForwarderChain:  00000000
+  First thunk RVA: 001D5810
+  Ordn  Name
+     0  @Rtlconsts@initialization$qqrv
+     0  @Rtlconsts@Finalization$qqrv
+
+  rtl60.bpl
+  OrigFirstThunk:  001D581C (Unbound IAT)
+  TimeDateStamp:   00000000 -> Wed Dec 31 19:00:00 1969
+  ForwarderChain:  00000000
+  First thunk RVA: 001D5850
+  Ordn  Name
+     0  @Typinfo@initialization$qqrv
+     0  @Typinfo@Finalization$qqrv
+     0  @Typinfo@GetPropInfos$qqrp17Typinfo@TTypeInfopa16380$p17Typinfo@TPropInfo
+     0  @Typinfo@GetPropInfo$qqrp17Typinfo@TTypeInfox17System@AnsiString
+     0  @Typinfo@GetTypeData$qqrp17Typinfo@TTypeInfo
+     0  @Typinfo@SetStrProp$qqrp14System@TObjectx17System@AnsiStringt2
+     0  @Typinfo@GetStrProp$qqrp14System@TObjectx17System@AnsiString
+     0  @Typinfo@GetEnumProp$qqrp14System@TObjectx17System@AnsiString
+     0  @Typinfo@SetOrdProp$qqrp14System@TObjectx17System@AnsiStringi
+     0  @Typinfo@GetOrdProp$qqrp14System@TObjectx17System@AnsiString
+     0  @Typinfo@DotSep
+     0  @Typinfo@BooleanIdents
+
+  rtl60.bpl
+  OrigFirstThunk:  001D5884 (Unbound IAT)
+  TimeDateStamp:   00000000 -> Wed Dec 31 19:00:00 1969
+  ForwarderChain:  00000000
+  First thunk RVA: 001D5894
+  Ordn  Name
+     0  @Activex@initialization$qqrv
+     0  @Activex@Finalization$qqrv
+     0  @$xp$11IDataObject
+
+  rtl60.bpl
+  OrigFirstThunk:  001D58A4 (Unbound IAT)
+  TimeDateStamp:   00000000 -> Wed Dec 31 19:00:00 1969
+  ForwarderChain:  00000000
+  First thunk RVA: 001D5980
+  Ordn  Name
+     0  @Classes@initialization$qqrv
+     0  @Classes@Finalization$qqrv
+     0  @Classes@TBasicAction@$bdtr$qqrv
+     0  @Classes@TComponent@QueryInterface$qqsrx5_GUIDpv
+     0  @Classes@TComponent@UpdateRegistry$qqrp17System@TMetaClassox17System@AnsiStringt3
+     0  @Classes@TComponent@SafeCallException$qqrp14System@TObjectpv
+     0  @Classes@TComponent@GetComponentCount$qqrv
+     0  @Classes@TComponent@GetComponent$qqri
+     0  @Classes@TComponent@SetName$qqrx17System@AnsiString
+     0  @Classes@TComponent@ValidateRename$qqrp18Classes@TComponentx17System@AnsiStringt2
+     0  @Classes@TComponent@WriteState$qqrp15Classes@TWriter
+     0  @Classes@TComponent@ReadState$qqrp15Classes@TReader
+     0  @Classes@TComponent@Loaded$qqrv
+     0  @Classes@TComponent@DefineProperties$qqrp14Classes@TFiler
+     0  @Classes@TComponent@Notification$qqrp18Classes@TComponent18Classes@TOperation
+     0  @Classes@TComponent@DestroyComponents$qqrv
+     0  @Classes@TComponent@BeforeDestruction$qqrv
+     0  @Classes@TComponent@$bdtr$qqrv
+     0  @Classes@TComponent@$bctr$qqrp18Classes@TComponent
+     0  @Classes@TThread@Synchronize$qqrynpqqrv$v
+     0  @Classes@TThread@DoTerminate$qqrv
+     0  @Classes@TThread@AfterConstruction$qqrv
+     0  @Classes@TThread@$bdtr$qqrv
+     0  @Classes@TThread@$bctr$qqro
+     0  @Classes@TStringList@SetSorted$qqro
+     0  @Classes@TStringList@$bdtr$qqrv
+     0  @Classes@TStrings@SetDelimiter$qqrxc
+     0  @Classes@TStrings@SetDelimitedText$qqrx17System@AnsiString
+     0  @Classes@TStrings@GetDelimitedText$qqrv
+     0  @Classes@TStrings@EndUpdate$qqrv
+     0  @Classes@TStrings@BeginUpdate$qqrv
+     0  @Classes@TStrings@Append$qqrx17System@AnsiString
+     0  @Classes@TStrings@$bdtr$qqrv
+     0  @Classes@TCollection@GetCount$qqrv
+     0  @Classes@TCollectionItem@GetIndex$qqrv
+     0  @Classes@TPersistent@AssignTo$qqrp19Classes@TPersistent
+     0  @Classes@TPersistent@Assign$qqrp19Classes@TPersistent
+     0  @Classes@TPersistent@$bdtr$qqrv
+     0  @Classes@TList@Sort$qqrpqqrpvt1$i
+     0  @Classes@TList@Remove$qqrpv
+     0  @Classes@TList@Get$qqri
+     0  @Classes@TList@Add$qqrpv
+     0  @Classes@TList@$bdtr$qqrv
+     0  @Classes@RegisterComponents$qqrx17System@AnsiStringpxp17System@TMetaClassxi
+     0  @Classes@Rect$qqriiii
+     0  @Classes@Point$qqrii
+     0  @$xp$18Classes@TComponent
+     0  @Classes@TComponent@
+     0  @$xp$15Classes@TThread
+     0  @Classes@TThread@
+     0  @Classes@TStringList@
+     0  @$xp$16Classes@TStrings
+     0  @Classes@TList@
+     0  @$xp$20Classes@TNotifyEvent
+
+  rtl60.bpl
+  OrigFirstThunk:  001D5A5C (Unbound IAT)
+  TimeDateStamp:   00000000 -> Wed Dec 31 19:00:00 1969
+  ForwarderChain:  00000000
+  First thunk RVA: 001D5A68
+  Ordn  Name
+     0  @Math@initialization$qqrv
+     0  @Math@Finalization$qqrv
+
+  rtl60.bpl
+  OrigFirstThunk:  001D5A74 (Unbound IAT)
+  TimeDateStamp:   00000000 -> Wed Dec 31 19:00:00 1969
+  ForwarderChain:  00000000
+  First thunk RVA: 001D5A80
+  Ordn  Name
+     0  @Contnrs@initialization$qqrv
+     0  @Contnrs@Finalization$qqrv
+
+  rtl60.bpl
+  OrigFirstThunk:  001D5A8C (Unbound IAT)
+  TimeDateStamp:   00000000 -> Wed Dec 31 19:00:00 1969
+  ForwarderChain:  00000000
+  First thunk RVA: 001D5A98
+  Ordn  Name
+     0  @Inifiles@initialization$qqrv
+     0  @Inifiles@Finalization$qqrv
+
+  rtl60.bpl
+  OrigFirstThunk:  001D5AA4 (Unbound IAT)
+  TimeDateStamp:   00000000 -> Wed Dec 31 19:00:00 1969
+  ForwarderChain:  00000000
+  First thunk RVA: 001D5AFC
+  Ordn  Name
+     0  @Registry@initialization$qqrv
+     0  @Registry@Finalization$qqrv
+     0  @Registry@TRegistry@KeyExists$qqrx17System@AnsiString
+     0  @Registry@TRegistry@ValueExists$qqrx17System@AnsiString
+     0  @Registry@TRegistry@ReadBinaryData$qqrx17System@AnsiStringpvi
+     0  @Registry@TRegistry@WriteBinaryData$qqrx17System@AnsiStringpvi
+     0  @Registry@TRegistry@ReadInteger$qqrx17System@AnsiString
+     0  @Registry@TRegistry@WriteInteger$qqrx17System@AnsiStringi
+     0  @Registry@TRegistry@ReadString$qqrx17System@AnsiString
+     0  @Registry@TRegistry@WriteString$qqrx17System@AnsiStringt1
+     0  @Registry@TRegistry@GetValueNames$qqrp16Classes@TStrings
+     0  @Registry@TRegistry@GetKeyNames$qqrp16Classes@TStrings
+     0  @Registry@TRegistry@DeleteValue$qqrx17System@AnsiString
+     0  @Registry@TRegistry@DeleteKey$qqrx17System@AnsiString
+     0  @Registry@TRegistry@OpenKeyReadOnly$qqrx17System@AnsiString
+     0  @Registry@TRegistry@OpenKey$qqrx17System@AnsiStringo
+     0  @Registry@TRegistry@SetRootKey$qqrui
+     0  @Registry@TRegistry@CloseKey$qqrv
+     0  @Registry@TRegistry@$bdtr$qqrv
+     0  @Registry@TRegistry@$bctr$qqrv
+     0  @Registry@TRegistry@
+
+  rtl60.bpl
+  OrigFirstThunk:  001D5B54 (Unbound IAT)
+  TimeDateStamp:   00000000 -> Wed Dec 31 19:00:00 1969
+  ForwarderChain:  00000000
+  First thunk RVA: 001D5B60
+  Ordn  Name
+     0  @Strutils@initialization$qqrv
+     0  @Strutils@Finalization$qqrv
+
+  rtl60.bpl
+  OrigFirstThunk:  001D5B6C (Unbound IAT)
+  TimeDateStamp:   00000000 -> Wed Dec 31 19:00:00 1969
+  ForwarderChain:  00000000
+  First thunk RVA: 001D5B80
+  Ordn  Name
+     0  @Helpintfs@initialization$qqrv
+     0  @Helpintfs@Finalization$qqrv
+     0  @Helpintfs@RegisterViewer$qqr55System@%DelphiInterface$t27Helpintfs@ICustomHelpViewer%r50System@%DelphiInterface$t22Helpintfs@IHelpManager%
+     0  @$xp$22Helpintfs@IHelpManager
+
+  rtl60.bpl
+  OrigFirstThunk:  001D5B94 (Unbound IAT)
+  TimeDateStamp:   00000000 -> Wed Dec 31 19:00:00 1969
+  ForwarderChain:  00000000
+  First thunk RVA: 001D5BA0
+  Ordn  Name
+     0  @Flatsb@initialization$qqrv
+     0  @Flatsb@Finalization$qqrv
+
+  rtl60.bpl
+  OrigFirstThunk:  001D5BAC (Unbound IAT)
+  TimeDateStamp:   00000000 -> Wed Dec 31 19:00:00 1969
+  ForwarderChain:  00000000
+  First thunk RVA: 001D5BB8
+  Ordn  Name
+     0  @Mapi@initialization$qqrv
+     0  @Mapi@Finalization$qqrv
+
+  rtl60.bpl
+  OrigFirstThunk:  001D5BC4 (Unbound IAT)
+  TimeDateStamp:   00000000 -> Wed Dec 31 19:00:00 1969
+  ForwarderChain:  00000000
+  First thunk RVA: 001D5BD0
+  Ordn  Name
+     0  @Multimon@initialization$qqrv
+     0  @Multimon@Finalization$qqrv
+
+  vcl60.bpl
+  OrigFirstThunk:  001D5BDC (Unbound IAT)
+  TimeDateStamp:   00000000 -> Wed Dec 31 19:00:00 1969
+  ForwarderChain:  00000000
+  First thunk RVA: 001D5BE8
+  Ordn  Name
+     0  @Consts@initialization$qqrv
+     0  @Consts@Finalization$qqrv
+
+  vcl60.bpl
+  OrigFirstThunk:  001D5BF4 (Unbound IAT)
+  TimeDateStamp:   00000000 -> Wed Dec 31 19:00:00 1969
+  ForwarderChain:  00000000
+  First thunk RVA: 001D5D04
+  Ordn  Name
+     0  @Graphics@initialization$qqrv
+     0  @Graphics@Finalization$qqrv
+     0  @Graphics@TIcon@SetHandle$qqrui
+     0  @Graphics@TIcon@$bdtr$qqrv
+     0  @Graphics@TIcon@$bctr$qqrv
+     0  @Graphics@TBitmap@SetTransparentMode$qqr25Graphics@TTransparentMode
+     0  @Graphics@TBitmap@SetTransparentColor$qqr15Graphics@TColor
+     0  @Graphics@TBitmap@SetPixelFormat$qqr21Graphics@TPixelFormat
+     0  @Graphics@TBitmap@LoadFromResourceID$qqruii
+     0  @Graphics@TBitmap@GetScanline$qqri
+     0  @Graphics@TBitmap@GetCanvas$qqrv
+     0  @Graphics@TBitmap@$bdtr$qqrv
+     0  @Graphics@TBitmap@$bctr$qqrv
+     0  @Graphics@TPicture@GetHeight$qqrv
+     0  @Graphics@TPicture@GetWidth$qqrv
+     0  @Graphics@TPicture@SetGraphic$qqrp17Graphics@TGraphic
+     0  @Graphics@TPicture@$bctr$qqrv
+     0  @Graphics@TCanvas@SetHandle$qqrui
+     0  @Graphics@TCanvas@GetHandle$qqrv
+     0  @Graphics@TCanvas@GetClipRect$qqrv
+     0  @Graphics@TCanvas@SetPixel$qqrii15Graphics@TColor
+     0  @Graphics@TCanvas@GetPixel$qqrii
+     0  @Graphics@TCanvas@TextWidth$qqrx17System@AnsiString
+     0  @Graphics@TCanvas@TextExtent$qqrx17System@AnsiString
+     0  @Graphics@TCanvas@TextRect$qqrrx11Types@TRectiix17System@AnsiString
+     0  @Graphics@TCanvas@TextOut$qqriix17System@AnsiString
+     0  @Graphics@TCanvas@StretchDraw$qqrrx11Types@TRectp17Graphics@TGraphic
+     0  @Graphics@TCanvas@RoundRect$qqriiiiii
+     0  @Graphics@TCanvas@Refresh$qqrv
+     0  @Graphics@TCanvas@Rectangle$qqrrx11Types@TRect
+     0  @Graphics@TCanvas@Rectangle$qqriiii
+     0  @Graphics@TCanvas@Polygon$qqrpx12Types@TPointxi
+     0  @Graphics@TCanvas@MoveTo$qqrii
+     0  @Graphics@TCanvas@LineTo$qqrii
+     0  @Graphics@TCanvas@FrameRect$qqrrx11Types@TRect
+     0  @Graphics@TCanvas@FillRect$qqrrx11Types@TRect
+     0  @Graphics@TCanvas@Ellipse$qqriiii
+     0  @Graphics@TCanvas@DrawFocusRect$qqrrx11Types@TRect
+     0  @Graphics@TCanvas@Draw$qqriip17Graphics@TGraphic
+     0  @Graphics@TCanvas@CopyRect$qqrrx11Types@TRectp16Graphics@TCanvast1
+     0  @Graphics@TCanvas@BrushCopy$qqrrx11Types@TRectp16Graphics@TBitmapt115Graphics@TColor
+     0  @Graphics@TBrush@SetColor$qqr15Graphics@TColor
+     0  @Graphics@TBrush@GetColor$qqrv
+     0  @Graphics@TPen@SetWidth$qqri
+     0  @Graphics@TPen@SetColor$qqr15Graphics@TColor
+     0  @Graphics@TPen@GetColor$qqrv
+     0  @Graphics@TFont@SetCharset$qqruc
+     0  @Graphics@TFont@GetCharset$qqrv
+     0  @Graphics@TFont@SetPitch$qqr19Graphics@TFontPitch
+     0  @Graphics@TFont@GetPitch$qqrv
+     0  @Graphics@TFont@SetStyle$qqr47System@%Set$t19Graphics@TFontStyle$iuc$0$iuc$3%
+     0  @Graphics@TFont@GetStyle$qqrv
+     0  @Graphics@TFont@SetSize$qqri
+     0  @Graphics@TFont@GetSize$qqrv
+     0  @Graphics@TFont@SetName$qqrx17System@AnsiString
+     0  @Graphics@TFont@GetName$qqrv
+     0  @Graphics@TFont@GetHeight$qqrv
+     0  @Graphics@TFont@SetHandle$qqrui
+     0  @Graphics@TFont@SetColor$qqr15Graphics@TColor
+     0  @Graphics@TFont@$bdtr$qqrv
+     0  @Graphics@TFont@$bctr$qqrv
+     0  @Graphics@ColorToRGB$qqr15Graphics@TColor
+     0  @Graphics@TIcon@
+     0  @Graphics@TBitmap@
+     0  @Graphics@TPicture@
+     0  @$xp$16Graphics@TCanvas
+     0  @Graphics@TFont@
+
+  vcl60.bpl
+  OrigFirstThunk:  001D5E14 (Unbound IAT)
+  TimeDateStamp:   00000000 -> Wed Dec 31 19:00:00 1969
+  ForwarderChain:  00000000
+  First thunk RVA: 001D5E3C
+  Ordn  Name
+     0  @Printers@initialization$qqrv
+     0  @Printers@Finalization$qqrv
+     0  @Printers@Printer$qqrv
+     0  @Printers@TPrinter@GetPageWidth$qqrv
+     0  @Printers@TPrinter@GetPageHeight$qqrv
+     0  @Printers@TPrinter@GetCanvas$qqrv
+     0  @Printers@TPrinter@NewPage$qqrv
+     0  @Printers@TPrinter@EndDoc$qqrv
+     0  @Printers@TPrinter@BeginDoc$qqrv
+
+  vcl60.bpl
+  OrigFirstThunk:  001D5E64 (Unbound IAT)
+  TimeDateStamp:   00000000 -> Wed Dec 31 19:00:00 1969
+  ForwarderChain:  00000000
+  First thunk RVA: 001D6004
+  Ordn  Name
+     0  @Stdctrls@initialization$qqrv
+     0  @Stdctrls@Finalization$qqrv
+     0  @Stdctrls@TScrollBar@SetMax$qqri
+     0  @Stdctrls@TScrollBar@SetPageSize$qqri
+     0  @Stdctrls@TScrollBar@SetPosition$qqri
+     0  @Stdctrls@TScrollBar@SetParams$qqriii
+     0  @Stdctrls@TScrollBar@SetKind$qqr20Forms@TScrollBarKind
+     0  @Stdctrls@TScrollBar@$bctr$qqrp18Classes@TComponent
+     0  @Stdctrls@TCustomListBox@SelectAll$qqrv
+     0  @Stdctrls@TCustomListBox@MeasureItem$qqriri
+     0  @Stdctrls@TCustomListBox@DrawItem$qqrirx11Types@TRect47System@%Set$t18Windows@Windows__1$iuc$0$iuc$12%
+     0  @Stdctrls@TCustomListBox@WndProc$qqrr17Messages@TMessage
+     0  @Stdctrls@TCustomListBox@DestroyWnd$qqrv
+     0  @Stdctrls@TCustomListBox@CreateWnd$qqrv
+     0  @Stdctrls@TCustomListBox@CreateParams$qqrr22Controls@TCreateParams
+     0  @Stdctrls@TCustomListBox@ItemAtPos$qqrrx12Types@TPointo
+     0  @Stdctrls@TCustomListBox@SetMultiSelect$qqro
+     0  @Stdctrls@TCustomListBox@SetItemIndex$qqrxi
+     0  @Stdctrls@TCustomListBox@GetSelCount$qqrv
+     0  @Stdctrls@TCustomListBox@GetCount$qqrv
+     0  @Stdctrls@TCustomListBox@GetItemIndex$qqrv
+     0  @Stdctrls@TCustomListBox@DeleteSelected$qqrv
+     0  @Stdctrls@TCustomListBox@CopySelection$qqrp27Controls@TCustomListControl
+     0  @Stdctrls@TCustomListBox@ClearSelection$qqrv
+     0  @Stdctrls@TCustomListBox@Clear$qqrv
+     0  @Stdctrls@TCustomListBox@AddItem$qqr17System@AnsiStringp14System@TObject
+     0  @Stdctrls@TCustomListBox@$bdtr$qqrv
+     0  @Stdctrls@TCustomListBox@$bctr$qqrp18Classes@TComponent
+     0  @Stdctrls@TRadioButton@$bctr$qqrp18Classes@TComponent
+     0  @Stdctrls@TCustomCheckBox@CreateWnd$qqrv
+     0  @Stdctrls@TCustomCheckBox@CreateParams$qqrr22Controls@TCreateParams
+     0  @Stdctrls@TCustomCheckBox@SetChecked$qqro
+     0  @Stdctrls@TCustomCheckBox@GetChecked$qqrv
+     0  @Stdctrls@TCustomCheckBox@Toggle$qqrv
+     0  @Stdctrls@TCustomCheckBox@$bctr$qqrp18Classes@TComponent
+     0  @Stdctrls@TButton@CreateWnd$qqrv
+     0  @Stdctrls@TButton@CreateParams$qqrr22Controls@TCreateParams
+     0  @Stdctrls@TButton@SetDefault$qqro
+     0  @Stdctrls@TButton@SetButtonStyle$qqro
+     0  @Stdctrls@TButton@$bctr$qqrp18Classes@TComponent
+     0  @Stdctrls@TButtonControl@WndProc$qqrr17Messages@TMessage
+     0  @Stdctrls@TButtonControl@SetChecked$qqro
+     0  @Stdctrls@TButtonControl@GetChecked$qqrv
+     0  @Stdctrls@TCustomComboBox@$bdtr$qqrv
+     0  @Stdctrls@TCustomComboBox@$bctr$qqrp18Classes@TComponent
+     0  @Stdctrls@TCustomCombo@SetMaxLength$qqri
+     0  @Stdctrls@TCustomCombo@SetSelLength$qqri
+     0  @Stdctrls@TCustomCombo@SetSelStart$qqri
+     0  @Stdctrls@TCustomCombo@SetDroppedDown$qqro
+     0  @Stdctrls@TCustomCombo@GetDroppedDown$qqrv
+     0  @Stdctrls@TCustomCombo@$bdtr$qqrv
+     0  @Stdctrls@TCustomMemo@SetWordWrap$qqro
+     0  @Stdctrls@TCustomMemo@SetAlignment$qqr18Classes@TAlignment
+     0  @Stdctrls@TCustomMemo@Loaded$qqrv
+     0  @Stdctrls@TCustomMemo@SetCaretPos$qqrrx12Types@TPoint
+     0  @Stdctrls@TCustomMemo@GetCaretPos$qqrv
+     0  @Stdctrls@TCustomMemo@CreateWindowHandle$qqrrx22Controls@TCreateParams
+     0  @Stdctrls@TCustomMemo@CreateParams$qqrr22Controls@TCreateParams
+     0  @Stdctrls@TCustomMemo@$bdtr$qqrv
+     0  @Stdctrls@TCustomMemo@$bctr$qqrp18Classes@TComponent
+     0  @Stdctrls@TCustomEdit@DefaultHandler$qqrpv
+     0  @Stdctrls@TCustomEdit@DestroyWnd$qqrv
+     0  @Stdctrls@TCustomEdit@CreateWnd$qqrv
+     0  @Stdctrls@TCustomEdit@SetSelText$qqrx17System@AnsiString
+     0  @Stdctrls@TCustomEdit@GetSelText$qqrv
+     0  @Stdctrls@TCustomEdit@GetSelTextBuf$qqrpci
+     0  @Stdctrls@TCustomEdit@SelectAll$qqrv
+     0  @Stdctrls@TCustomEdit@Clear$qqrv
+     0  @Stdctrls@TCustomEdit@SetSelLength$qqri
+     0  @Stdctrls@TCustomEdit@GetSelLength$qqrv
+     0  @Stdctrls@TCustomEdit@SetSelStart$qqri
+     0  @Stdctrls@TCustomEdit@GetSelStart$qqrv
+     0  @Stdctrls@TCustomEdit@SetReadOnly$qqro
+     0  @Stdctrls@TCustomEdit@SetMaxLength$qqri
+     0  @Stdctrls@TCustomEdit@SetBorderStyle$qqr22Forms@TFormBorderStyle
+     0  @Stdctrls@TCustomEdit@SetAutoSize$qqro
+     0  @Stdctrls@TCustomEdit@DoSetMaxLength$qqri
+     0  @Stdctrls@TCustomEdit@$bctr$qqrp18Classes@TComponent
+     0  @Stdctrls@TCustomLabel@Notification$qqrp18Classes@TComponent18Classes@TOperation
+     0  @Stdctrls@TCustomLabel@SetWordWrap$qqro
+     0  @Stdctrls@TCustomLabel@SetFocusControl$qqrp20Controls@TWinControl
+     0  @Stdctrls@TCustomLabel@SetAutoSize$qqro
+     0  @Stdctrls@TCustomLabel@Loaded$qqrv
+     0  @Stdctrls@TCustomLabel@Paint$qqrv
+     0  @Stdctrls@TCustomLabel@GetLabelText$qqrv
+     0  @Stdctrls@TCustomLabel@$bctr$qqrp18Classes@TComponent
+     0  @Stdctrls@TCustomGroupBox@$bctr$qqrp18Classes@TComponent
+     0  @Stdctrls@TStaticText@
+     0  @Stdctrls@TScrollBar@
+     0  @$xp$17Stdctrls@TListBox
+     0  @Stdctrls@TListBox@
+     0  @Stdctrls@TRadioButton@
+     0  @$xp$18Stdctrls@TCheckBox
+     0  @Stdctrls@TCheckBox@
+     0  @$xp$16Stdctrls@TButton
+     0  @Stdctrls@TButton@
+     0  @Stdctrls@TComboBox@
+     0  @$xp$14Stdctrls@TMemo
+     0  @Stdctrls@TMemo@
+     0  @Stdctrls@TEdit@
+     0  @$xp$15Stdctrls@TLabel
+     0  @Stdctrls@TLabel@
+     0  @Stdctrls@TGroupBox@
+
+  vcl60.bpl
+  OrigFirstThunk:  001D61A4 (Unbound IAT)
+  TimeDateStamp:   00000000 -> Wed Dec 31 19:00:00 1969
+  ForwarderChain:  00000000
+  First thunk RVA: 001D6220
+  Ordn  Name
+     0  @Extctrls@initialization$qqrv
+     0  @Extctrls@Finalization$qqrv
+     0  @Extctrls@TSplitter@SetBeveled$qqro
+     0  @Extctrls@TSplitter@$bctr$qqrp18Classes@TComponent
+     0  @Extctrls@TCustomRadioGroup@$bdtr$qqrv
+     0  @Extctrls@TCustomRadioGroup@$bctr$qqrp18Classes@TComponent
+     0  @Extctrls@TCustomPanel@CanAutoSize$qqrrit1
+     0  @Extctrls@TCustomPanel@AdjustClientRect$qqrr11Types@TRect
+     0  @Extctrls@TCustomPanel@SetBorderStyle$qqr22Forms@TFormBorderStyle
+     0  @Extctrls@TCustomPanel@SetBorderWidth$qqri
+     0  @Extctrls@TCustomPanel@SetBevelWidth$qqri
+     0  @Extctrls@TCustomPanel@SetBevelOuter$qqr18Controls@TBevelCut
+     0  @Extctrls@TCustomPanel@SetBevelInner$qqr18Controls@TBevelCut
+     0  @Extctrls@TCustomPanel@Paint$qqrv
+     0  @Extctrls@TCustomPanel@CreateParams$qqrr22Controls@TCreateParams
+     0  @Extctrls@TCustomPanel@$bctr$qqrp18Classes@TComponent
+     0  @Extctrls@TTimer@SetOnTimer$qqrynpqqrp14System@TObject$v
+     0  @Extctrls@TTimer@SetInterval$qqrui
+     0  @Extctrls@TTimer@SetEnabled$qqro
+     0  @Extctrls@TTimer@$bdtr$qqrv
+     0  @Extctrls@TTimer@$bctr$qqrp18Classes@TComponent
+     0  @Extctrls@TImage@SetPicture$qqrp17Graphics@TPicture
+     0  @Extctrls@TControlBar@
+     0  @Extctrls@TSplitter@
+     0  @Extctrls@TRadioGroup@
+     0  @$xp$15Extctrls@TPanel
+     0  @Extctrls@TPanel@
+     0  @Extctrls@TTimer@
+     0  @Extctrls@TBevel@
+     0  @Extctrls@TImage@
+
+  vcl60.bpl
+  OrigFirstThunk:  001D629C (Unbound IAT)
+  TimeDateStamp:   00000000 -> Wed Dec 31 19:00:00 1969
+  ForwarderChain:  00000000
+  First thunk RVA: 001D62C8
+  Ordn  Name
+     0  @Dialogs@initialization$qqrv
+     0  @Dialogs@Finalization$qqrv
+     0  @Dialogs@ShowMessage$qqrx17System@AnsiString
+     0  @Dialogs@TFontDialog@SetFont$qqrp14Graphics@TFont
+     0  @Dialogs@TOpenDialog@SetInitialDir$qqrx17System@AnsiString
+     0  @Dialogs@TPrinterSetupDialog@
+     0  @Dialogs@TFontDialog@
+     0  @Dialogs@TColorDialog@
+     0  @Dialogs@TSaveDialog@
+     0  @Dialogs@TOpenDialog@
+
+  vcl60.bpl
+  OrigFirstThunk:  001D62F4 (Unbound IAT)
+  TimeDateStamp:   00000000 -> Wed Dec 31 19:00:00 1969
+  ForwarderChain:  00000000
+  First thunk RVA: 001D6314
+  Ordn  Name
+     0  @Clipbrd@initialization$qqrv
+     0  @Clipbrd@Finalization$qqrv
+     0  @Clipbrd@Clipboard$qqrv
+     0  @Clipbrd@TClipboard@HasFormat$qqrus
+     0  @Clipbrd@TClipboard@SetAsHandle$qqrusui
+     0  @Clipbrd@TClipboard@GetAsHandle$qqrus
+     0  @Clipbrd@TClipboard@SetTextBuf$qqrpc
+
+  vcl60.bpl
+  OrigFirstThunk:  001D6334 (Unbound IAT)
+  TimeDateStamp:   00000000 -> Wed Dec 31 19:00:00 1969
+  ForwarderChain:  00000000
+  First thunk RVA: 001D634C
+  Ordn  Name
+     0  @Stdactns@initialization$qqrv
+     0  @Stdactns@Finalization$qqrv
+     0  @Stdactns@TSearchFindNext@
+     0  @Stdactns@TSearchFind@
+     0  @Stdactns@TEditCopy@
+
+  vcl60.bpl
+  OrigFirstThunk:  001D6364 (Unbound IAT)
+  TimeDateStamp:   00000000 -> Wed Dec 31 19:00:00 1969
+  ForwarderChain:  00000000
+  First thunk RVA: 001D6374
+  Ordn  Name
+     0  @Winhelpviewer@initialization$qqrv
+     0  @Winhelpviewer@Finalization$qqrv
+     0  @Winhelpviewer@WinHelpTester
+
+  vcl60.bpl
+  OrigFirstThunk:  001D6384 (Unbound IAT)
+  TimeDateStamp:   00000000 -> Wed Dec 31 19:00:00 1969
+  ForwarderChain:  00000000
+  First thunk RVA: 001D63CC
+  Ordn  Name
+     0  @Actnlist@initialization$qqrv
+     0  @Actnlist@Finalization$qqrv
+     0  @Actnlist@TAction@$bctr$qqrp18Classes@TComponent
+     0  @Actnlist@TCustomAction@SetVisible$qqro
+     0  @Actnlist@TCustomAction@SetShortCut$qqrus
+     0  @Actnlist@TCustomAction@SetImageIndex$qqri
+     0  @Actnlist@TCustomAction@SetHint$qqrx17System@AnsiString
+     0  @Actnlist@TCustomAction@SetEnabled$qqro
+     0  @Actnlist@TCustomAction@SetChecked$qqro
+     0  @Actnlist@TCustomAction@SetCaption$qqrx17System@AnsiString
+     0  @Actnlist@TCustomAction@$bdtr$qqrv
+     0  @Actnlist@TCustomActionList@GetActionCount$qqrv
+     0  @Actnlist@TCustomActionList@GetAction$qqri
+     0  @Actnlist@TContainedAction@SetCategory$qqrx17System@AnsiString
+     0  @Actnlist@TContainedAction@$bdtr$qqrv
+     0  @Actnlist@TAction@
+     0  @Actnlist@TActionList@
+
+  vcl60.bpl
+  OrigFirstThunk:  001D6414 (Unbound IAT)
+  TimeDateStamp:   00000000 -> Wed Dec 31 19:00:00 1969
+  ForwarderChain:  00000000
+  First thunk RVA: 001D65A8
+  Ordn  Name
+     0  @Forms@initialization$qqrv
+     0  @Forms@Finalization$qqrv
+     0  @Forms@TApplication@CancelHint$qqrv
+     0  @Forms@TApplication@SetShowHint$qqro
+     0  @Forms@TApplication@GetExeName$qqrv
+     0  @Forms@TApplication@HelpCommand$qqrii
+     0  @Forms@TApplication@HelpContext$qqri
+     0  @Forms@TApplication@ShowException$qqrp18Sysutils@Exception
+     0  @Forms@TApplication@Run$qqrv
+     0  @Forms@TApplication@CreateForm$qqrp17System@TMetaClasspv
+     0  @Forms@TApplication@Initialize$qqrv
+     0  @Forms@TApplication@HandleMessage$qqrv
+     0  @Forms@TApplication@ProcessMessages$qqrv
+     0  @Forms@TApplication@SetTitle$qqrx17System@AnsiString
+     0  @Forms@TApplication@GetTitle$qqrv
+     0  @Forms@TApplication@BringToFront$qqrv
+     0  @Forms@TScreen@SetCursors$qqriui
+     0  @Forms@TScreen@SetCursor$qqr16Controls@TCursor
+     0  @Forms@TScreen@GetFormCount$qqrv
+     0  @Forms@TScreen@GetForm$qqri
+     0  @Forms@TScreen@GetMonitorCount$qqrv
+     0  @Forms@TScreen@GetMonitor$qqri
+     0  @Forms@TScreen@GetDesktopWidth$qqrv
+     0  @Forms@TScreen@GetDesktopHeight$qqrv
+     0  @Forms@TScreen@GetDesktopLeft$qqrv
+     0  @Forms@TScreen@GetDesktopTop$qqrv
+     0  @Forms@TScreen@GetWidth$qqrv
+     0  @Forms@TScreen@GetHeight$qqrv
+     0  @Forms@TMonitor@GetWidth$qqrv
+     0  @Forms@TMonitor@GetTop$qqrv
+     0  @Forms@TMonitor@GetHeight$qqrv
+     0  @Forms@TMonitor@GetLeft$qqrv
+     0  @Forms@TForm@ArrangeIcons$qqrv
+     0  @Forms@TForm@Cascade$qqrv
+     0  @Forms@TForm@Tile$qqrv
+     0  @Forms@TCustomForm@QueryInterface$qqsrx5_GUIDpv
+     0  @Forms@TCustomForm@UpdateActions$qqrv
+     0  @Forms@TCustomForm@ShowModal$qqrv
+     0  @Forms@TCustomForm@SetFocus$qqrv
+     0  @Forms@TCustomForm@Show$qqrv
+     0  @Forms@TCustomForm@Hide$qqrv
+     0  @Forms@TCustomForm@CloseQuery$qqrv
+     0  @Forms@TCustomForm@Close$qqrv
+     0  @Forms@TCustomForm@Resizing$qqr18Forms@TWindowState
+     0  @Forms@TCustomForm@PaintWindow$qqrui
+     0  @Forms@TCustomForm@SetFocusedControl$qqrp20Controls@TWinControl
+     0  @Forms@TCustomForm@SetActiveControl$qqrp20Controls@TWinControl
+     0  @Forms@TCustomForm@DefaultHandler$qqrpv
+     0  @Forms@TCustomForm@DestroyWindowHandle$qqrv
+     0  @Forms@TCustomForm@CreateWindowHandle$qqrrx22Controls@TCreateParams
+     0  @Forms@TCustomForm@CreateWnd$qqrv
+     0  @Forms@TCustomForm@CreateParams$qqrr22Controls@TCreateParams
+     0  @Forms@TCustomForm@SetWindowState$qqr18Forms@TWindowState
+     0  @Forms@TCustomForm@SetPosition$qqr15Forms@TPosition
+     0  @Forms@TCustomForm@SetMenu$qqrp15Menus@TMainMenu
+     0  @Forms@TCustomForm@SetFormStyle$qqr16Forms@TFormStyle
+     0  @Forms@TCustomForm@GetCanvas$qqrv
+     0  @Forms@TCustomForm@GetMonitor$qqrv
+     0  @Forms@TCustomForm@GetMDIChildren$qqri
+     0  @Forms@TCustomForm@GetMDIChildCount$qqrv
+     0  @Forms@TCustomForm@GetActiveMDIChild$qqrv
+     0  @Forms@TCustomForm@SetBorderStyle$qqr22Forms@TFormBorderStyle
+     0  @Forms@TCustomForm@AlignControls$qqrp17Controls@TControlr11Types@TRect
+     0  @Forms@TCustomForm@WndProc$qqrr17Messages@TMessage
+     0  @Forms@TCustomForm@ValidateRename$qqrp18Classes@TComponentx17System@AnsiStringt2
+     0  @Forms@TCustomForm@SetParent$qqrp20Controls@TWinControl
+     0  @Forms@TCustomForm@WantChildKey$qqrp17Controls@TControlr17Messages@TMessage
+     0  @Forms@TCustomForm@SetVisible$qqro
+     0  @Forms@TCustomForm@SetClientHeight$qqri
+     0  @Forms@TCustomForm@SetClientWidth$qqri
+     0  @Forms@TCustomForm@SetParentBiDiMode$qqro
+     0  @Forms@TCustomForm@GetFloating$qqrv
+     0  @Forms@TCustomForm@GetClientRect$qqrv
+     0  @Forms@TCustomForm@DefineProperties$qqrp14Classes@TFiler
+     0  @Forms@TCustomForm@ReadState$qqrp15Classes@TReader
+     0  @Forms@TCustomForm@Notification$qqrp18Classes@TComponent18Classes@TOperation
+     0  @Forms@TCustomForm@Loaded$qqrv
+     0  @Forms@TCustomForm@DoDestroy$qqrv
+     0  @Forms@TCustomForm@DoCreate$qqrv
+     0  @Forms@TCustomForm@$bdtr$qqrv
+     0  @Forms@TCustomForm@BeforeDestruction$qqrv
+     0  @Forms@TCustomForm@$bctr$qqrp18Classes@TComponenti
+     0  @Forms@TCustomForm@AfterConstruction$qqrv
+     0  @Forms@TCustomForm@$bctr$qqrp18Classes@TComponent
+     0  @Forms@TScrollBox@$bctr$qqrp18Classes@TComponent
+     0  @Forms@TScrollingWinControl@AdjustClientRect$qqrr11Types@TRect
+     0  @Forms@TScrollingWinControl@AutoScrollInView$qqrp17Controls@TControl
+     0  @Forms@TScrollingWinControl@AutoScrollEnabled$qqrv
+     0  @Forms@TScrollingWinControl@$bdtr$qqrv
+     0  @Forms@TControlScrollBar@SetVisible$qqro
+     0  @Forms@TControlScrollBar@SetPosition$qqri
+     0  @Forms@KeyDataToShiftState$qqri
+     0  @Forms@KeysToShiftState$qqrus
+     0  @Forms@EnableTaskWindows$qqrpv
+     0  @Forms@DisableTaskWindows$qqrui
+     0  @Forms@Screen
+     0  @Forms@Application
+     0  @$xp$11Forms@TForm
+     0  @Forms@TForm@
+     0  @Forms@TScrollBox@
+
+  vcl60.bpl
+  OrigFirstThunk:  001D673C (Unbound IAT)
+  TimeDateStamp:   00000000 -> Wed Dec 31 19:00:00 1969
+  ForwarderChain:  00000000
+  First thunk RVA: 001D6764
+  Ordn  Name
+     0  @Imglist@initialization$qqrv
+     0  @Imglist@Finalization$qqrv
+     0  @Imglist@TCustomImageList@GetCount$qqrv
+     0  @Imglist@TCustomImageList@GetIcon$qqrip14Graphics@TIcon
+     0  @Imglist@TCustomImageList@GetBitmap$qqrip16Graphics@TBitmap
+     0  @Imglist@TCustomImageList@AddIcon$qqrp14Graphics@TIcon
+     0  @Imglist@TCustomImageList@AddMasked$qqrp16Graphics@TBitmap15Graphics@TColor
+     0  @Imglist@TCustomImageList@GetHandle$qqrv
+     0  @Imglist@TCustomImageList@$bctr$qqrp18Classes@TComponent
+
+  vcl60.bpl
+  OrigFirstThunk:  001D678C (Unbound IAT)
+  TimeDateStamp:   00000000 -> Wed Dec 31 19:00:00 1969
+  ForwarderChain:  00000000
+  First thunk RVA: 001D683C
+  Ordn  Name
+     0  @Menus@initialization$qqrv
+     0  @Menus@Finalization$qqrv
+     0  @Menus@TPopupMenu@$bdtr$qqrv
+     0  @Menus@TPopupMenu@$bctr$qqrp18Classes@TComponent
+     0  @Menus@TMainMenu@Unmerge$qqrp15Menus@TMainMenu
+     0  @Menus@TMenu@$bdtr$qqrv
+     0  @Menus@TMenuItem@SetAutoHotkeys$qqrx23Menus@TMenuItemAutoFlag
+     0  @Menus@TMenuItem@Clear$qqrv
+     0  @Menus@TMenuItem@Notification$qqrp18Classes@TComponent18Classes@TOperation
+     0  @Menus@TMenuItem@AssignTo$qqrp19Classes@TPersistent
+     0  @Menus@TMenuItem@SetAction$qqrp20Classes@TBasicAction
+     0  @Menus@TMenuItem@MenuChanged$qqro
+     0  @Menus@TMenuItem@Remove$qqrp15Menus@TMenuItem
+     0  @Menus@TMenuItem@Add$qqrp15Menus@TMenuItem
+     0  @Menus@TMenuItem@IndexOf$qqrp15Menus@TMenuItem
+     0  @Menus@TMenuItem@Delete$qqri
+     0  @Menus@TMenuItem@Insert$qqrip15Menus@TMenuItem
+     0  @Menus@TMenuItem@InitiateAction$qqrv
+     0  @Menus@TMenuItem@GetMenuIndex$qqrv
+     0  @Menus@TMenuItem@SetImageIndex$qqri
+     0  @Menus@TMenuItem@SetVisible$qqro
+     0  @Menus@TMenuItem@SetShortCut$qqrus
+     0  @Menus@TMenuItem@GetItem$qqri
+     0  @Menus@TMenuItem@GetCount$qqrv
+     0  @Menus@TMenuItem@GetAction$qqrv
+     0  @Menus@TMenuItem@SetEnabled$qqro
+     0  @Menus@TMenuItem@SetChecked$qqro
+     0  @Menus@TMenuItem@SetCaption$qqrx17System@AnsiString
+     0  @Menus@TMenuItem@MeasureItem$qqrp16Graphics@TCanvasrit2
+     0  @Menus@TMenuItem@AdvancedDrawItem$qqrp16Graphics@TCanvasrx11Types@TRect47System@%Set$t18Windows@Windows__1$iuc$0$iuc$12%o
+     0  @Menus@TMenuItem@DrawItem$qqrp16Graphics@TCanvasrx11Types@TRecto
+     0  @Menus@TMenuItem@DefineProperties$qqrp14Classes@TFiler
+     0  @Menus@TMenuItem@Loaded$qqrv
+     0  @Menus@TMenuItem@$bdtr$qqrv
+     0  @Menus@TMenuItem@$bctr$qqrp18Classes@TComponent
+     0  @Menus@TextToShortCut$qqr17System@AnsiString
+     0  @Menus@ShortCutToText$qqrus
+     0  @Menus@ShortCutToKey$qqrusrusr46System@%Set$t18Classes@Classes__1$iuc$0$iuc$6%
+     0  @Menus@ShortCut$qqrus46System@%Set$t18Classes@Classes__1$iuc$0$iuc$6%
+     0  @Menus@TPopupMenu@
+     0  @Menus@TMainMenu@
+     0  @$xp$15Menus@TMenuItem
+     0  @Menus@TMenuItem@
+
+  vcl60.bpl
+  OrigFirstThunk:  001D68EC (Unbound IAT)
+  TimeDateStamp:   00000000 -> Wed Dec 31 19:00:00 1969
+  ForwarderChain:  00000000
+  First thunk RVA: 001D6AFC
+  Ordn  Name
+     0  @Controls@initialization$qqrv
+     0  @Controls@Finalization$qqrv
+     0  @Controls@TCustomListControl@MoveSelection$qqrp27Controls@TCustomListControl
+     0  @Controls@TMouse@GetCursorPos$qqrv
+     0  @Controls@TCustomControl@Paint$qqrv
+     0  @Controls@TCustomControl@PaintWindow$qqrui
+     0  @Controls@TCustomControl@$bdtr$qqrv
+     0  @Controls@TCustomControl@$bctr$qqrp18Classes@TComponent
+     0  @Controls@THintWindow@NCPaint$qqrui
+     0  @Controls@THintWindow@ActivateHintData$qqrrx11Types@TRectx17System@AnsiStringpv
+     0  @Controls@THintWindow@IsHintMsg$qqrr6tagMSG
+     0  @Controls@THintWindow@Paint$qqrv
+     0  @Controls@THintWindow@CreateParams$qqrr22Controls@TCreateParams
+     0  @Controls@THintWindow@$bctr$qqrp18Classes@TComponent
+     0  @Controls@TGraphicControl@$bdtr$qqrv
+     0  @Controls@TWinControl@SetBevelKind$qqrx19Controls@TBevelKind
+     0  @Controls@TWinControl@SetBevelCut$qqrix18Controls@TBevelCut
+     0  @Controls@TWinControl@CanAutoSize$qqrrit1
+     0  @Controls@TWinControl@AssignTo$qqrp19Classes@TPersistent
+     0  @Controls@TWinControl@ConstrainedResize$qqrrit1t1t1
+     0  @Controls@TWinControl@CanResize$qqrrit1
+     0  @Controls@TWinControl@HandleAllocated$qqrv
+     0  @Controls@TWinControl@SetTabStop$qqro
+     0  @Controls@TWinControl@SetCtl3D$qqro
+     0  @Controls@TWinControl@GetClientRect$qqrv
+     0  @Controls@TWinControl@GetClientOrigin$qqrv
+     0  @Controls@TWinControl@GetControlExtents$qqrv
+     0  @Controls@TWinControl@GetHandle$qqrv
+     0  @Controls@TWinControl@SetFocus$qqrv
+     0  @Controls@TWinControl@Repaint$qqrv
+     0  @Controls@TWinControl@Update$qqrv
+     0  @Controls@TWinControl@Invalidate$qqrv
+     0  @Controls@TWinControl@GetDeviceContext$qqrrui
+     0  @Controls@TWinControl@ShowControl$qqrp17Controls@TControl
+     0  @Controls@TWinControl@SetBounds$qqriiii
+     0  @Controls@TWinControl@KeyDown$qqrrus46System@%Set$t18Classes@Classes__1$iuc$0$iuc$6%
+     0  @Controls@TWinControl@DoEnter$qqrv
+     0  @Controls@TWinControl@PaintTo$qqrp16Graphics@TCanvasii
+     0  @Controls@TWinControl@PaintControls$qqruip17Controls@TControl
+     0  @Controls@TWinControl@PaintWindow$qqrui
+     0  @Controls@TWinControl@DefaultHandler$qqrpv
+     0  @Controls@TWinControl@WndProc$qqrr17Messages@TMessage
+     0  @Controls@TWinControl@SetParentWindow$qqrui
+     0  @Controls@TWinControl@DestroyHandle$qqrv
+     0  @Controls@TWinControl@CustomAlignPosition$qqrp17Controls@TControlrit2t2t2r11Types@TRectrx19Controls@TAlignInfo
+     0  @Controls@TWinControl@CustomAlignInsertBefore$qqrp17Controls@TControlt1
+     0  @Controls@TWinControl@CreateHandle$qqrv
+     0  @Controls@TWinControl@DestroyWindowHandle$qqrv
+     0  @Controls@TWinControl@DestroyWnd$qqrv
+     0  @Controls@TWinControl@DefineProperties$qqrp14Classes@TFiler
+     0  @Controls@TWinControl@CreateWindowHandle$qqrrx22Controls@TCreateParams
+     0  @Controls@TWinControl@CreateWnd$qqrv
+     0  @Controls@TWinControl@CreateParams$qqrr22Controls@TCreateParams
+     0  @Controls@TWinControl@GetControlCount$qqrv
+     0  @Controls@TWinControl@GetControl$qqri
+     0  @Controls@TWinControl@AlignControls$qqrp17Controls@TControlr11Types@TRect
+     0  @Controls@TWinControl@AdjustClientRect$qqrr11Types@TRect
+     0  @Controls@TWinControl@ReadState$qqrp15Classes@TReader
+     0  @Controls@TWinControl@$bdtr$qqrv
+     0  @Controls@TControl@InitiateAction$qqrv
+     0  @Controls@TControl@GetFloatingDockSiteClass$qqrv
+     0  @Controls@TControl@GetFloating$qqrv
+     0  @Controls@TControl@AssignTo$qqrp19Classes@TPersistent
+     0  @Controls@TControl@Loaded$qqrv
+     0  @Controls@TControl@MouseUp$qqr21Controls@TMouseButton46System@%Set$t18Classes@Classes__1$iuc$0$iuc$6%ii
+     0  @Controls@TControl@MouseMove$qqr46System@%Set$t18Classes@Classes__1$iuc$0$iuc$6%ii
+     0  @Controls@TControl@MouseDown$qqr21Controls@TMouseButton46System@%Set$t18Classes@Classes__1$iuc$0$iuc$6%ii
+     0  @Controls@TControl@DblClick$qqrv
+     0  @Controls@TControl@DefineProperties$qqrp14Classes@TFiler
+     0  @Controls@TControl@DefaultHandler$qqrpv
+     0  @Controls@TControl@WndProc$qqrr17Messages@TMessage
+     0  @Controls@TControl@UpdateBoundsRect$qqrrx11Types@TRect
+     0  @Controls@TControl@Perform$qqruiii
+     0  @Controls@TControl@ConstrainedResize$qqrrit1t1t1
+     0  @Controls@TControl@CanResize$qqrrit1
+     0  @Controls@TControl@CanAutoSize$qqrrit1
+     0  @Controls@TControl@ManualFloat$qqrrx11Types@TRect
+     0  @Controls@TControl@ManualDock$qqrp20Controls@TWinControlp17Controls@TControl15Controls@TAlign
+     0  @Controls@TControl@Repaint$qqrv
+     0  @Controls@TControl@Refresh$qqrv
+     0  @Controls@TControl@Update$qqrv
+     0  @Controls@TControl@Invalidate$qqrv
+     0  @Controls@TControl@GetDeviceContext$qqrrui
+     0  @Controls@TControl@BringToFront$qqrv
+     0  @Controls@TControl@SetCursor$qqr16Controls@TCursor
+     0  @Controls@TControl@SetParentBiDiMode$qqro
+     0  @Controls@TControl@SetColor$qqr15Graphics@TColor
+     0  @Controls@TControl@SetShowHint$qqro
+     0  @Controls@TControl@SetFont$qqrp14Graphics@TFont
+     0  @Controls@TControl@SetBiDiMode$qqr17Classes@TBiDiMode
+     0  @Controls@TControl@SetText$qqrx17System@AnsiString
+     0  @Controls@TControl@GetText$qqrv
+     0  @Controls@TControl@SetPopupMenu$qqrp16Menus@TPopupMenu
+     0  @Controls@TControl@SetEnabled$qqro
+     0  @Controls@TControl@SetVisible$qqro
+     0  @Controls@TControl@SetParent$qqrp20Controls@TWinControl
+     0  @Controls@TControl@SetName$qqrx17System@AnsiString
+     0  @Controls@TControl@SetAutoSize$qqro
+     0  @Controls@TControl@ScreenToClient$qqrrx12Types@TPoint
+     0  @Controls@TControl@ClientToScreen$qqrrx12Types@TPoint
+     0  @Controls@TControl@GetClientOrigin$qqrv
+     0  @Controls@TControl@SetClientHeight$qqri
+     0  @Controls@TControl@GetClientHeight$qqrv
+     0  @Controls@TControl@SetClientWidth$qqri
+     0  @Controls@TControl@GetClientWidth$qqrv
+     0  @Controls@TControl@GetClientRect$qqrv
+     0  @Controls@TControl@GetBoundsRect$qqrv
+     0  @Controls@TControl@SetHelpContext$qqrxi
+     0  @Controls@TControl@SetHeight$qqri
+     0  @Controls@TControl@SetWidth$qqri
+     0  @Controls@TControl@SetTop$qqri
+     0  @Controls@TControl@SetLeft$qqri
+     0  @Controls@TControl@SetBounds$qqriiii
+     0  @Controls@TControl@SetAlign$qqr15Controls@TAlign
+     0  @Controls@TControl@Notification$qqrp18Classes@TComponent18Classes@TOperation
+     0  @Controls@TControl@ReadState$qqrp15Classes@TReader
+     0  @Controls@TControl@Resize$qqrv
+     0  @Controls@TControl@SetDragMode$qqr18Controls@TDragMode
+     0  @Controls@TControl@GetAction$qqrv
+     0  @Controls@TControl@GetEnabled$qqrv
+     0  @Controls@TControl@GetDragImages$qqrv
+     0  @Controls@TControl@$bdtr$qqrv
+     0  @Controls@TSizeConstraints@SetConstraints$qqrii
+     0  @Controls@Mouse
+     0  @$xp$19Controls@TImageList
+     0  @Controls@TImageList@
+     0  @$xp$20Controls@THintWindow
+     0  @Controls@THintWindow@
+     0  @$xp$23Controls@TCustomControl
+     0  @Controls@TCustomControl@
+     0  @Controls@TWinControl@
+
+  vcl60.bpl
+  OrigFirstThunk:  001D6D0C (Unbound IAT)
+  TimeDateStamp:   00000000 -> Wed Dec 31 19:00:00 1969
+  ForwarderChain:  00000000
+  First thunk RVA: 001D6D3C
+  Ordn  Name
+     0  @Buttons@initialization$qqrv
+     0  @Buttons@Finalization$qqrv
+     0  @Buttons@TBitBtn@GetGlyph$qqrv
+     0  @Buttons@TBitBtn@SetGlyph$qqrp16Graphics@TBitmap
+     0  @Buttons@TBitBtn@$bctr$qqrp18Classes@TComponent
+     0  @Buttons@TSpeedButton@SetLayout$qqr21Buttons@TButtonLayout
+     0  @Buttons@TSpeedButton@SetGlyph$qqrp16Graphics@TBitmap
+     0  @Buttons@TSpeedButton@GetGlyph$qqrv
+     0  @Buttons@TSpeedButton@$bctr$qqrp18Classes@TComponent
+     0  @Buttons@TBitBtn@
+     0  @Buttons@TSpeedButton@
+
+  vcl60.bpl
+  OrigFirstThunk:  001D6D6C (Unbound IAT)
+  TimeDateStamp:   00000000 -> Wed Dec 31 19:00:00 1969
+  ForwarderChain:  00000000
+  First thunk RVA: 001D6D78
+  Ordn  Name
+     0  @Toolwin@initialization$qqrv
+     0  @Toolwin@Finalization$qqrv
+
+  vcl60.bpl
+  OrigFirstThunk:  001D6D84 (Unbound IAT)
+  TimeDateStamp:   00000000 -> Wed Dec 31 19:00:00 1969
+  ForwarderChain:  00000000
+  First thunk RVA: 001D6D90
+  Ordn  Name
+     0  @Comstrs@initialization$qqrv
+     0  @Comstrs@Finalization$qqrv
+
+  vcl60.bpl
+  OrigFirstThunk:  001D6D9C (Unbound IAT)
+  TimeDateStamp:   00000000 -> Wed Dec 31 19:00:00 1969
+  ForwarderChain:  00000000
+  First thunk RVA: 001D6DA8
+  Ordn  Name
+     0  @Extdlgs@initialization$qqrv
+     0  @Extdlgs@Finalization$qqrv
+
+  vcl60.bpl
+  OrigFirstThunk:  001D6DB4 (Unbound IAT)
+  TimeDateStamp:   00000000 -> Wed Dec 31 19:00:00 1969
+  ForwarderChain:  00000000
+  First thunk RVA: 001D6DC0
+  Ordn  Name
+     0  @Extactns@initialization$qqrv
+     0  @Extactns@Finalization$qqrv
+
+  vcl60.bpl
+  OrigFirstThunk:  001D6DCC (Unbound IAT)
+  TimeDateStamp:   00000000 -> Wed Dec 31 19:00:00 1969
+  ForwarderChain:  00000000
+  First thunk RVA: 001D6DD8
+  Ordn  Name
+     0  @Listactns@initialization$qqrv
+     0  @Listactns@Finalization$qqrv
+
+  vcl60.bpl
+  OrigFirstThunk:  001D6DE4 (Unbound IAT)
+  TimeDateStamp:   00000000 -> Wed Dec 31 19:00:00 1969
+  ForwarderChain:  00000000
+  First thunk RVA: 001D7064
+  Ordn  Name
+     0  @Comctrls@initialization$qqrv
+     0  @Comctrls@Finalization$qqrv
+     0  @Comctrls@TToolBar@GetButtonCount$qqrv
+     0  @Comctrls@TToolBar@GetButton$qqri
+     0  @Comctrls@TToolButton@SetStyle$qqr25Comctrls@TToolButtonStyle
+     0  @Comctrls@TToolButton@SetImageIndex$qqri
+     0  @Comctrls@TToolButton@SetDown$qqro
+     0  @Comctrls@TToolButton@$bctr$qqrp18Classes@TComponent
+     0  @Comctrls@TCustomListView@Clear$qqrv
+     0  @Comctrls@TCustomListView@SelectAll$qqrv
+     0  @Comctrls@TCustomListView@GetCount$qqrv
+     0  @Comctrls@TCustomListView@DeleteSelected$qqrv
+     0  @Comctrls@TCustomListView@CopySelection$qqrp27Controls@TCustomListControl
+     0  @Comctrls@TCustomListView@ClearSelection$qqrv
+     0  @Comctrls@TCustomListView@DoInfoTip$qqrp18Comctrls@TListItemr17System@AnsiString
+     0  @Comctrls@TCustomListView@DrawItem$qqrp18Comctrls@TListItemrx11Types@TRect47System@%Set$t18Windows@Windows__1$iuc$0$iuc$12%
+     0  @Comctrls@TCustomListView@CustomDrawSubItem$qqrp18Comctrls@TListItemi48System@%Set$t20Comctrls@ComCtrls__9$iuc$0$iuc$8%25Comctrls@TCustomDrawStage
+     0  @Comctrls@TCustomListView@CustomDrawItem$qqrp18Comctrls@TListItem48System@%Set$t20Comctrls@ComCtrls__9$iuc$0$iuc$8%25Comctrls@TCustomDrawStage
+     0  @Comctrls@TCustomListView@CustomDraw$qqrrx11Types@TRect25Comctrls@TCustomDrawStage
+     0  @Comctrls@TCustomListView@IsCustomDrawn$qqr26Comctrls@TCustomDrawTarget25Comctrls@TCustomDrawStage
+     0  @Comctrls@TCustomListView@StringWidth$qqr17System@AnsiString
+     0  @Comctrls@TCustomListView@GetItemAt$qqrii
+     0  @Comctrls@TCustomListView@GetNextItem$qqrp18Comctrls@TListItem25Comctrls@TSearchDirection47System@%Set$t19Comctrls@TItemState$iuc$0$iuc$5%
+     0  @Comctrls@TCustomListView@SetFocused$qqrp18Comctrls@TListItem
+     0  @Comctrls@TCustomListView@SetSelected$qqrp18Comctrls@TListItem
+     0  @Comctrls@TCustomListView@GetSelected$qqrv
+     0  @Comctrls@TCustomListView@GetHitTestInfoAt$qqrii
+     0  @Comctrls@TCustomListView@FindData$qqripvoo
+     0  @Comctrls@TCustomListView@GetColumnFromIndex$qqri
+     0  @Comctrls@TCustomListView@SetSmallImages$qqrp24Imglist@TCustomImageList
+     0  @Comctrls@TCustomListView@SetLargeImages$qqrp24Imglist@TCustomImageList
+     0  @Comctrls@TCustomListView@AlphaSort$qqrv
+     0  @Comctrls@TCustomListView@WndProc$qqrr17Messages@TMessage
+     0  @Comctrls@TCustomListView@GetDragImages$qqrv
+     0  @Comctrls@TCustomListView@AddItem$qqr17System@AnsiStringp14System@TObject
+     0  @Comctrls@TCustomListView@GetSelCount$qqrv
+     0  @Comctrls@TCustomListView@CreateListItems$qqrv
+     0  @Comctrls@TCustomListView@CreateListItem$qqrv
+     0  @Comctrls@TCustomListView@OwnerDataStateChange$qqrii47System@%Set$t19Comctrls@TItemState$iuc$0$iuc$5%t3
+     0  @Comctrls@TCustomListView@OwnerDataHint$qqrii
+     0  @Comctrls@TCustomListView@OwnerDataFind$qqr18Comctrls@TItemFindx17System@AnsiStringrx12Types@TPointpvi25Comctrls@TSearchDirectiono
+     0  @Comctrls@TCustomListView@OwnerDataFetch$qqrp18Comctrls@TListItem50System@%Set$t22Comctrls@TItemRequests$iuc$0$iuc$4%
+     0  @Comctrls@TCustomListView@GetItemIndex$qqrv
+     0  @Comctrls@TCustomListView@SetViewStyle$qqr19Comctrls@TViewStyle
+     0  @Comctrls@TCustomListView@SetReadOnly$qqro
+     0  @Comctrls@TCustomListView@SetHideSelection$qqro
+     0  @Comctrls@TCustomListView@SetMultiSelect$qqro
+     0  @Comctrls@TCustomListView@SetItemIndex$qqrxi
+     0  @Comctrls@TCustomListView@SetRowSelect$qqro
+     0  @Comctrls@TCustomListView@SetOwnerData$qqro
+     0  @Comctrls@TCustomListView@UpdateItems$qqrii
+     0  @Comctrls@TCustomListView@Notification$qqrp18Classes@TComponent18Classes@TOperation
+     0  @Comctrls@TCustomListView@DestroyWnd$qqrv
+     0  @Comctrls@TCustomListView@CreateWnd$qqrv
+     0  @Comctrls@TCustomListView@CreateParams$qqrr22Controls@TCreateParams
+     0  @Comctrls@TCustomListView@$bdtr$qqrv
+     0  @Comctrls@TCustomListView@$bctr$qqrp18Classes@TComponent
+     0  @Comctrls@TIconOptions@SetAutoArrange$qqro
+     0  @Comctrls@TListItems@Delete$qqri
+     0  @Comctrls@TListItems@EndUpdate$qqrv
+     0  @Comctrls@TListItems@BeginUpdate$qqrv
+     0  @Comctrls@TListItems@Clear$qqrv
+     0  @Comctrls@TListItems@SetCount$qqri
+     0  @Comctrls@TListItems@GetItem$qqri
+     0  @Comctrls@TListItems@GetCount$qqrv
+     0  @Comctrls@TListItems@Add$qqrv
+     0  @Comctrls@TListItem@SetSubItemImage$qqrixi
+     0  @Comctrls@TListItem@GetSubItemImage$qqri
+     0  @Comctrls@TListItem@GetIndex$qqrv
+     0  @Comctrls@TListItem@SetImage$qqrii
+     0  @Comctrls@TListItem@SetState$qqrio
+     0  @Comctrls@TListItem@SetData$qqrpv
+     0  @Comctrls@TListItem@SetCaption$qqrx17System@AnsiString
+     0  @Comctrls@TListItem@SetChecked$qqro
+     0  @Comctrls@TListItem@GetChecked$qqrv
+     0  @Comctrls@TListItem@MakeVisible$qqro
+     0  @Comctrls@TListItem@GetListView$qqrv
+     0  @Comctrls@TListColumns@Add$qqrv
+     0  @Comctrls@TListColumns@GetItem$qqri
+     0  @Comctrls@TListColumn@SetMinWidth$qqri
+     0  @Comctrls@TListColumn@SetMaxWidth$qqri
+     0  @Comctrls@TListColumn@SetImageIndex$qqri
+     0  @Comctrls@TListColumn@SetAutoSize$qqro
+     0  @Comctrls@TListColumn@SetWidth$qqri
+     0  @Comctrls@TListColumn@GetWidth$qqrv
+     0  @Comctrls@TListColumn@SetCaption$qqrx17System@AnsiString
+     0  @Comctrls@TCustomRichEdit@RequestSize$qqrrx11Types@TRect
+     0  @Comctrls@TCustomRichEdit@Print$qqrx17System@AnsiString
+     0  @Comctrls@TCustomRichEdit@SetSelStart$qqri
+     0  @Comctrls@TCustomRichEdit@SetSelLength$qqri
+     0  @Comctrls@TCustomRichEdit@GetSelText$qqrv
+     0  @Comctrls@TCustomRichEdit@GetSelTextBuf$qqrpci
+     0  @Comctrls@TCustomRichEdit@GetSelStart$qqrv
+     0  @Comctrls@TCustomRichEdit@GetSelLength$qqrv
+     0  @Comctrls@TCustomRichEdit@SetCaretPos$qqrrx12Types@TPoint
+     0  @Comctrls@TCustomRichEdit@GetCaretPos$qqrv
+     0  @Comctrls@TCustomRichEdit@DoSetMaxLength$qqri
+     0  @Comctrls@TCustomRichEdit@DestroyWnd$qqrv
+     0  @Comctrls@TCustomRichEdit@CreateWnd$qqrv
+     0  @Comctrls@TCustomRichEdit@CreateParams$qqrr22Controls@TCreateParams
+     0  @Comctrls@TCustomRichEdit@Clear$qqrv
+     0  @Comctrls@TCustomRichEdit@$bdtr$qqrv
+     0  @Comctrls@TCustomRichEdit@$bctr$qqrp18Classes@TComponent
+     0  @Comctrls@TTextAttributes@SetColor$qqr15Graphics@TColor
+     0  @Comctrls@TCustomTreeView@SetSelected$qqrp18Comctrls@TTreeNode
+     0  @Comctrls@TCustomTreeView@GetSelected$qqrv
+     0  @Comctrls@TCustomTreeView@GetHitTestInfoAt$qqrii
+     0  @Comctrls@TCustomTreeView@GetNodeAt$qqrii
+     0  @Comctrls@TCustomTreeView@AlphaSort$qqro
+     0  @Comctrls@TTreeNodes@GetNodeFromIndex$qqri
+     0  @Comctrls@TTreeNodes@AddChild$qqrp18Comctrls@TTreeNodex17System@AnsiString
+     0  @Comctrls@TTreeNodes@Clear$qqrv
+     0  @Comctrls@TTreeNodes@GetCount$qqrv
+     0  @Comctrls@TTreeNode@GetLevel$qqrv
+     0  @Comctrls@TTreeNode@GetCount$qqrv
+     0  @Comctrls@TTreeNode@GetItem$qqri
+     0  @Comctrls@TTreeNode@getPrevSibling$qqrv
+     0  @Comctrls@TTreeNode@getNextSibling$qqrv
+     0  @Comctrls@TTreeNode@GetParent$qqrv
+     0  @Comctrls@TTreeNode@SetChildren$qqro
+     0  @Comctrls@TTreeNode@GetChildren$qqrv
+     0  @Comctrls@TTreeNode@GetExpanded$qqrv
+     0  @Comctrls@TTreeNode@Collapse$qqro
+     0  @Comctrls@TTreeNode@Expand$qqro
+     0  @Comctrls@TTreeNode@SetStateIndex$qqri
+     0  @Comctrls@TTreeNode@SetSelectedIndex$qqri
+     0  @Comctrls@TTreeNode@SetImageIndex$qqri
+     0  @Comctrls@TTreeNode@SetData$qqrpv
+     0  @Comctrls@TCustomStatusBar@SetSizeGrip$qqro
+     0  @Comctrls@TCustomStatusBar@SetSimpleText$qqrx17System@AnsiString
+     0  @Comctrls@TCustomStatusBar@SetSimplePanel$qqro
+     0  @Comctrls@TCustomStatusBar@$bdtr$qqrv
+     0  @Comctrls@TCustomStatusBar@$bctr$qqrp18Classes@TComponent
+     0  @Comctrls@TStatusPanels@GetItem$qqri
+     0  @Comctrls@TStatusPanels@Add$qqrv
+     0  @Comctrls@TStatusPanel@SetWidth$qqri
+     0  @Comctrls@TStatusPanel@SetText$qqrx17System@AnsiString
+     0  @Comctrls@TPageControl@SetActivePage$qqrp18Comctrls@TTabSheet
+     0  @Comctrls@TPageControl@GetPageCount$qqrv
+     0  @Comctrls@TPageControl@GetPage$qqri
+     0  @Comctrls@TTabSheet@SetTabVisible$qqro
+     0  @Comctrls@TTabSheet@SetPageControl$qqrp21Comctrls@TPageControl
+     0  @Comctrls@TTabSheet@$bctr$qqrp18Classes@TComponent
+     0  @Comctrls@TCustomTabControl@IndexOfTabAt$qqrii
+     0  @Comctrls@TCustomTabControl@SetTabIndex$qqri
+     0  @Comctrls@TCustomTabControl@SetImages$qqrp24Imglist@TCustomImageList
+     0  @Comctrls@TCustomTabControl@GetTabIndex$qqrv
+     0  @Comctrls@TToolBar@
+     0  @Comctrls@TToolButton@
+     0  @$xp$18Comctrls@TListView
+     0  @Comctrls@TListView@
+     0  @Comctrls@TUpDown@
+     0  @$xp$18Comctrls@TRichEdit
+     0  @Comctrls@TRichEdit@
+     0  @Comctrls@TTreeView@
+     0  @Comctrls@TStatusBar@
+     0  @Comctrls@TPageControl@
+     0  @Comctrls@TTabSheet@
+     0  @Comctrls@TTabControl@
+
+  vclx60.bpl
+  OrigFirstThunk:  001D72E4 (Unbound IAT)
+  TimeDateStamp:   00000000 -> Wed Dec 31 19:00:00 1969
+  ForwarderChain:  00000000
+  First thunk RVA: 001D7320
+  Ordn  Name
+     0  @Checklst@initialization$qqrv
+     0  @Checklst@Finalization$qqrv
+     0  @Checklst@TCheckListBox@SetHeader$qqrixo
+     0  @Checklst@TCheckListBox@GetHeader$qqri
+     0  @Checklst@TCheckListBox@GetChecked$qqri
+     0  @Checklst@TCheckListBox@SetChecked$qqrio
+     0  @Checklst@TCheckListBox@DrawItem$qqrirx11Types@TRect47System@%Set$t18Windows@Windows__1$iuc$0$iuc$12%
+     0  @Checklst@TCheckListBox@CreateParams$qqrr22Controls@TCreateParams
+     0  @Checklst@TCheckListBox@DestroyWnd$qqrv
+     0  @Checklst@TCheckListBox@CreateWnd$qqrv
+     0  @Checklst@TCheckListBox@$bdtr$qqrv
+     0  @Checklst@TCheckListBox@$bctr$qqrp18Classes@TComponent
+     0  @$xp$22Checklst@TCheckListBox
+     0  @Checklst@TCheckListBox@
+
+  IDA.WLL
+  OrigFirstThunk:  001D735C (Unbound IAT)
+  TimeDateStamp:   00000000 -> Wed Dec 31 19:00:00 1969
+  ForwarderChain:  00000000
+  First thunk RVA: 001D7D1C
+  Ordn  Name
+  1080
+   279
+   280
+   177
+   534
+   957
+   334
+   547
+   317
+   653
+   665
+   369
+   916
+   180
+   462
+   623
+   450
+   821
+   176
+   819
+   420
+   476
+   119
+   347
+   471
+   509
+   130
+   190
+   849
+    67
+   431
+   468
+   692
+   860
+   960
+   174
+   820
+   392
+   391
+   818
+   508
+   282
+   175
+   416
+   123
+   381
+   473
+   474
+    13
+   676
+   488
+   422
+   414
+   854
+   705
+  1015
+   398
+   613
+   268
+  1073
+    47
+   728
+   586
+  1074
+   102
+   743
+   558
+   987
+   515
+   516
+   784
+    45
+   553
+   824
+   543
+   311
+    11
+    46
+    49
+   962
+   611
+  1105
+    50
+    51
+    48
+   963
+   335
+   532
+   786
+     7
+   872
+   266
+   526
+   181
+     5
+    14
+   493
+     6
+    15
+   909
+  1008
+   243
+   227
+   772
+   631
+   346
+   633
+   141
+   776
+   925
+   931
+   796
+   457
+   581
+   908
+   289
+   917
+  1033
+   977
+   897
+   895
+   680
+   467
+   874
+   993
+   763
+   601
+    98
+   870
+   434
+  1021
+   400
+   829
+   403
+   615
+    81
+   638
+   290
+   673
+   731
+   589
+   787
+   985
+   482
+   105
+   744
+   880
+   561
+   602
+   224
+   764
+   992
+   475
+   991
+   634
+  1072
+  1091
+   668
+   182
+   205
+   417
+   418
+   958
+   805
+   117
+   828
+  1028
+   446
+   284
+   319
+   606
+   442
+   344
+   160
+  1041
+  1053
+   983
+   540
+   351
+   103
+   248
+   812
+  1099
+   170
+    58
+   121
+   777
+   825
+   591
+    84
+   316
+   729
+   782
+   667
+   126
+   881
+    55
+    73
+  1036
+   910
+   637
+  1009
+   559
+  1044
+   930
+   144
+   999
+   929
+   193
+   273
+  1094
+  1084
+  1083
+   799
+   851
+   903
+   297
+   748
+   972
+  1022
+   256
+   639
+   377
+   862
+   313
+   217
+   380
+  1102
+   258
+   533
+  1111
+   617
+   124
+  1037
+   226
+    39
+   932
+  1024
+   685
+  1018
+    97
+  1077
+   134
+   270
+   393
+   357
+   456
+   151
+    83
+   619
+   901
+   214
+   612
+  1106
+    95
+   251
+  1108
+   209
+   259
+   487
+    96
+   774
+   140
+  1023
+  1017
+  1064
+   565
+   458
+   230
+   659
+   840
+   495
+   747
+   265
+   255
+   244
+   249
+    37
+   362
+   291
+   600
+   686
+  1019
+   218
+    40
+  1070
+   252
+   383
+   669
+   795
+   502
+   859
+   356
+   150
+   863
+   967
+    86
+   155
+   674
+   261
+   325
+   552
+   884
+   239
+    57
+   978
+   652
+   865
+  1109
+   231
+   260
+    61
+   147
+   804
+   735
+   582
+  1110
+   483
+   107
+  1071
+   936
+  1062
+   935
+   937
+  1107
+   373
+   137
+   506
+   490
+   232
+   238
+   379
+   671
+   163
+    82
+   788
+   206
+   287
+   847
+   577
+   766
+  1027
+   445
+   283
+   318
+   605
+   441
+   343
+   159
+  1040
+  1052
+   982
+   539
+   739
+   329
+   551
+   868
+   864
+   440
+   904
+   183
+   856
+   644
+   724
+   464
+   120
+   618
+   625
+   706
+   118
+   624
+   411
+   439
+   736
+   410
+   128
+   990
+   661
+   647
+   720
+  1011
+   636
+   681
+    68
+  1095
+   213
+   662
+    34
+   745
+   267
+   718
+   236
+   975
+   365
+   321
+   974
+   271
+   448
+   800
+   666
+   801
+   444
+   158
+   711
+   627
+   195
+   211
+   210
+   196
+   643
+   751
+   922
+   703
+   694
+   528
+   708
+   702
+   926
+   798
+   499
+   449
+   588
+   995
+   899
+   538
+   517
+    69
+  1013
+    70
+   548
+  1046
+   939
+   535
+   455
+   122
+   568
+   222
+   262
+   928
+    71
+  1005
+   549
+   563
+  1007
+  1047
+   940
+   813
+   536
+   511
+   811
+   108
+   555
+    52
+   914
+   315
+   428
+   616
+  1078
+   435
+   734
+   409
+  1034
+   531
+   115
+   822
+   834
+   839
+   149
+   641
+   109
+   556
+    53
+   915
+   981
+   300
+   710
+   308
+   272
+   460
+    92
+   961
+   263
+    90
+   959
+   332
+  1014
+   478
+   629
+   101
+   907
+   179
+   366
+   390
+    91
+   492
+  1096
+   712
+   780
+   913
+  1097
+   419
+   423
+   905
+   855
+   480
+    94
+   882
+   654
+   576
+  1010
+  1012
+   189
+   554
+   730
+   831
+   396
+   645
+   327
+   104
+    66
+   469
+   314
+    32
+   853
+   898
+   896
+   973
+   166
+   235
+   437
+   920
+   394
+   968
+  1067
+   241
+  1038
+   135
+   376
+   756
+   486
+   775
+   682
+   660
+   971
+   245
+   505
+   304
+   250
+   670
+   302
+   305
+  1075
+   970
+   451
+   885
+   142
+   996
+   866
+   792
+   869
+   484
+   964
+  1063
+   215
+   757
+   507
+   672
+    79
+   587
+   584
+   791
+   723
+   253
+   477
+   826
+     3
+    56
+    33
+   432
+   759
+  1089
+   810
+   573
+  1029
+   447
+   285
+   320
+   607
+   443
+   345
+   161
+  1042
+  1054
+   984
+   541
+   165
+   372
+   827
+   628
+   988
+   328
+   550
+   861
+    65
+   989
+   635
+   590
+   427
+     1
+   169
+   709
+   732
+   116
+   823
+   145
+   642
+   240
+   481
+   603
+   690
+   604
+   691
+   721
+
+  ADVAPI32.DLL
+  OrigFirstThunk:  001D86DC (Unbound IAT)
+  TimeDateStamp:   00000000 -> Wed Dec 31 19:00:00 1969
+  ForwarderChain:  00000000
+  First thunk RVA: 001D86FC
+  Ordn  Name
+     0  RegCloseKey
+     0  RegCreateKeyExA
+     0  RegDeleteKeyA
+     0  RegDeleteValueA
+     0  RegOpenKeyExA
+     0  RegQueryValueExA
+     0  RegSetValueExA
+
+  KERNEL32.DLL
+  OrigFirstThunk:  001D871C (Unbound IAT)
+  TimeDateStamp:   00000000 -> Wed Dec 31 19:00:00 1969
+  ForwarderChain:  00000000
+  First thunk RVA: 001D8880
+  Ordn  Name
+     0  CloseHandle
+     0  CreateFileA
+     0  CreateMutexA
+     0  CreateThread
+     0  DeleteCriticalSection
+     0  DeleteFileA
+     0  DuplicateHandle
+     0  EnterCriticalSection
+     0  ExitProcess
+     0  ExitThread
+     0  FileTimeToDosDateTime
+     0  FileTimeToLocalFileTime
+     0  FileTimeToSystemTime
+     0  FindClose
+     0  FindFirstFileA
+     0  FindNextFileA
+     0  FindResourceA
+     0  FreeLibrary
+     0  GetACP
+     0  GetCPInfo
+     0  GetCommandLineA
+     0  GetCurrentDirectoryA
+     0  GetCurrentProcess
+     0  GetCurrentProcessId
+     0  GetCurrentThread
+     0  GetCurrentThreadId
+     0  GetDriveTypeA
+     0  GetEnvironmentStrings
+     0  GetFileAttributesA
+     0  GetFileType
+     0  GetFullPathNameA
+     0  GetLastError
+     0  GetLocalTime
+     0  GetLocaleInfoA
+     0  GetLogicalDrives
+     0  GetModuleFileNameA
+     0  GetModuleHandleA
+     0  GetOEMCP
+     0  GetProcAddress
+     0  GetProcessHeap
+     0  GetStartupInfoA
+     0  GetStdHandle
+     0  GetStringTypeA
+     0  GetStringTypeW
+     0  GetSystemDefaultLangID
+     0  GetTickCount
+     0  GetTimeZoneInformation
+     0  GetUserDefaultLCID
+     0  GetVersion
+     0  GetVersionExA
+     0  GetWindowsDirectoryA
+     0  GlobalAlloc
+     0  GlobalLock
+     0  GlobalUnlock
+     0  HeapAlloc
+     0  HeapFree
+     0  InitializeCriticalSection
+     0  InterlockedDecrement
+     0  InterlockedExchange
+     0  InterlockedIncrement
+     0  IsValidLocale
+     0  LCMapStringA
+     0  LeaveCriticalSection
+     0  LoadLibraryA
+     0  LoadResource
+     0  MultiByteToWideChar
+     0  OutputDebugStringA
+     0  RaiseException
+     0  ReadFile
+     0  ReleaseMutex
+     0  RtlUnwind
+     0  SetConsoleCtrlHandler
+     0  SetFilePointer
+     0  SetHandleCount
+     0  SetLastError
+     0  SetThreadLocale
+     0  SizeofResource
+     0  TlsAlloc
+     0  TlsFree
+     0  TlsGetValue
+     0  TlsSetValue
+     0  UnhandledExceptionFilter
+     0  VirtualQuery
+     0  WaitForSingleObject
+     0  WideCharToMultiByte
+     0  WinExec
+     0  WriteFile
+     0  GetVolumeInformationA
+
+  WSOCK32.DLL
+  OrigFirstThunk:  001D89E4 (Unbound IAT)
+  TimeDateStamp:   00000000 -> Wed Dec 31 19:00:00 1969
+  ForwarderChain:  00000000
+  First thunk RVA: 001D8A08
+  Ordn  Name
+   116
+   115
+     9
+    17
+    20
+    21
+    23
+     2
+
+  COMCTL32.DLL
+  OrigFirstThunk:  001D8A2C (Unbound IAT)
+  TimeDateStamp:   00000000 -> Wed Dec 31 19:00:00 1969
+  ForwarderChain:  00000000
+  First thunk RVA: 001D8A58
+  Ordn  Name
+     0  CreatePropertySheetPageA
+     0  ImageList_BeginDrag
+     0  ImageList_DragEnter
+     0  ImageList_DragLeave
+     0  ImageList_DragMove
+     0  ImageList_DragShowNolock
+     0  ImageList_EndDrag
+     0  ImageList_GetDragImage
+     0  ImageList_SetDragCursorImage
+     0  PropertySheetA
+
+  GDI32.DLL
+  OrigFirstThunk:  001D8A84 (Unbound IAT)
+  TimeDateStamp:   00000000 -> Wed Dec 31 19:00:00 1969
+  ForwarderChain:  00000000
+  First thunk RVA: 001D8AC4
+  Ordn  Name
+     0  CreateFontIndirectA
+     0  CreateRectRgn
+     0  DeleteObject
+     0  GetBkColor
+     0  GetDeviceCaps
+     0  GetStockObject
+     0  GetTextColor
+     0  GetTextExtentPoint32A
+     0  SelectClipRgn
+     0  SelectObject
+     0  SetBkColor
+     0  SetBrushOrgEx
+     0  SetStretchBltMode
+     0  SetTextColor
+     0  StretchBlt
+
+  SHELL32.DLL
+  OrigFirstThunk:  001D8B04 (Unbound IAT)
+  TimeDateStamp:   00000000 -> Wed Dec 31 19:00:00 1969
+  ForwarderChain:  00000000
+  First thunk RVA: 001D8B20
+  Ordn  Name
+     0  SHBrowseForFolderA
+     0  SHChangeNotify
+     0  SHGetDesktopFolder
+     0  SHGetMalloc
+     0  ShellExecuteA
+     0  SHGetPathFromIDListA
+
+  USER32.DLL
+  OrigFirstThunk:  001D8B3C (Unbound IAT)
+  TimeDateStamp:   00000000 -> Wed Dec 31 19:00:00 1969
+  ForwarderChain:  00000000
+  First thunk RVA: 001D8C24
+  Ordn  Name
+     0  AppendMenuA
+     0  BeginPaint
+     0  CallNextHookEx
+     0  ClientToScreen
+     0  CreateCaret
+     0  CreateWindowExA
+     0  DestroyCaret
+     0  DrawFocusRect
+     0  EnableWindow
+     0  EndPaint
+     0  EnumChildWindows
+     0  EnumThreadWindows
+     0  GetCaretPos
+     0  GetClientRect
+     0  GetDC
+     0  GetForegroundWindow
+     0  GetKeyState
+     0  GetKeyboardLayout
+     0  GetKeyboardState
+     0  GetParent
+     0  GetSystemMenu
+     0  GetWindowLongA
+     0  GetWindowPlacement
+     0  GetWindowRect
+     0  IntersectRect
+     0  InvalidateRect
+     0  IsWindow
+     0  LoadCursorA
+     0  LoadIconA
+     0  LockWindowUpdate
+     0  MapDialogRect
+     0  MapVirtualKeyExA
+     0  MessageBoxA
+     0  ModifyMenuA
+     0  OemToCharA
+     0  PostMessageA
+     0  RegisterClipboardFormatA
+     0  ReleaseDC
+     0  ScreenToClient
+     0  SendDlgItemMessageA
+     0  SendMessageA
+     0  SetActiveWindow
+     0  SetCaretPos
+     0  SetFocus
+     0  SetForegroundWindow
+     0  SetWindowLongA
+     0  SetWindowPlacement
+     0  SetWindowPos
+     0  SetWindowTextA
+     0  SetWindowsHookExA
+     0  ShowCaret
+     0  ShowWindow
+     0  SystemParametersInfoA
+     0  UnhookWindowsHookEx
+     0  VkKeyScanA
+     0  WinHelpA
+     0  wsprintfA
+
+  OLE32.DLL
+  OrigFirstThunk:  001D8D0C (Unbound IAT)
+  TimeDateStamp:   00000000 -> Wed Dec 31 19:00:00 1969
+  ForwarderChain:  00000000
+  First thunk RVA: 001D8D28
+  Ordn  Name
+     0  DoDragDrop
+     0  OleInitialize
+     0  OleUninitialize
+     0  RegisterDragDrop
+     0  ReleaseStgMedium
+     0  RevokeDragDrop
+
+
+exports table:
+
+  Name:            idag.exe
+  Characteristics: 00000000
+  TimeDateStamp:   00000000 -> Wed Dec 31 19:00:00 1969
+  Version:         0.00
+  Ordinal base:    00000001
+  # of functions:  0000014D
+  # of Names:      0000014D
+
+  Entry Pt  Ordn  Name
+  000016A9     1  __GetExceptDLLinfo
+  0001294C     2  @@Twin@Initialize
+  00012964     3  @@Twin@Finalize
+  00013704     4  @@Grover@Initialize
+  00013714     5  @@Grover@Finalize
+  000556A4     6  @@Idaform@Initialize
+  000556B4     7  @@Idaform@Finalize
+  0005B35C     8  @System@TObject@ClassNameIs$qqrx17System@AnsiString
+  0005EB68     9  @@Desktop@Initialize
+  0005EB80    10  @@Desktop@Finalize
+  00064FA0    11  @System@TObject@ClassNameIs$qqrx17System@AnsiString
+  000686B4    12  @@Form@Initialize
+  000686CC    13  @@Form@Finalize
+  000701E8    14  @@Chooser@Initialize
+  000701F8    15  @@Chooser@Finalize
+  0007095C    16  @@Waitform2@Initialize
+  00070974    17  @@Waitform2@Finalize
+  000763AC    18  @System@TObject@ClassNameIs$qqrx17System@AnsiString
+  0008FDF8    19  @@Asktxt@Initialize
+  0008FE08    20  @@Asktxt@Finalize
+  00097600    21  @@Options@Initialize
+  00097610    22  @@Options@Finalize
+  0009DFBC    23  @@Loadfile@Initialize
+  0009DFCC    24  @@Loadfile@Finalize
+  000A2268    25  @@Strview@Initialize
+  000A2280    26  @@Strview@Finalize
+  000A53D4    27  @@Enumview@Initialize
+  000A53E4    28  @@Enumview@Finalize
+  000A645C    29  @@Shelp@Initialize
+  000A6474    30  @@Shelp@Finalize
+  000A6AF8    31  @@Welcome@Initialize
+  000A6B08    32  @@Welcome@Finalize
+  000A6CD8    33  @@Demobx@Initialize
+  000A6CE8    34  @@Demobx@Finalize
+  000A6EC4    35  @@Nosig@Initialize
+  000A6ED4    36  @@Nosig@Finalize
+  000A7AD4    37  @@Scriptb@Initialize
+  000A7AE4    38  @@Scriptb@Finalize
+  000A7CD8    39  @@Stringbar@Initialize
+  000A7CE8    40  @@Stringbar@Finalize
+  000AB62C    41  @Navband@Register$qqrv
+  000AB690    42  @TNavBand@new_speedbutton$qqrv
+  000AB708    43  @TNavBand@$bctr$qqrp18Classes@TComponent
+  000ABB54    44  @TNavBand@$bdtr$qqrv
+  000ABD7C    45  @TNavBand@setup_popup_menu$qqrv
+  000AC1B8    46  @TNavBand@write_vert$qqro
+  000AC1CC    47  @TNavBand@SbMouseDown$qqrp14System@TObject21Controls@TMouseButton46System@%Set$t18Classes@Classes__1$iuc$0$iuc$6%ii
+  000AC208    48  @TNavBand@SbMouseUp$qqrp14System@TObject21Controls@TMouseButton46System@%Set$t18Classes@Classes__1$iuc$0$iuc$6%ii
+  000AC21C    49  @TNavBand@jump_to$qqrii
+  000AC244    50  @TNavBand@MouseAuto$qqrp14System@TObject
+  000AC2E4    51  @TNavBand@write_ubytes$qqrui
+  000AC374    52  @TNavBand@zoom_any$qqrp14System@TObject
+  000AC380    53  @TNavBand@zoom_in$qqrp14System@TObject
+  000AC394    54  @TNavBand@zoom_out$qqrp14System@TObject
+  000AC3A8    55  @TNavBand@zoom_normal$qqrp14System@TObject
+  000AC3B0    56  @TNavBand@scroll$qqrp14System@TObject
+  000AC40C    57  @TNavBand@MouseDown$qqr21Controls@TMouseButton46System@%Set$t18Classes@Classes__1$iuc$0$iuc$6%ii
+  000AC494    58  @TNavBand@MouseUp$qqr21Controls@TMouseButton46System@%Set$t18Classes@Classes__1$iuc$0$iuc$6%ii
+  000AC4D8    59  @TNavBand@MouseMove$qqr46System@%Set$t18Classes@Classes__1$iuc$0$iuc$6%ii
+  000AC560    60  @TNavBand@get_ea_star$qqriipo
+  000AC5C0    61  @TNavBand@page_down$qqrv
+  000AC5F0    62  @TNavBand@page_up$qqrv
+  000AC620    63  @TNavBand@set_vea1$qqrul
+  000AC6D0    64  @TNavBand@set_enabled$qqro
+  000AC6E0    65  @TNavBand@set_auto_ea$qqrul
+  000AC6EC    66  @TNavBand@Resize$qqrv
+  000ACF80    67  @TNavBand@update_sb$qqrv
+  000AD028    68  @TNavBand@next_ea$qqrul
+  000AD0A4    69  @TNavBand@next_page$qqrului
+  000AD180    70  @TNavBand@prev_ea$qqrul
+  000AD200    71  @TNavBand@prev_page$qqrului
+  000AD29C    72  @TNavBand@calc_global_pixel$qqrul
+  000AD2F0    73  @TNavBand@adjust$qqrul
+  000AD340    74  @TNavBand@calc_screen_pixel$qqrul
+  000AD378    75  @TNavBand@spixel_to_ea$qqriiro
+  000AD480    76  @TNavBand@gpixel_to_ea$qqri
+  000AD4D8    77  @TNavBand@PaintWindow$qqrpv
+  000AD500    78  @TNavBand@draw_rect$qqrii15Graphics@TColor
+  000AD5A0    79  @TNavBand@paint_range$qqriuli
+  000AD67C    80  @TNavBand@paint_gap$qqrii
+  000AD690    81  @TNavBand@set_screen_ea$qqrulo
+  000AD734    82  @TNavBand@set_screen_ea$qqrul
+  000AD764    83  @TNavBand@draw_pointer$qqrip16Graphics@TBitmap
+  000AD85C    84  @TNavBand@draw_screen_pointer$qqri
+  000AD868    85  @TNavBand@draw_auto_pointer$qqri
+  000AD874    86  @TNavBand@paint_stars$qqrv
+  000AD910    87  @TNavBand@MyPaint$qqro
+  000ADB94    88  @TNavBand@add_range$qqrulul
+  000ADBBC    89  @TNavBand@calc_nunits$qqrv
+  000ADC00    90  @TNavBand@finish_adding_ranges$qqrv
+  000ADCE8    91  @TNavBand@del_ranges$qqro
+  000ADD40    92  @TNavBand@invalidate_ea$qqrul
+  000ADD7C    93  @TNavBand@invalidate_stars$qqrul
+  000ADDB8    94  @TNavBand@PeriodicRefresh$qqrp14System@TObject
+  000ADDC0    95  @TNavBand@refresh_all$qqrp14System@TObject
+  000ADE68    96  @$xp$8TNavBand
+  000ADF44    97  @@Navband@Initialize
+  000ADF54    98  @@Navband@Finalize
+  000B006C    99  @@Navform@Initialize
+  000B0084   100  @@Navform@Finalize
+  000B0DC8   101  @@Copywarn@Initialize
+  000B0DD8   102  @@Copywarn@Finalize
+  000B1FEC   103  @@Hexview@Initialize
+  000B1FFC   104  @@Hexview@Finalize
+  000B28D0   105  @@Ldbinbx@Initialize
+  000B28E0   106  @@Ldbinbx@Finalize
+  000B54F4   107  @@Segtrans@Initialize
+  000B5504   108  @@Segtrans@Finalize
+  000B62C4   109  @@Strwinsetup@Initialize
+  000B62D4   110  @@Strwinsetup@Finalize
+  000B723C   111  @@Caller@Initialize
+  000B724C   112  @@Caller@Finalize
+  000B73EC   113  @@Support@Initialize
+  000B73FC   114  @@Support@Finalize
+  000B7898   115  @@Notepad@Initialize
+  000B78A8   116  @@Notepad@Finalize
+  000B8044   117  @TArrows@$bctr$qqrp18Classes@TComponentp7IDAView
+  000B83E0   118  @TArrows@$bdtr$qqrv
+  000B88A0   119  @TArrows@PaintWindow$qqrpv
+  000B88D0   120  @TArrows@refresh$qqrv
+  000B88E8   121  @TArrows@save_cursor_ea$qqrul
+  000B88F0   122  @TArrows@create_arrows$qqrv
+  000BAE7C   123  @TArrows@process_to$qqrul
+  000BAFDC   124  @TArrows@insert_references$qqrul
+  000BB100   125  @TArrows@collapsed_address$xqqrul
+  000BB13C   126  @TArrows@insert_arrow_addresses_sorted$qqrulul
+  000BBB9C   127  @TArrows@draw_arrows$qqrv
+  000BD328   128  @TArrows@draw_source$qqriululo15Graphics@TColorooo
+  000BD45C   129  @TArrows@draw_destination$qqriul15Graphics@TColorooo
+  000BD518   130  @TArrows@reset_levels$qqrv
+  000BD530   131  @TArrows@compute_level$qqrr7arrow_t
+  000BD60C   132  @TArrows@find_address$xqqrul
+  000BD644   133  @TArrows@find_address_info$qqrul
+  000BD6BC   134  @TArrows@draw_line_horizontal$qqriii15Graphics@TColorooo
+  000BD7C0   135  @TArrows@draw_line_vertical$qqriii15Graphics@TColoroo
+  000BD878   136  @TArrows@draw_arrow_right$qqrii15Graphics@TColor
+  000BD8FC   137  @TArrows@draw_arrow_up$qqrii15Graphics@TColor
+  000BD980   138  @TArrows@draw_arrow_down$qqrii15Graphics@TColor
+  000BDA04   139  @TArrows@draw_dot$qqrul15Graphics@TColoro
+  000BDABC   140  @TArrows@save_as_background$qqrv
+  000BDBB4   141  @TArrows@restore_background$qqriiii
+  000BDC14   142  @TArrows@MouseDownEvent$qqrp14System@TObject21Controls@TMouseButton46System@%Set$t18Classes@Classes__1$iuc$0$iuc$6%ii
+  000BE63C   143  @$xp$7TArrows
+  000BF4C4   144  @@Tarrows@Initialize
+  000BF4D4   145  @@Tarrows@Finalize
+  000BF714   146  @@License@Initialize
+  000BF724   147  @@License@Finalize
+  000BFB70   148  @@Mdi@Initialize
+  000BFB80   149  @@Mdi@Finalize
+  000C11BC   150  @@Sysmenu@Initialize
+  000C11D4   151  @@Sysmenu@Finalize
+  000C3B5C   152  @@Hint@Initialize
+  000C3B74   153  @@Hint@Finalize
+  000C7FA8   154  @@Strchoose@Initialize
+  000C7FB8   155  @@Strchoose@Finalize
+  000FFAC4   156  @@Debugger@Initialize
+  000FFADC   157  @@Debugger@Finalize
+  001051DC   158  @@Debugger_registers@Initialize
+  001051EC   159  @@Debugger_registers@Finalize
+  00106CE4   160  @@Debugger_breakpoint@Initialize
+  00106CF4   161  @@Debugger_breakpoint@Finalize
+  0010AD7C   162  @@Colors@Initialize
+  0010AD94   163  @@Colors@Finalize
+  0010AE10   164  @@Exports@Initialize
+  0010AE20   165  @@Exports@Finalize
+  0010BE88   166  @@Imports@Initialize
+  0010BEA0   167  @@Imports@Finalize
+  0010F63C   168  @@Newform@Initialize
+  0010F64C   169  @@Newform@Finalize
+  0010FE84   170  @D6onhelpfix@WinHelpTester_Enable$qqro
+  0010FEC8   171  @D6onhelpfix@Finalization$qqrv
+  0010FF18   172  @D6onhelpfix@initialization$qqrv
+  00111288   173  @@Msgform@Initialize
+  00111298   174  @@Msgform@Finalize
+  00111FD4   175  @@Wizard97@Initialize
+  00111FE4   176  @@Wizard97@Finalize
+  00112F78   177  @@Xmlwizard@Initialize
+  00112F88   178  @@Xmlwizard@Finalize
+  0011B048   179  @@Xmlctrls@Initialize
+  0011B060   180  @@Xmlctrls@Finalize
+  00157A08   181  @Dropsource@TInterfacedComponent@
+  00157A54   182  @$xp$31Dropsource@TInterfacedComponent
+  00157A88   183  @$xp$20Dropsource@TDragType
+  00157AC4   184  @$xp$21Dropsource@TDragTypes
+  00157ADC   185  @$xp$22Dropsource@TDragResult
+  00157B48   186  @$xp$21Dropsource@TDataEvent
+  00157BA4   187  @$xp$21Dropsource@TDropEvent
+  00157BF0   188  @$xp$25Dropsource@TFeedbackEvent
+  00157DEC   189  @Dropsource@TDropSource@
+  00157E40   190  @$xp$22Dropsource@TDropSource
+  00157F88   191  @Dropsource@TDropSource@DoGetData$qqrrx12tagFORMATETCr12tagSTGMEDIUM
+  00157FDC   192  @Dropsource@TDropTextSource@
+  00158048   193  @$xp$26Dropsource@TDropTextSource
+  001580DC   194  @Dropsource@TDropFileSource@
+  00158134   195  @$xp$26Dropsource@TDropFileSource
+  001581F0   196  @Dropsource@TDropVirtualFileSource@
+  00158250   197  @$xp$33Dropsource@TDropVirtualFileSource
+  0015876C   198  @Dropsource@Register$qqrv
+  001587B4   199  @Dropsource@TInterfacedComponent@QueryInterface$qqsrx5_GUIDpv
+  001587DC   200  @Dropsource@TInterfacedComponent@_AddRef$qqsv
+  001587F0   201  @Dropsource@TInterfacedComponent@_Release$qqsv
+  00158A2C   202  @Dropsource@TDropSource@$bctr$qqrp18Classes@TComponent
+  00158AB0   203  @Dropsource@TDropSource@GiveFeedback$qqsi
+  00158AF4   204  @Dropsource@TDropSource@GetCanonicalFormatEtc$qqsrx12tagFORMATETCr12tagFORMATETC
+  00158B00   205  @Dropsource@TDropSource@SetData$qqsrx12tagFORMATETCr12tagSTGMEDIUMi
+  00158B0C   206  @Dropsource@TDropSource@dAdvise$qqsrx12tagFORMATETCix39System@%DelphiInterface$t11IAdviseSink%ri
+  00158B18   207  @Dropsource@TDropSource@dUnadvise$qqsi
+  00158B24   208  @Dropsource@TDropSource@EnumdAdvise$qqsr41System@%DelphiInterface$t13IEnumSTATDATA%
+  00158B3C   209  @Dropsource@TDropSource@GetData$qqsrx12tagFORMATETCr12tagSTGMEDIUM
+  00158B54   210  @Dropsource@TDropSource@GetDataHere$qqsrx12tagFORMATETCr12tagSTGMEDIUM
+  00158B60   211  @Dropsource@TDropSource@QueryGetData$qqsrx12tagFORMATETC
+  00158BB8   212  @Dropsource@TDropSource@EnumFormatEtc$qqsir42System@%DelphiInterface$t14IEnumFORMATETC%
+  00158C18   213  @Dropsource@TDropSource@QueryContinueDrag$qqsii
+  00158CAC   214  @Dropsource@TDropSource@Execute$qqrv
+  00158E10   215  @Dropsource@TDropSource@AddFormatEtc$qqrusp17tagDVTARGETDEVICEiii
+  00158E70   216  @Dropsource@TDropSource@CutToClipboard$qqrv
+  00158E80   217  @Dropsource@TDropSource@CopyToClipboard$qqrv
+  00158E90   218  @Dropsource@TDropSource@CutOrCopyToClipboard$qqrv
+  00158E94   219  @Dropsource@TDropSource@InternalCutCopyToClipboard$qqri
+  00158F44   220  @Dropsource@TDropSource@SetImages$qqrpx19Controls@TImageList
+  00158F7C   221  @Dropsource@TDropSource@SetImageIndex$qqrxi
+  00158FDC   222  @Dropsource@TDropSource@SetPoint$qqrii
+  00158FF0   223  @Dropsource@TDropSource@GetPoint$qqri
+  00159004   224  @Dropsource@TDropSource@SetShowImage$qqro
+  00159024   225  @Dropsource@TDropSource@Notification$qqrp18Classes@TComponent18Classes@TOperation
+  00159064   226  @Dropsource@TDropTextSource@$bctr$qqrp18Classes@TComponent
+  001590C0   227  @Dropsource@TDropTextSource@CutOrCopyToClipboard$qqrv
+  00159118   228  @Dropsource@TDropTextSource@DoGetData$qqrrx12tagFORMATETCr12tagSTGMEDIUM
+  001593B4   229  @Dropsource@TDropFileSource@$bctr$qqrp18Classes@TComponent
+  00159480   230  @Dropsource@TDropFileSource@$bdtr$qqrv
+  001594C0   231  @Dropsource@TDropFileSource@SetFiles$qqrp16Classes@TStrings
+  001594D4   232  @Dropsource@TDropFileSource@SetMappedNames$qqrp16Classes@TStrings
+  001594E8   233  @Dropsource@TDropFileSource@CutOrCopyToClipboard$qqrv
+  00159548   234  @Dropsource@TDropFileSource@DoGetData$qqrrx12tagFORMATETCr12tagSTGMEDIUM
+  00159B88   235  @Dropsource@TDropVirtualFileSource@$bctr$qqrp18Classes@TComponent
+  00159BF0   236  @Dropsource@TDropVirtualFileSource@$bdtr$qqrv
+  00159C1C   237  @Dropsource@TDropVirtualFileSource@CutOrCopyToClipboard$qqrv
+  00159C70   238  @Dropsource@TDropVirtualFileSource@DoGetData$qqrrx12tagFORMATETCr12tagSTGMEDIUM
+  00159C9C   239  @Dropsource@Finalization$qqrv
+  00159CDC   240  @Dropsource@initialization$qqrv
+  00159E10   241  @$xp$27Droptarget@TScrollDirection
+  00159E58   242  @$xp$28Droptarget@TScrollDirections
+  00159E74   243  @$xp$27Droptarget@TDropTargetEvent
+  00159FB4   244  @Droptarget@TDropTarget@
+  0015A02C   245  @$xp$22Droptarget@TDropTarget
+  0015A178   246  @Droptarget@TDropTarget@DoGetData$qqrv
+  0015A180   247  @Droptarget@TDropTarget@ClearData$qqrv
+  0015A188   248  @Droptarget@TDropTarget@HasValidFormats$qqrv
+  0015A1DC   249  @Droptarget@TDropFileTarget@
+  0015A244   250  @$xp$26Droptarget@TDropFileTarget
+  0015A2B8   251  @Droptarget@TDropTextTarget@
+  0015A334   252  @$xp$26Droptarget@TDropTextTarget
+  0015A3A8   253  @Droptarget@TDropDummy@
+  0015A40C   254  @$xp$21Droptarget@TDropDummy
+  0015A430   255  @Droptarget@Register$qqrv
+  0015A478   256  @Droptarget@ClientPtToWindowPt$qqruirx12Types@TPoint
+  0015A4B8   257  @Droptarget@GetFilesFromHGlobal$qqrxuip16Classes@TStrings
+  0015A5C4   258  @Droptarget@TDropTarget@DragEnter$qqsx39System@%DelphiInterface$t11IDataObject%ix12Types@TPointri
+  0015A748   259  @Droptarget@TDropTarget@DoEnter$qqr46System@%Set$t18Classes@Classes__1$iuc$0$iuc$6%rx12Types@TPointri
+  0015A780   260  @Droptarget@TDropTarget@DragOver$qqsix12Types@TPointri
+  0015A894   261  @Droptarget@TDropTarget@DoDragOver$qqr46System@%Set$t18Classes@Classes__1$iuc$0$iuc$6%rx12Types@TPointri
+  0015A8CC   262  @Droptarget@TDropTarget@DragLeave$qqsv
+  0015A914   263  @Droptarget@TDropTarget@DoLeave$qqrv
+  0015A92C   264  @Droptarget@TDropTarget@Drop$qqsx39System@%DelphiInterface$t11IDataObject%ix12Types@TPointri
+  0015A9E8   265  @Droptarget@TDropTarget@DoDrop$qqr46System@%Set$t18Classes@Classes__1$iuc$0$iuc$6%rx12Types@TPointri
+  0015AA20   266  @Droptarget@TDropTarget@$bctr$qqrp18Classes@TComponent
+  0015AB44   267  @Droptarget@TDropTarget@$bdtr$qqrv
+  0015AB88   268  @Droptarget@TDropTarget@Register$qqrp20Controls@TWinControl
+  0015AC48   269  @Droptarget@TDropTarget@Unregister$qqrv
+  0015ACF8   270  @Droptarget@TDropTarget@SetShowImage$qqro
+  0015AD14   271  @Droptarget@TDropTarget@GetValidDropEffect$qqr46System@%Set$t18Classes@Classes__1$iuc$0$iuc$6%rx12Types@TPointi
+  0015AE64   272  @Droptarget@TDropTarget@DoTargetScroll$qqrp14System@TObject
+  0015AF44   273  @Droptarget@TDropTarget@PasteFromClipboard$qqrv
+  0015AF90   274  @Droptarget@TDropFileTarget@$bctr$qqrp18Classes@TComponent
+  0015B048   275  @Droptarget@TDropFileTarget@$bdtr$qqrv
+  0015B088   276  @Droptarget@TDropFileTarget@PasteFromClipboard$qqrv
+  0015B0EC   277  @Droptarget@TDropFileTarget@HasValidFormats$qqrv
+  0015B108   278  @Droptarget@TDropFileTarget@ClearData$qqrv
+  0015B128   279  @Droptarget@TDropFileTarget@DoGetData$qqrv
+  0015B3C0   280  @Droptarget@TDropTextTarget@PasteFromClipboard$qqrv
+  0015B414   281  @Droptarget@TDropTextTarget@HasValidFormats$qqrv
+  0015B430   282  @Droptarget@TDropTextTarget@ClearData$qqrv
+  0015B444   283  @Droptarget@TDropTextTarget@DoGetData$qqrv
+  0015B4E4   284  @Droptarget@TDropDummy@HasValidFormats$qqrv
+  0015B4E8   285  @Droptarget@TDropDummy@ClearData$qqrv
+  0015B4EC   286  @Droptarget@TDropDummy@DoGetData$qqrv
+  0015B4F0   287  @Droptarget@Finalization$qqrv
+  0015B520   288  @Droptarget@initialization$qqrv
+  00171098   289  ___CPPdebugHook
+  0019C66C   290  @TNavBand@colors
+  0019C9AC   291  @TNavBand@
+  001A186C   292  @TArrows@
+  001BDFE8   293  @Droptarget@HDropFormatEtc
+  001BDFFC   294  @Droptarget@TextFormatEtc
+  001C2C8C   295  _GrZoom
+  001C54FC   296  _IdaWindow
+  001C5580   297  _DesktopForm
+  001C59D0   298  _WaitForm
+  001C6360   299  _AskText
+  001C6394   300  _FOptions
+  001C63A0   301  _FLoad
+  001C63A8   302  _StrucForm
+  001C6470   303  _EnumForm
+  001C689C   304  _AboutBox
+  001C68A0   305  _DynHelpForm
+  001C68B0   306  _WelcomeForm
+  001C68B8   307  _DemoBox
+  001C68C0   308  _NosigBox
+  001C68C8   309  _ScriptBar
+  001C68D0   310  _StringToolbar
+  001C68DC   311  _NavBox
+  001C690C   312  _CopyrightForm
+  001C6918   313  _LoadBinBox
+  001C6920   314  _SegTransBox
+  001C6928   315  _StrWinSetupForm
+  001C694C   316  _CallBox
+  001C6954   317  _SupportBox
+  001C695C   318  _NoteBox
+  001C6968   319  _LicenseForm
+  001C6970   320  _MDIForm
+  001C69A8   321  _StructureOffsetsForm
+  001C71F0   322  _RegistersForm
+  001C720C   323  _BreakpointForm
+  001C7238   324  _FColors
+  001C7278   325  _NewTemplateForm
+  001CF2FC   326  @Dropsource@CF_FILEGROUPDESCRIPTOR
+  001CF300   327  @Dropsource@CF_FILECONTENTS
+  001CF304   328  @Dropsource@CF_FILENAMEMAP
+  001CF308   329  @Dropsource@CF_FILENAMEMAPW
+  001CF30C   330  @Dropsource@CF_IDLIST
+  001CF310   331  @Dropsource@CF_PREFERREDDROPEFFECT
+  001CF314   332  @Dropsource@CF_URL
+  001CF318   333  @Dropsource@ShellMalloc
+

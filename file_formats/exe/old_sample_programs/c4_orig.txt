@@ -1,0 +1,182 @@
+Dump of file C:/C4.EXE
+
+File Header
+  Machine:                      014C (i386)
+  Number of Sections:           0005
+  TimeDateStamp:                4E5D85E9 -> Tue Aug 30 20:52:57 2011
+  PointerToSymbolTable:         00000000
+  NumberOfSymbols:              00000000
+  SizeOfOptionalHeader:         00E0
+  Characteristics:              0102
+    EXECUTABLE_IMAGE
+    32BIT_MACHINE
+
+Optional Header
+  Magic                         010B
+  linker version                10.00
+  size of code                  6C00
+  size of initialized data      4000
+  size of uninitialized data    0
+  entrypoint RVA                134E
+  base of code                  1000
+  base of data                  8000
+  image base                    400000
+  section align                 1000
+  file align                    200
+  required OS version           5.01
+  image version                 0.00
+  subsystem version             5.01
+  Win32 Version                 0
+  size of image                 10000
+  size of headers               400
+  checksum                      161F4
+  Subsystem                     0003 (Windows character)
+  DLL flags                     8140
+
+  stack reserve size            100000
+  stack commit size             1000
+  heap reserve size             100000
+  heap commit size              1000
+  RVAs & sizes                  10
+
+Data Directory
+  EXPORT       rva: 00000000  size: 00000000
+  IMPORT       rva: 00009D44  size: 00000028
+  RESOURCE     rva: 0000E000  size: 000001B4
+  EXCEPTION    rva: 00000000  size: 00000000
+  SECURITY     rva: 00000000  size: 00000000
+  BASERELOC    rva: 0000F000  size: 000006DC
+  DEBUG        rva: 00008140  size: 0000001C
+  COPYRIGHT    rva: 00000000  size: 00000000
+  GLOBALPTR    rva: 00000000  size: 00000000
+  TLS          rva: 00000000  size: 00000000
+  LOAD_CONFIG  rva: 000099B8  size: 00000040
+  BOUND_IMPORT rva: 00000000  size: 00000000
+  IAT          rva: 00008000  size: 000000FC
+  DELAY_IMPORT rva: 00000000  size: 00000000
+  unused       rva: 00000000  size: 00000000
+  unused       rva: 00000000  size: 00000000
+
+Section Table
+  01 .text     VirtSize: 00006ABA  VirtAddr:  00001000
+    raw data offs:   00000400  raw data size: 00006C00
+    relocation offs: 00000000  relocations:   00000000
+    line # offs:     00000000  line #'s:      00000000
+    characteristics: 60000020
+      CODE  EXECUTE  READ  ALIGN_DEFAULT(16)
+
+  02 .rdata    VirtSize: 000022E8  VirtAddr:  00008000
+    raw data offs:   00007000  raw data size: 00002400
+    relocation offs: 00000000  relocations:   00000000
+    line # offs:     00000000  line #'s:      00000000
+    characteristics: 40000040
+      INITIALIZED_DATA  READ  ALIGN_DEFAULT(16)
+
+  03 .data     VirtSize: 00002CA4  VirtAddr:  0000B000
+    raw data offs:   00009400  raw data size: 00000E00
+    relocation offs: 00000000  relocations:   00000000
+    line # offs:     00000000  line #'s:      00000000
+    characteristics: C0000040
+      INITIALIZED_DATA  READ  WRITE  ALIGN_DEFAULT(16)
+
+  04 .rsrc     VirtSize: 000001B4  VirtAddr:  0000E000
+    raw data offs:   0000A200  raw data size: 00000200
+    relocation offs: 00000000  relocations:   00000000
+    line # offs:     00000000  line #'s:      00000000
+    characteristics: 40000040
+      INITIALIZED_DATA  READ  ALIGN_DEFAULT(16)
+
+  05 .reloc    VirtSize: 00000B8A  VirtAddr:  0000F000
+    raw data offs:   0000A400  raw data size: 00000C00
+    relocation offs: 00000000  relocations:   00000000
+    line # offs:     00000000  line #'s:      00000000
+    characteristics: 42000040
+      INITIALIZED_DATA  DISCARDABLE  READ  ALIGN_DEFAULT(16)
+
+
+Debug Formats in File
+  Type            Size     Address  FilePtr  Charactr TimeDate Version
+  --------------- -------- -------- -------- -------- -------- --------
+  CODEVIEW        00000065 00009A00 00008A00 00000000 4E5D85E9 0.00
+
+Resources (RVA: E000)
+ResDir (0) Entries:01 (Named:00, ID:01) TimeDate:00000000 Vers:4.00
+    --------------------------------------------------------------
+    ResDir (18) Entries:01 (Named:00, ID:01) TimeDate:00000000 Vers:4.00
+        ResDir (1) Entries:01 (Named:00, ID:01) TimeDate:00000000 Vers:4.00
+            ID: 00000409  DataEntryOffs: 00000048
+            DataRVA: 0E058  DataSize: 0015A  CodePage: 4E4
+
+
+Imports Table:
+  KERNEL32.dll
+  OrigFirstThunk:  00009D6C (Unbound IAT)
+  TimeDateStamp:   00000000 -> Wed Dec 31 19:00:00 1969
+  ForwarderChain:  00000000
+  First thunk RVA: 00008000
+  Ordn  Name
+   715  HeapAlloc
+   391  GetCommandLineW
+   723  HeapSetInformation
+   581  GetProcAddress
+   536  GetModuleHandleW
+   281  ExitProcess
+   202  DecodePointer
+  1317  WriteFile
+   612  GetStdHandle
+   532  GetModuleFileNameW
+   717  HeapCreate
+   234  EncodePointer
+   238  EnterCriticalSection
+   825  LeaveCriticalSection
+  1235  UnhandledExceptionFilter
+  1189  SetUnhandledExceptionFilter
+   768  IsDebuggerPresent
+  1216  TerminateProcess
+   448  GetCurrentProcess
+   353  FreeEnvironmentStringsW
+   474  GetEnvironmentStringsW
+  1135  SetHandleCount
+   739  InitializeCriticalSectionAndSpinCount
+   499  GetFileType
+   611  GetStartupInfoW
+   209  DeleteCriticalSection
+  1221  TlsAlloc
+  1223  TlsGetValue
+  1224  TlsSetValue
+  1222  TlsFree
+   751  InterlockedIncrement
+  1139  SetLastError
+   453  GetCurrentThreadId
+   514  GetLastError
+   747  InterlockedDecrement
+   935  QueryPerformanceCounter
+   659  GetTickCount
+   449  GetCurrentProcessId
+   633  GetSystemTimeAsFileTime
+   831  LoadLibraryW
+  1202  Sleep
+   719  HeapFree
+   370  GetCPInfo
+   360  GetACP
+   567  GetOEMCP
+   778  IsValidCodePage
+  1297  WideCharToMultiByte
+  1048  RtlUnwind
+   724  HeapSize
+   722  HeapReAlloc
+   410  GetConsoleCP
+   428  GetConsoleMode
+   343  FlushFileBuffers
+   813  LCMapStringW
+   871  MultiByteToWideChar
+   617  GetStringTypeW
+  1126  SetFilePointer
+   772  IsProcessorFeaturePresent
+    82  CloseHandle
+  1316  WriteConsoleW
+  1159  SetStdHandle
+   143  CreateFileW
+
+
+
